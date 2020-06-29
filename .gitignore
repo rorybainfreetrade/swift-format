@@ -1,2 +1,3 @@
+.build/checkouts
 .swiftpm/
 swift-format.xcodeproj/
