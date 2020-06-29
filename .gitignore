@@ -1,3 +1,4 @@
 .build
 .swiftpm/
+.portable_swiftformat/
 swift-format.xcodeproj/
