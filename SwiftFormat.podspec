@@ -5,8 +5,9 @@ Pod::Spec.new do |s|
   s.homepage       = 'https://github.com/rorybainfreetrade/swift-format'
   s.license        = { type: 'MIT', file: 'LICENSE' }
   s.author         = { 'Apple' => 'rory@freetrade.io' }
-  s.source         = { http: "#{s.homepage}/releases/download/#{s.version}/portable_swiftformat.zip" }
+  s.source         = { :git => 'https://github.com/rorybainfreetrade/swift-format.git' }
   s.preserve_paths = '*'
-  s.exclude_files  = '**/file.zip'
-  s.resources = ['.build/debug/swift-format']
+  s.exclude_files  = '**/*.swift'
+  s.source_files   = './swift-format'
+  s.resources = ['./swift-format']
 end
