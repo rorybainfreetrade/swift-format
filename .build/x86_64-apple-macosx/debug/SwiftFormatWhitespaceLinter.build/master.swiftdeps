@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "3460093061135bcacc01811cf8966e1e"
+build_time: [1593424155, 897276000]
+inputs:
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatWhitespaceLinter/LazySplitSequence.swift": [1587743452, 22520820]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatWhitespaceLinter/RememberingIterator.swift": [1587743452, 22650488]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatWhitespaceLinter/WhitespaceLinter.swift": [1587743452, 22911691]

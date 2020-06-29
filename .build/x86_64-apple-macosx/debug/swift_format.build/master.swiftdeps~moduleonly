@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "e01ea1b962f74621fe573ca6215fb009"
+build_time: [1593424161, 699952000]
+inputs:
+  "/Users/rorybain/projects/swift-format/Sources/swift-format/Subcommands/DumpConfiguration.swift": [1587743452, 24762835]
+  "/Users/rorybain/projects/swift-format/Sources/swift-format/Subcommands/Format.swift": [1587743459, 217254974]
+  "/Users/rorybain/projects/swift-format/Sources/swift-format/Subcommands/LegacyMain.swift": [1587743459, 217704030]
+  "/Users/rorybain/projects/swift-format/Sources/swift-format/Subcommands/Lint.swift": [1587743459, 218018972]
+  "/Users/rorybain/projects/swift-format/Sources/swift-format/Subcommands/LintFormatOptions.swift": [1587743459, 218347856]
+  "/Users/rorybain/projects/swift-format/Sources/swift-format/Utilities/FileHandle+TextOutputStream.swift": [1587743452, 25485440]
+  "/Users/rorybain/projects/swift-format/Sources/swift-format/Utilities/FileIterator.swift": [1587743452, 25612525]
+  "/Users/rorybain/projects/swift-format/Sources/swift-format/Utilities/FormatError.swift": [1587743452, 25745460]
+  "/Users/rorybain/projects/swift-format/Sources/swift-format/Utilities/Helpers.swift": [1587743459, 218523174]
+  "/Users/rorybain/projects/swift-format/Sources/swift-format/VersionOptions.swift": [1587743452, 25870008]
+  "/Users/rorybain/projects/swift-format/Sources/swift-format/main.swift": [1587743452, 25990187]

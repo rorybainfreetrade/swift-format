@@ -1,0 +1,245 @@
+{
+  "": {
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/master.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/AbsolutePosition.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/AbsolutePosition.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/AbsolutePosition.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/AbsolutePosition~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/AbsolutePosition.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/AtomicCounter.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/AtomicCounter.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/AtomicCounter.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/AtomicCounter~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/AtomicCounter.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/Diagnostic.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/Diagnostic.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/Diagnostic.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/Diagnostic~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/Diagnostic.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/DiagnosticConsumer.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/DiagnosticConsumer.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/DiagnosticConsumer.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/DiagnosticConsumer~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/DiagnosticConsumer.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/DiagnosticEngine.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/DiagnosticEngine.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/DiagnosticEngine.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/DiagnosticEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/DiagnosticEngine.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/IncrementalParseTransition.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/IncrementalParseTransition.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/IncrementalParseTransition.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/IncrementalParseTransition~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/IncrementalParseTransition.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/JSONDiagnosticConsumer.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/JSONDiagnosticConsumer.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/JSONDiagnosticConsumer.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/JSONDiagnosticConsumer~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/JSONDiagnosticConsumer.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/PrintingDiagnosticConsumer.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/PrintingDiagnosticConsumer.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/PrintingDiagnosticConsumer.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/PrintingDiagnosticConsumer~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/PrintingDiagnosticConsumer.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/RawSyntax.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/RawSyntax.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/RawSyntax.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/RawSyntax~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/RawSyntax.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SourceLength.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SourceLength.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SourceLength.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SourceLength~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SourceLength.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SourceLocation.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SourceLocation.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SourceLocation.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SourceLocation~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SourceLocation.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SourcePresence.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SourcePresence.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SourcePresence.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SourcePresence~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SourcePresence.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/Syntax.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/Syntax.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/Syntax.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/Syntax~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/Syntax.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SyntaxChildren.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxChildren.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxChildren.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxChildren~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxChildren.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SyntaxClassifier.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxClassifier.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxClassifier.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxClassifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxClassifier.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SyntaxData.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxData.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxData.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxData~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxData.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SyntaxOtherNodes.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxOtherNodes.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxOtherNodes.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxOtherNodes~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxOtherNodes.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SyntaxParser.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxParser.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxParser.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxParser.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SyntaxVerifier.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxVerifier.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxVerifier.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxVerifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/SyntaxVerifier.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/Utils.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/Utils.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/Utils.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/Utils~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/Utils.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/gyb_generated/Misc.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/Misc.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/Misc.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/Misc~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/Misc.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/gyb_generated/SyntaxAnyVisitor.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxAnyVisitor.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxAnyVisitor.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxAnyVisitor~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxAnyVisitor.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/gyb_generated/SyntaxBaseNodes.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxBaseNodes.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxBaseNodes.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxBaseNodes~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxBaseNodes.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/gyb_generated/SyntaxBuilders.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxBuilders.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxBuilders.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxBuilders~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxBuilders.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/gyb_generated/SyntaxClassification.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxClassification.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxClassification.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxClassification~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxClassification.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/gyb_generated/SyntaxCollections.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxCollections.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxCollections.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxCollections~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxCollections.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/gyb_generated/SyntaxEnum.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxEnum.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxEnum.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxEnum~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxEnum.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/gyb_generated/SyntaxFactory.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxFactory.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxFactory.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxFactory~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxFactory.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/gyb_generated/SyntaxKind.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxKind.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxKind.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxKind~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxKind.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/gyb_generated/SyntaxRewriter.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxRewriter.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxRewriter.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxRewriter~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxRewriter.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/gyb_generated/SyntaxTraits.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxTraits.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxTraits.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxTraits~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxTraits.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/gyb_generated/SyntaxVisitor.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxVisitor.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxVisitor.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxVisitor~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/SyntaxVisitor.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/gyb_generated/TokenKind.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/TokenKind.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/TokenKind.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/TokenKind~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/TokenKind.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/gyb_generated/Trivia.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/Trivia.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/Trivia.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/Trivia~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/Trivia.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/gyb_generated/syntax_nodes/SyntaxDeclNodes.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxDeclNodes.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxDeclNodes.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxDeclNodes~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxDeclNodes.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/gyb_generated/syntax_nodes/SyntaxExprNodes.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxExprNodes.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxExprNodes.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxExprNodes~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxExprNodes.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/gyb_generated/syntax_nodes/SyntaxNodes.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxNodes.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxNodes.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxNodes~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxNodes.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/gyb_generated/syntax_nodes/SyntaxPatternNodes.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxPatternNodes.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxPatternNodes.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxPatternNodes~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxPatternNodes.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/gyb_generated/syntax_nodes/SyntaxStmtNodes.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxStmtNodes.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxStmtNodes.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxStmtNodes~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxStmtNodes.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/SwiftSyntax/gyb_generated/syntax_nodes/SyntaxTypeNodes.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxTypeNodes.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxTypeNodes.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxTypeNodes~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/gyb_generated/syntax_nodes/SyntaxTypeNodes.swiftdeps"
+  }
+}

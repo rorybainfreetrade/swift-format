@@ -1,0 +1,71 @@
+{
+  "": {
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/master.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/swift-format/Subcommands/DumpConfiguration.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Subcommands/DumpConfiguration.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Subcommands/DumpConfiguration.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Subcommands/DumpConfiguration~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Subcommands/DumpConfiguration.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/swift-format/Subcommands/Format.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Subcommands/Format.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Subcommands/Format.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Subcommands/Format~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Subcommands/Format.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/swift-format/Subcommands/LegacyMain.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Subcommands/LegacyMain.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Subcommands/LegacyMain.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Subcommands/LegacyMain~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Subcommands/LegacyMain.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/swift-format/Subcommands/Lint.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Subcommands/Lint.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Subcommands/Lint.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Subcommands/Lint~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Subcommands/Lint.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/swift-format/Subcommands/LintFormatOptions.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Subcommands/LintFormatOptions.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Subcommands/LintFormatOptions.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Subcommands/LintFormatOptions~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Subcommands/LintFormatOptions.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/swift-format/Utilities/FileHandle+TextOutputStream.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Utilities/FileHandle+TextOutputStream.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Utilities/FileHandle+TextOutputStream.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Utilities/FileHandle+TextOutputStream~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Utilities/FileHandle+TextOutputStream.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/swift-format/Utilities/FileIterator.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Utilities/FileIterator.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Utilities/FileIterator.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Utilities/FileIterator~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Utilities/FileIterator.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/swift-format/Utilities/FormatError.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Utilities/FormatError.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Utilities/FormatError.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Utilities/FormatError~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Utilities/FormatError.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/swift-format/Utilities/Helpers.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Utilities/Helpers.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Utilities/Helpers.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Utilities/Helpers~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/Utilities/Helpers.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/swift-format/VersionOptions.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/VersionOptions.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/VersionOptions.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/VersionOptions~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/VersionOptions.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/swift-format/main.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/main.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/main.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/swift_format.build/main.swiftdeps"
+  }
+}

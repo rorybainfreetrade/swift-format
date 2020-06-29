@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "5bde3b5037ff8f25eae16df8029561c8"
+build_time: [1593424156, 409353000]
+inputs:
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatPrettyPrint/Comment.swift": [1587743452, 12345184]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatPrettyPrint/Indent+Length.swift": [1587743452, 12477525]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatPrettyPrint/OperatorContext.swift": [1587743452, 12642362]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatPrettyPrint/PrettyPrint.swift": [1587743459, 214884510]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatPrettyPrint/SequenceExprFolding.swift": [1587743452, 13261192]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatPrettyPrint/Token.swift": [1587743452, 13484045]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatPrettyPrint/TokenStreamCreator.swift": [1587743459, 215839765]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatPrettyPrint/Verbatim.swift": [1587743452, 14551452]

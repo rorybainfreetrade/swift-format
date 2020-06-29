@@ -1,0 +1,374 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FileIterator"
+provides-nominal:
+- "12swift_format12FileIteratorV"
+provides-member:
+- ["12swift_format12FileIteratorV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "+"
+- !private "=="
+- "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "FileIterator"
+- "FileManager"
+- "IteratorProtocol"
+- !private "ObjCBool"
+- "Sequence"
+- "Set"
+- "String"
+- "StringLiteralType"
+- !private "UnicodeScalarType"
+depends-member:
+- ["Sa", "Iterator"]
+- !private ["Sa", "makeIterator"]
+- ["SK", "Iterator"]
+- !private ["SK", "hasSuffix"]
+- !private ["SK", "makeIterator"]
+- ["s7CVarArgP", "DirectoryEnumerator"]
+- ["s7CVarArgP", "Iterator"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "enumerator"]
+- !private ["s7CVarArgP", "fileExists"]
+- !private ["s7CVarArgP", "hasSuffix"]
+- !private ["s7CVarArgP", "insert"]
+- !private ["s7CVarArgP", "makeIterator"]
+- !private ["s7CVarArgP", "nextObject"]
+- ["Sl", "Iterator"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "hasSuffix"]
+- !private ["Sl", "insert"]
+- !private ["Sl", "makeIterator"]
+- !private ["SL", "hasSuffix"]
+- ["10Foundation15ContiguousBytesP", "Iterator"]
+- !private ["10Foundation15ContiguousBytesP", "makeIterator"]
+- ["s28CustomDebugStringConvertibleP", "DirectoryEnumerator"]
+- ["s28CustomDebugStringConvertibleP", "Iterator"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerator"]
+- !private ["s28CustomDebugStringConvertibleP", "fileExists"]
+- !private ["s28CustomDebugStringConvertibleP", "hasSuffix"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "makeIterator"]
+- !private ["s28CustomDebugStringConvertibleP", "nextObject"]
+- ["s17CustomReflectableP", "Iterator"]
+- !private ["s17CustomReflectableP", "boolValue"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "hasSuffix"]
+- !private ["s17CustomReflectableP", "insert"]
+- !private ["s17CustomReflectableP", "makeIterator"]
+- ["s23CustomStringConvertibleP", "DirectoryEnumerator"]
+- ["s23CustomStringConvertibleP", "Iterator"]
+- !private ["s23CustomStringConvertibleP", "boolValue"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "enumerator"]
+- !private ["s23CustomStringConvertibleP", "fileExists"]
+- !private ["s23CustomStringConvertibleP", "hasSuffix"]
+- !private ["s23CustomStringConvertibleP", "insert"]
+- !private ["s23CustomStringConvertibleP", "makeIterator"]
+- !private ["s23CustomStringConvertibleP", "nextObject"]
+- ["10Foundation12DataProtocolP", "Iterator"]
+- !private ["10Foundation12DataProtocolP", "makeIterator"]
+- ["Se", "Iterator"]
+- !private ["Se", "contains"]
+- !private ["Se", "hasSuffix"]
+- !private ["Se", "insert"]
+- !private ["Se", "makeIterator"]
+- !private ["So21NSDirectoryEnumeratorC", "nextObject"]
+- ["SE", "Iterator"]
+- !private ["SE", "contains"]
+- !private ["SE", "hasSuffix"]
+- !private ["SE", "insert"]
+- !private ["SE", "makeIterator"]
+- ["SQ", "DirectoryEnumerator"]
+- ["SQ", "Iterator"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "default"]
+- !private ["SQ", "enumerator"]
+- !private ["SQ", "fileExists"]
+- !private ["SQ", "hasSuffix"]
+- !private ["SQ", "insert"]
+- !private ["SQ", "makeIterator"]
+- !private ["SQ", "nextObject"]
+- !private ["14ArgumentParser013ExpressibleByA0P", "hasSuffix"]
+- ["s25ExpressibleByArrayLiteralP", "Iterator"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- !private ["s25ExpressibleByArrayLiteralP", "makeIterator"]
+- !private ["s27ExpressibleByBooleanLiteralP", "boolValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hasSuffix"]
+- !private ["s32ExpressibleByStringInterpolationP", "hasSuffix"]
+- !private ["s26ExpressibleByStringLiteralP", "hasSuffix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hasSuffix"]
+- ["12swift_format12FileIteratorV", "Array"]
+- ["12swift_format12FileIteratorV", "Element"]
+- ["12swift_format12FileIteratorV", "FileManager"]
+- ["12swift_format12FileIteratorV", "Iterator"]
+- !private ["12swift_format12FileIteratorV", "ObjCBool"]
+- ["12swift_format12FileIteratorV", "Set"]
+- ["12swift_format12FileIteratorV", "String"]
+- ["12swift_format12FileIteratorV", "_Default_Element"]
+- ["12swift_format12FileIteratorV", "_Default_Iterator"]
+- ["12swift_format12FileIteratorV", "_copyContents"]
+- ["12swift_format12FileIteratorV", "_copyToContiguousArray"]
+- ["12swift_format12FileIteratorV", "_customContainsEquatableElement"]
+- ["12swift_format12FileIteratorV", "currentDirectory"]
+- ["12swift_format12FileIteratorV", "deinit"]
+- ["12swift_format12FileIteratorV", "dirIterator"]
+- ["12swift_format12FileIteratorV", "fileSuffix"]
+- ["12swift_format12FileIteratorV", "init"]
+- ["12swift_format12FileIteratorV", "makeIterator"]
+- ["12swift_format12FileIteratorV", "next"]
+- !private ["12swift_format12FileIteratorV", "nextInDirectory"]
+- ["12swift_format12FileIteratorV", "pathIterator"]
+- ["12swift_format12FileIteratorV", "paths"]
+- ["12swift_format12FileIteratorV", "underestimatedCount"]
+- ["12swift_format12FileIteratorV", "visited"]
+- ["12swift_format12FileIteratorV", "withContiguousStorageIfAvailable"]
+- ["So13NSFileManagerC", "DirectoryEnumerator"]
+- !private ["So13NSFileManagerC", "default"]
+- !private ["So13NSFileManagerC", "enumerator"]
+- !private ["So13NSFileManagerC", "fileExists"]
+- ["SH", "DirectoryEnumerator"]
+- ["SH", "Iterator"]
+- !private ["SH", "contains"]
+- !private ["SH", "default"]
+- !private ["SH", "enumerator"]
+- !private ["SH", "fileExists"]
+- !private ["SH", "hasSuffix"]
+- !private ["SH", "insert"]
+- !private ["SH", "makeIterator"]
+- !private ["SH", "nextObject"]
+- !private ["s16IndexingIteratorV", "next"]
+- ["St", "Element"]
+- !private ["St", "FileManager"]
+- ["St", "Iterator"]
+- ["St", ""]
+- ["St", "_Default_Element"]
+- ["St", "_Default_Iterator"]
+- ["St", "_copyContents"]
+- ["St", "_copyToContiguousArray"]
+- ["St", "_customContainsEquatableElement"]
+- !private ["St", "currentDirectory"]
+- !private ["St", "dirIterator"]
+- !private ["St", "fileSuffix"]
+- ["St", "makeIterator"]
+- ["St", "next"]
+- !private ["St", "nextInDirectory"]
+- !private ["St", "pathIterator"]
+- !private ["St", "paths"]
+- ["St", "underestimatedCount"]
+- !private ["St", "visited"]
+- ["St", "withContiguousStorageIfAvailable"]
+- !private ["s25LosslessStringConvertibleP", "hasSuffix"]
+- !private ["s10MirrorPathP", "hasSuffix"]
+- ["SM", "Iterator"]
+- !private ["SM", "makeIterator"]
+- ["10Foundation19MutableDataProtocolP", "Iterator"]
+- !private ["10Foundation19MutableDataProtocolP", "makeIterator"]
+- !private ["So8NSCodingP", "hasSuffix"]
+- !private ["So9NSCopyingP", "hasSuffix"]
+- !private ["So12NSEnumeratorC", "nextObject"]
+- !private ["So17NSFastEnumerationP", "nextObject"]
+- !private ["So21NSItemProviderReadingP", "hasSuffix"]
+- !private ["So21NSItemProviderWritingP", "hasSuffix"]
+- !private ["So16NSMutableCopyingP", "hasSuffix"]
+- ["So8NSObjectC", "DirectoryEnumerator"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "enumerator"]
+- !private ["So8NSObjectC", "fileExists"]
+- !private ["So8NSObjectC", "hasSuffix"]
+- !private ["So8NSObjectC", "nextObject"]
+- ["So8NSObjectP", "DirectoryEnumerator"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "enumerator"]
+- !private ["So8NSObjectP", "fileExists"]
+- !private ["So8NSObjectP", "hasSuffix"]
+- !private ["So8NSObjectP", "nextObject"]
+- !private ["So14NSSecureCodingP", "hasSuffix"]
+- !private ["So8NSStringC", "hasSuffix"]
+- !private ["10ObjectiveC8ObjCBoolV", "boolValue"]
+- ["Sk", "Iterator"]
+- !private ["Sk", "makeIterator"]
+- ["Sm", "Iterator"]
+- !private ["Sm", "hasSuffix"]
+- !private ["Sm", "makeIterator"]
+- ["ST", "Element"]
+- !private ["ST", "FileManager"]
+- ["ST", "Iterator"]
+- ["ST", ""]
+- ["ST", "_Default_Element"]
+- ["ST", "_Default_Iterator"]
+- ["ST", "_copyContents"]
+- ["ST", "_copyToContiguousArray"]
+- ["ST", "_customContainsEquatableElement"]
+- !private ["ST", "contains"]
+- !private ["ST", "currentDirectory"]
+- !private ["ST", "dirIterator"]
+- !private ["ST", "fileSuffix"]
+- !private ["ST", "hasSuffix"]
+- !private ["ST", "insert"]
+- ["ST", "makeIterator"]
+- ["ST", "next"]
+- !private ["ST", "nextInDirectory"]
+- !private ["ST", "nextObject"]
+- !private ["ST", "pathIterator"]
+- !private ["ST", "paths"]
+- ["ST", "underestimatedCount"]
+- !private ["ST", "visited"]
+- ["ST", "withContiguousStorageIfAvailable"]
+- !private ["Sh", "contains"]
+- !private ["Sh", "insert"]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["s10SetAlgebraP", "insert"]
+- !private ["SS", "hasSuffix"]
+- !private ["Sy", "hasSuffix"]
+- !private ["s16TextOutputStreamP", "hasSuffix"]
+- !private ["s20TextOutputStreamableP", "hasSuffix"]
+- ["s14_ArrayProtocolP", "Iterator"]
+- !private ["s14_ArrayProtocolP", "makeIterator"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "hasSuffix"]
+- ["s24_DestructorSafeContainerP", "Iterator"]
+- !private ["s24_DestructorSafeContainerP", "makeIterator"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hasSuffix"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "hasSuffix"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hasSuffix"]
+- ["s19_HasContiguousBytesP", "Iterator"]
+- !private ["s19_HasContiguousBytesP", "hasSuffix"]
+- !private ["s19_HasContiguousBytesP", "makeIterator"]
+- ["s35_HasCustomAnyHashableRepresentationP", "Iterator"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "hasSuffix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "insert"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "makeIterator"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DirectoryEnumerator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enumerator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileExists"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasSuffix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nextObject"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DirectoryEnumerator"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "enumerator"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fileExists"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hasSuffix"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "nextObject"]
+- ["s21_ObjectiveCBridgeableP", "Iterator"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "hasSuffix"]
+- !private ["s21_ObjectiveCBridgeableP", "insert"]
+- !private ["s21_ObjectiveCBridgeableP", "makeIterator"]
+depends-nominal:
+- "Sa"
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- !private "So21NSDirectoryEnumeratorC"
+- "SE"
+- "SQ"
+- !private "14ArgumentParser013ExpressibleByA0P"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "12swift_format12FileIteratorV"
+- "So13NSFileManagerC"
+- "SH"
+- !private "s16IndexingIteratorV"
+- "St"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So12NSEnumeratorC"
+- !private "So17NSFastEnumerationP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "10ObjectiveC8ObjCBoolV"
+- "Sk"
+- "Sm"
+- "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatConfiguration.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/ArgumentParser.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatWhitespaceLinter.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatRules.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormat.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatPrettyPrint.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatConfiguration.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntaxBuilder.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatWhitespaceLinter.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatRules.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormat.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatPrettyPrint.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatTestSupport.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/_CSwiftSyntax.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bfb41e719b35dd730fa3697108640720"

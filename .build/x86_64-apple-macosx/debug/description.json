@@ -1,0 +1,44 @@
+{
+  "allExecutables" : [
+    "generate-pipeline",
+    "swift-format"
+  ],
+  "builtTestProducts" : [
+    {
+      "packageName" : "swift-format",
+      "productName" : "swift-formatPackageTests",
+      "testBinary" : "\/Users\/rorybain\/projects\/swift-format\/.build\/x86_64-apple-macosx\/debug\/swift-formatPackageTests.xctest\/Contents\/MacOS\/swift-formatPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "rootExecutables" : [
+    "generate-pipeline",
+    "swift-format"
+  ],
+  "swiftTargetMap" : {
+    "C.ArgumentParser-debug.module" : "ArgumentParser",
+    "C.generate-pipeline-debug.module" : "generate-pipeline",
+    "C.swift-format-debug.module" : "swift-format",
+    "C.SwiftFormat-debug.module" : "SwiftFormat",
+    "C.SwiftFormatConfiguration-debug.module" : "SwiftFormatConfiguration",
+    "C.SwiftFormatConfigurationTests-debug.module" : "SwiftFormatConfigurationTests",
+    "C.SwiftFormatCore-debug.module" : "SwiftFormatCore",
+    "C.SwiftFormatCoreTests-debug.module" : "SwiftFormatCoreTests",
+    "C.SwiftFormatPerformanceTests-debug.module" : "SwiftFormatPerformanceTests",
+    "C.SwiftFormatPrettyPrint-debug.module" : "SwiftFormatPrettyPrint",
+    "C.SwiftFormatPrettyPrintTests-debug.module" : "SwiftFormatPrettyPrintTests",
+    "C.SwiftFormatRules-debug.module" : "SwiftFormatRules",
+    "C.SwiftFormatRulesTests-debug.module" : "SwiftFormatRulesTests",
+    "C.SwiftFormatTests-debug.module" : "SwiftFormatTests",
+    "C.SwiftFormatTestSupport-debug.module" : "SwiftFormatTestSupport",
+    "C.SwiftFormatWhitespaceLinter-debug.module" : "SwiftFormatWhitespaceLinter",
+    "C.SwiftFormatWhitespaceLinterTests-debug.module" : "SwiftFormatWhitespaceLinterTests",
+    "C.SwiftSyntax-debug.module" : "SwiftSyntax",
+    "C.SwiftSyntaxBuilder-debug.module" : "SwiftSyntaxBuilder"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

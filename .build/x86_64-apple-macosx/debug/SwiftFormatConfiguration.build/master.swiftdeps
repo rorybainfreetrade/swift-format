@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "315c307caf2b705cef541950746b20c1"
+build_time: [1593424125, 161330000]
+inputs:
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatConfiguration/Configuration.swift": [1587743459, 214441340]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatConfiguration/Indent.swift": [1587743452, 10446704]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatConfiguration/RuleRegistry+Generated.swift": [1587743452, 10581529]

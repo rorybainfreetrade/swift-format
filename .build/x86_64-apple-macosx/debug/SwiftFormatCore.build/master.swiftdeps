@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "5f384e023b66ec5d3a18a2e9113f194c"
+build_time: [1593424154, 791444000]
+inputs:
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatCore/Context.swift": [1587743452, 10790388]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatCore/Diagnostic+Rule.swift": [1587743452, 10953178]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatCore/Rule.swift": [1587743452, 11083580]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatCore/RuleMask.swift": [1587743452, 11270760]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatCore/RuleState.swift": [1587743452, 11398083]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatCore/SyntaxFormatRule.swift": [1587743452, 11557146]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatCore/SyntaxLintRule.swift": [1587743452, 11784462]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatCore/SyntaxProtocol+Convenience.swift": [1587743452, 11947064]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatCore/Trivia+Convenience.swift": [1587743452, 12138074]

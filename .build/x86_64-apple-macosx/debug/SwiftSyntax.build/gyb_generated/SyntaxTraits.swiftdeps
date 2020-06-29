@@ -1,0 +1,1036 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DeclGroupSyntax"
+- "BracedSyntax"
+- "IdentifiedDeclSyntax"
+- "WithCodeBlockSyntax"
+- "ParenthesizedSyntax"
+- "WithTrailingCommaSyntax"
+- "LabeledSyntax"
+- "WithStatementsSyntax"
+provides-nominal:
+- "11SwiftSyntax09DeclGroupB0P"
+- "11SwiftSyntax06BracedB0P"
+- "11SwiftSyntax014IdentifiedDeclB0P"
+- "11SwiftSyntax013WithCodeBlockB0P"
+- "11SwiftSyntax013ParenthesizedB0P"
+- "11SwiftSyntax017WithTrailingCommaB0P"
+- "11SwiftSyntax07LabeledB0P"
+- "11SwiftSyntax014WithStatementsB0P"
+- "11SwiftSyntax09CodeBlockB0V"
+- "11SwiftSyntax017DeclNameArgumentsB0V"
+- "11SwiftSyntax09TupleExprB0V"
+- "11SwiftSyntax016TupleExprElementB0V"
+- "11SwiftSyntax012ArrayElementB0V"
+- "11SwiftSyntax017DictionaryElementB0V"
+- "11SwiftSyntax018ClosureCaptureItemB0V"
+- "11SwiftSyntax012ClosureParamB0V"
+- "11SwiftSyntax011ClosureExprB0V"
+- "11SwiftSyntax017ExpressionSegmentB0V"
+- "11SwiftSyntax015ObjcKeyPathExprB0V"
+- "11SwiftSyntax016ObjcSelectorExprB0V"
+- "11SwiftSyntax017ObjectLiteralExprB0V"
+- "11SwiftSyntax013TypealiasDeclB0V"
+- "11SwiftSyntax018AssociatedtypeDeclB0V"
+- "11SwiftSyntax015ParameterClauseB0V"
+- "11SwiftSyntax014PoundErrorDeclB0V"
+- "11SwiftSyntax016PoundWarningDeclB0V"
+- "11SwiftSyntax019PoundSourceLocationB0V"
+- "11SwiftSyntax013InheritedTypeB0V"
+- "11SwiftSyntax09ClassDeclB0V"
+- "11SwiftSyntax010StructDeclB0V"
+- "11SwiftSyntax012ProtocolDeclB0V"
+- "11SwiftSyntax013ExtensionDeclB0V"
+- "11SwiftSyntax015MemberDeclBlockB0V"
+- "11SwiftSyntax010SourceFileB0V"
+- "11SwiftSyntax017FunctionParameterB0V"
+- "11SwiftSyntax012FunctionDeclB0V"
+- "11SwiftSyntax017AccessorParameterB0V"
+- "11SwiftSyntax013AccessorBlockB0V"
+- "11SwiftSyntax014PatternBindingB0V"
+- "11SwiftSyntax015EnumCaseElementB0V"
+- "11SwiftSyntax08EnumDeclB0V"
+- "11SwiftSyntax012OperatorDeclB0V"
+- "11SwiftSyntax019PrecedenceGroupDeclB0V"
+- "11SwiftSyntax022LabeledSpecializeEntryB0V"
+- "11SwiftSyntax020DifferentiationParamB0V"
+- "11SwiftSyntax036DifferentiableAttributeFuncSpecifierB0V"
+- "11SwiftSyntax09WhileStmtB0V"
+- "11SwiftSyntax09DeferStmtB0V"
+- "11SwiftSyntax015RepeatWhileStmtB0V"
+- "11SwiftSyntax09GuardStmtB0V"
+- "11SwiftSyntax09ForInStmtB0V"
+- "11SwiftSyntax010SwitchStmtB0V"
+- "11SwiftSyntax06DoStmtB0V"
+- "11SwiftSyntax016ConditionElementB0V"
+- "11SwiftSyntax06IfStmtB0V"
+- "11SwiftSyntax09ElseBlockB0V"
+- "11SwiftSyntax010SwitchCaseB0V"
+- "11SwiftSyntax08CaseItemB0V"
+- "11SwiftSyntax018GenericRequirementB0V"
+- "11SwiftSyntax016GenericParameterB0V"
+- "11SwiftSyntax016TupleTypeElementB0V"
+- "11SwiftSyntax09TupleTypeB0V"
+- "11SwiftSyntax012FunctionTypeB0V"
+- "11SwiftSyntax015GenericArgumentB0V"
+- "11SwiftSyntax012TuplePatternB0V"
+- "11SwiftSyntax019TuplePatternElementB0V"
+provides-member:
+- ["11SwiftSyntax09DeclGroupB0P", ""]
+- ["11SwiftSyntax0B8ProtocolP", ""]
+- ["11SwiftSyntax06BracedB0P", ""]
+- ["11SwiftSyntax014IdentifiedDeclB0P", ""]
+- ["11SwiftSyntax013WithCodeBlockB0P", ""]
+- ["11SwiftSyntax013ParenthesizedB0P", ""]
+- ["11SwiftSyntax017WithTrailingCommaB0P", ""]
+- ["11SwiftSyntax07LabeledB0P", ""]
+- ["11SwiftSyntax014WithStatementsB0P", ""]
+- ["11SwiftSyntax09CodeBlockB0V", ""]
+- ["11SwiftSyntax017DeclNameArgumentsB0V", ""]
+- ["11SwiftSyntax09TupleExprB0V", ""]
+- ["11SwiftSyntax016TupleExprElementB0V", ""]
+- ["11SwiftSyntax012ArrayElementB0V", ""]
+- ["11SwiftSyntax017DictionaryElementB0V", ""]
+- ["11SwiftSyntax018ClosureCaptureItemB0V", ""]
+- ["11SwiftSyntax012ClosureParamB0V", ""]
+- ["11SwiftSyntax011ClosureExprB0V", ""]
+- ["11SwiftSyntax017ExpressionSegmentB0V", ""]
+- ["11SwiftSyntax015ObjcKeyPathExprB0V", ""]
+- ["11SwiftSyntax016ObjcSelectorExprB0V", ""]
+- ["11SwiftSyntax017ObjectLiteralExprB0V", ""]
+- ["11SwiftSyntax013TypealiasDeclB0V", ""]
+- ["11SwiftSyntax018AssociatedtypeDeclB0V", ""]
+- ["11SwiftSyntax015ParameterClauseB0V", ""]
+- ["11SwiftSyntax014PoundErrorDeclB0V", ""]
+- ["11SwiftSyntax016PoundWarningDeclB0V", ""]
+- ["11SwiftSyntax019PoundSourceLocationB0V", ""]
+- ["11SwiftSyntax013InheritedTypeB0V", ""]
+- ["11SwiftSyntax09ClassDeclB0V", ""]
+- ["11SwiftSyntax010StructDeclB0V", ""]
+- ["11SwiftSyntax012ProtocolDeclB0V", ""]
+- ["11SwiftSyntax013ExtensionDeclB0V", ""]
+- ["11SwiftSyntax015MemberDeclBlockB0V", ""]
+- ["11SwiftSyntax010SourceFileB0V", ""]
+- ["11SwiftSyntax017FunctionParameterB0V", ""]
+- ["11SwiftSyntax012FunctionDeclB0V", ""]
+- ["11SwiftSyntax017AccessorParameterB0V", ""]
+- ["11SwiftSyntax013AccessorBlockB0V", ""]
+- ["11SwiftSyntax014PatternBindingB0V", ""]
+- ["11SwiftSyntax015EnumCaseElementB0V", ""]
+- ["11SwiftSyntax08EnumDeclB0V", ""]
+- ["11SwiftSyntax012OperatorDeclB0V", ""]
+- ["11SwiftSyntax019PrecedenceGroupDeclB0V", ""]
+- ["11SwiftSyntax022LabeledSpecializeEntryB0V", ""]
+- ["11SwiftSyntax020DifferentiationParamB0V", ""]
+- ["11SwiftSyntax036DifferentiableAttributeFuncSpecifierB0V", ""]
+- ["11SwiftSyntax09WhileStmtB0V", ""]
+- ["11SwiftSyntax09DeferStmtB0V", ""]
+- ["11SwiftSyntax015RepeatWhileStmtB0V", ""]
+- ["11SwiftSyntax09GuardStmtB0V", ""]
+- ["11SwiftSyntax09ForInStmtB0V", ""]
+- ["11SwiftSyntax010SwitchStmtB0V", ""]
+- ["11SwiftSyntax06DoStmtB0V", ""]
+- ["11SwiftSyntax016ConditionElementB0V", ""]
+- ["11SwiftSyntax06IfStmtB0V", ""]
+- ["11SwiftSyntax09ElseBlockB0V", ""]
+- ["11SwiftSyntax010SwitchCaseB0V", ""]
+- ["11SwiftSyntax08CaseItemB0V", ""]
+- ["11SwiftSyntax018GenericRequirementB0V", ""]
+- ["11SwiftSyntax016GenericParameterB0V", ""]
+- ["11SwiftSyntax016TupleTypeElementB0V", ""]
+- ["11SwiftSyntax09TupleTypeB0V", ""]
+- ["11SwiftSyntax012FunctionTypeB0V", ""]
+- ["11SwiftSyntax015GenericArgumentB0V", ""]
+- ["11SwiftSyntax012TuplePatternB0V", ""]
+- ["11SwiftSyntax019TuplePatternElementB0V", ""]
+- ["11SwiftSyntax0B8ProtocolP", "isProtocol"]
+- ["11SwiftSyntax0B8ProtocolP", "asProtocol"]
+- ["11SwiftSyntax0B8ProtocolP", "isProtocol"]
+- ["11SwiftSyntax0B8ProtocolP", "asProtocol"]
+- ["11SwiftSyntax0B8ProtocolP", "isProtocol"]
+- ["11SwiftSyntax0B8ProtocolP", "asProtocol"]
+- ["11SwiftSyntax0B8ProtocolP", "isProtocol"]
+- ["11SwiftSyntax0B8ProtocolP", "asProtocol"]
+- ["11SwiftSyntax0B8ProtocolP", "isProtocol"]
+- ["11SwiftSyntax0B8ProtocolP", "asProtocol"]
+- ["11SwiftSyntax0B8ProtocolP", "isProtocol"]
+- ["11SwiftSyntax0B8ProtocolP", "asProtocol"]
+- ["11SwiftSyntax0B8ProtocolP", "isProtocol"]
+- ["11SwiftSyntax0B8ProtocolP", "asProtocol"]
+- ["11SwiftSyntax0B8ProtocolP", "isProtocol"]
+- ["11SwiftSyntax0B8ProtocolP", "asProtocol"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "AccessorBlockSyntax"
+- "AccessorParameterSyntax"
+- "ArrayElementSyntax"
+- "AssociatedtypeDeclSyntax"
+- "AttributeListSyntax"
+- "Bool"
+- "BracedSyntax"
+- "CaseItemSyntax"
+- "CastingPrecedence"
+- "ClassDeclSyntax"
+- "ClosureCaptureItemSyntax"
+- "ClosureExprSyntax"
+- "ClosureParamSyntax"
+- "CodeBlockItemListSyntax"
+- "CodeBlockSyntax"
+- "ConditionElementSyntax"
+- "DeclGroupSyntax"
+- "DeclNameArgumentsSyntax"
+- "DeferStmtSyntax"
+- "DictionaryElementSyntax"
+- "DifferentiableAttributeFuncSpecifierSyntax"
+- "DifferentiationParamSyntax"
+- "DoStmtSyntax"
+- "ElseBlockSyntax"
+- "EnumCaseElementSyntax"
+- "EnumDeclSyntax"
+- "ExpressionSegmentSyntax"
+- "ExtensionDeclSyntax"
+- "ForInStmtSyntax"
+- "FunctionDeclSyntax"
+- "FunctionParameterSyntax"
+- "FunctionTypeSyntax"
+- "GenericArgumentSyntax"
+- "GenericParameterSyntax"
+- "GenericRequirementSyntax"
+- "GuardStmtSyntax"
+- "IdentifiedDeclSyntax"
+- "IfStmtSyntax"
+- "InheritedTypeSyntax"
+- "LabeledSpecializeEntrySyntax"
+- "LabeledSyntax"
+- "MemberDeclBlockSyntax"
+- "ModifierListSyntax"
+- "ObjcKeyPathExprSyntax"
+- "ObjcSelectorExprSyntax"
+- "ObjectLiteralExprSyntax"
+- "OperatorDeclSyntax"
+- "ParameterClauseSyntax"
+- "ParenthesizedSyntax"
+- "PatternBindingSyntax"
+- "PoundErrorDeclSyntax"
+- "PoundSourceLocationSyntax"
+- "PoundWarningDeclSyntax"
+- "PrecedenceGroupDeclSyntax"
+- "ProtocolDeclSyntax"
+- "RepeatWhileStmtSyntax"
+- "SourceFileSyntax"
+- "StructDeclSyntax"
+- "SwitchCaseSyntax"
+- "SwitchStmtSyntax"
+- !private "Syntax"
+- "SyntaxProtocol"
+- "TokenSyntax"
+- "TupleExprElementSyntax"
+- "TupleExprSyntax"
+- "TuplePatternElementSyntax"
+- "TuplePatternSyntax"
+- "TupleTypeElementSyntax"
+- "TupleTypeSyntax"
+- "TypealiasDeclSyntax"
+- "WhileStmtSyntax"
+- "WithCodeBlockSyntax"
+- "WithStatementsSyntax"
+- "WithTrailingCommaSyntax"
+depends-member:
+- ["11SwiftSyntax013AccessorBlockB0V", "deinit"]
+- ["11SwiftSyntax013AccessorBlockB0V", "leftBrace"]
+- ["11SwiftSyntax013AccessorBlockB0V", "rightBrace"]
+- ["11SwiftSyntax013AccessorBlockB0V", "withLeftBrace"]
+- ["11SwiftSyntax013AccessorBlockB0V", "withRightBrace"]
+- ["11SwiftSyntax017AccessorParameterB0V", "deinit"]
+- ["11SwiftSyntax017AccessorParameterB0V", "leftParen"]
+- ["11SwiftSyntax017AccessorParameterB0V", "rightParen"]
+- ["11SwiftSyntax017AccessorParameterB0V", "withLeftParen"]
+- ["11SwiftSyntax017AccessorParameterB0V", "withRightParen"]
+- ["11SwiftSyntax012ArrayElementB0V", "deinit"]
+- ["11SwiftSyntax012ArrayElementB0V", "trailingComma"]
+- ["11SwiftSyntax012ArrayElementB0V", "withTrailingComma"]
+- ["11SwiftSyntax018AssociatedtypeDeclB0V", "deinit"]
+- ["11SwiftSyntax018AssociatedtypeDeclB0V", "identifier"]
+- ["11SwiftSyntax018AssociatedtypeDeclB0V", "withIdentifier"]
+- ["11SwiftSyntax06BracedB0P", "TokenSyntax"]
+- ["11SwiftSyntax06BracedB0P", ""]
+- ["11SwiftSyntax06BracedB0P", "labelColon"]
+- ["11SwiftSyntax06BracedB0P", "labelName"]
+- ["11SwiftSyntax06BracedB0P", "leftBrace"]
+- ["11SwiftSyntax06BracedB0P", "rightBrace"]
+- ["11SwiftSyntax06BracedB0P", "statements"]
+- ["11SwiftSyntax06BracedB0P", "withLabelColon"]
+- ["11SwiftSyntax06BracedB0P", "withLabelName"]
+- ["11SwiftSyntax06BracedB0P", "withLeftBrace"]
+- ["11SwiftSyntax06BracedB0P", "withRightBrace"]
+- ["11SwiftSyntax06BracedB0P", "withStatements"]
+- ["11SwiftSyntax08CaseItemB0V", "deinit"]
+- ["11SwiftSyntax08CaseItemB0V", "trailingComma"]
+- ["11SwiftSyntax08CaseItemB0V", "withTrailingComma"]
+- ["11SwiftSyntax09ClassDeclB0V", "attributes"]
+- ["11SwiftSyntax09ClassDeclB0V", "deinit"]
+- ["11SwiftSyntax09ClassDeclB0V", "identifier"]
+- ["11SwiftSyntax09ClassDeclB0V", "members"]
+- ["11SwiftSyntax09ClassDeclB0V", "modifiers"]
+- ["11SwiftSyntax09ClassDeclB0V", "withAttributes"]
+- ["11SwiftSyntax09ClassDeclB0V", "withIdentifier"]
+- ["11SwiftSyntax09ClassDeclB0V", "withMembers"]
+- ["11SwiftSyntax09ClassDeclB0V", "withModifiers"]
+- ["11SwiftSyntax018ClosureCaptureItemB0V", "deinit"]
+- ["11SwiftSyntax018ClosureCaptureItemB0V", "trailingComma"]
+- ["11SwiftSyntax018ClosureCaptureItemB0V", "withTrailingComma"]
+- ["11SwiftSyntax011ClosureExprB0V", "deinit"]
+- ["11SwiftSyntax011ClosureExprB0V", "leftBrace"]
+- ["11SwiftSyntax011ClosureExprB0V", "rightBrace"]
+- ["11SwiftSyntax011ClosureExprB0V", "statements"]
+- ["11SwiftSyntax011ClosureExprB0V", "withLeftBrace"]
+- ["11SwiftSyntax011ClosureExprB0V", "withRightBrace"]
+- ["11SwiftSyntax011ClosureExprB0V", "withStatements"]
+- ["11SwiftSyntax012ClosureParamB0V", "deinit"]
+- ["11SwiftSyntax012ClosureParamB0V", "trailingComma"]
+- ["11SwiftSyntax012ClosureParamB0V", "withTrailingComma"]
+- ["11SwiftSyntax09CodeBlockB0V", "deinit"]
+- ["11SwiftSyntax09CodeBlockB0V", "leftBrace"]
+- ["11SwiftSyntax09CodeBlockB0V", "rightBrace"]
+- ["11SwiftSyntax09CodeBlockB0V", "statements"]
+- ["11SwiftSyntax09CodeBlockB0V", "withLeftBrace"]
+- ["11SwiftSyntax09CodeBlockB0V", "withRightBrace"]
+- ["11SwiftSyntax09CodeBlockB0V", "withStatements"]
+- ["11SwiftSyntax016ConditionElementB0V", "deinit"]
+- ["11SwiftSyntax016ConditionElementB0V", "trailingComma"]
+- ["11SwiftSyntax016ConditionElementB0V", "withTrailingComma"]
+- ["s28CustomDebugStringConvertibleP", "AttributeListSyntax"]
+- ["s28CustomDebugStringConvertibleP", "Bool"]
+- ["s28CustomDebugStringConvertibleP", "BracedSyntax"]
+- ["s28CustomDebugStringConvertibleP", "CodeBlockItemListSyntax"]
+- ["s28CustomDebugStringConvertibleP", "CodeBlockSyntax"]
+- ["s28CustomDebugStringConvertibleP", "DeclGroupSyntax"]
+- ["s28CustomDebugStringConvertibleP", "IdentifiedDeclSyntax"]
+- ["s28CustomDebugStringConvertibleP", "LabeledSyntax"]
+- ["s28CustomDebugStringConvertibleP", "MemberDeclBlockSyntax"]
+- ["s28CustomDebugStringConvertibleP", "ModifierListSyntax"]
+- ["s28CustomDebugStringConvertibleP", "ParenthesizedSyntax"]
+- !private ["s28CustomDebugStringConvertibleP", "Syntax"]
+- !private ["s28CustomDebugStringConvertibleP", "SyntaxProtocol"]
+- ["s28CustomDebugStringConvertibleP", "TokenSyntax"]
+- ["s28CustomDebugStringConvertibleP", "WithCodeBlockSyntax"]
+- ["s28CustomDebugStringConvertibleP", "WithStatementsSyntax"]
+- ["s28CustomDebugStringConvertibleP", "WithTrailingCommaSyntax"]
+- !private ["s28CustomDebugStringConvertibleP", "asProtocol"]
+- ["s28CustomDebugStringConvertibleP", "attributes"]
+- ["s28CustomDebugStringConvertibleP", "body"]
+- ["s28CustomDebugStringConvertibleP", "identifier"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "labelColon"]
+- ["s28CustomDebugStringConvertibleP", "labelName"]
+- ["s28CustomDebugStringConvertibleP", "leftBrace"]
+- ["s28CustomDebugStringConvertibleP", "leftParen"]
+- ["s28CustomDebugStringConvertibleP", "members"]
+- ["s28CustomDebugStringConvertibleP", "modifiers"]
+- ["s28CustomDebugStringConvertibleP", "rightBrace"]
+- ["s28CustomDebugStringConvertibleP", "rightParen"]
+- ["s28CustomDebugStringConvertibleP", "statements"]
+- ["s28CustomDebugStringConvertibleP", "trailingComma"]
+- ["s28CustomDebugStringConvertibleP", "withAttributes"]
+- ["s28CustomDebugStringConvertibleP", "withBody"]
+- ["s28CustomDebugStringConvertibleP", "withIdentifier"]
+- ["s28CustomDebugStringConvertibleP", "withLabelColon"]
+- ["s28CustomDebugStringConvertibleP", "withLabelName"]
+- ["s28CustomDebugStringConvertibleP", "withLeftBrace"]
+- ["s28CustomDebugStringConvertibleP", "withLeftParen"]
+- ["s28CustomDebugStringConvertibleP", "withMembers"]
+- ["s28CustomDebugStringConvertibleP", "withModifiers"]
+- ["s28CustomDebugStringConvertibleP", "withRightBrace"]
+- ["s28CustomDebugStringConvertibleP", "withRightParen"]
+- ["s28CustomDebugStringConvertibleP", "withStatements"]
+- ["s28CustomDebugStringConvertibleP", "withTrailingComma"]
+- !private ["s17CustomReflectableP", "asProtocol"]
+- ["s17CustomReflectableP", "attributes"]
+- ["s17CustomReflectableP", "body"]
+- ["s17CustomReflectableP", "identifier"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "labelColon"]
+- ["s17CustomReflectableP", "labelName"]
+- ["s17CustomReflectableP", "leftBrace"]
+- ["s17CustomReflectableP", "leftParen"]
+- ["s17CustomReflectableP", "members"]
+- ["s17CustomReflectableP", "modifiers"]
+- ["s17CustomReflectableP", "rightBrace"]
+- ["s17CustomReflectableP", "rightParen"]
+- ["s17CustomReflectableP", "statements"]
+- ["s17CustomReflectableP", "trailingComma"]
+- ["s17CustomReflectableP", "withAttributes"]
+- ["s17CustomReflectableP", "withBody"]
+- ["s17CustomReflectableP", "withIdentifier"]
+- ["s17CustomReflectableP", "withLabelColon"]
+- ["s17CustomReflectableP", "withLabelName"]
+- ["s17CustomReflectableP", "withLeftBrace"]
+- ["s17CustomReflectableP", "withLeftParen"]
+- ["s17CustomReflectableP", "withMembers"]
+- ["s17CustomReflectableP", "withModifiers"]
+- ["s17CustomReflectableP", "withRightBrace"]
+- ["s17CustomReflectableP", "withRightParen"]
+- ["s17CustomReflectableP", "withStatements"]
+- ["s17CustomReflectableP", "withTrailingComma"]
+- ["s23CustomStringConvertibleP", "AttributeListSyntax"]
+- ["s23CustomStringConvertibleP", "Bool"]
+- ["s23CustomStringConvertibleP", "BracedSyntax"]
+- ["s23CustomStringConvertibleP", "CodeBlockItemListSyntax"]
+- ["s23CustomStringConvertibleP", "CodeBlockSyntax"]
+- ["s23CustomStringConvertibleP", "DeclGroupSyntax"]
+- ["s23CustomStringConvertibleP", "IdentifiedDeclSyntax"]
+- ["s23CustomStringConvertibleP", "LabeledSyntax"]
+- ["s23CustomStringConvertibleP", "MemberDeclBlockSyntax"]
+- ["s23CustomStringConvertibleP", "ModifierListSyntax"]
+- ["s23CustomStringConvertibleP", "ParenthesizedSyntax"]
+- !private ["s23CustomStringConvertibleP", "Syntax"]
+- !private ["s23CustomStringConvertibleP", "SyntaxProtocol"]
+- ["s23CustomStringConvertibleP", "TokenSyntax"]
+- ["s23CustomStringConvertibleP", "WithCodeBlockSyntax"]
+- ["s23CustomStringConvertibleP", "WithStatementsSyntax"]
+- ["s23CustomStringConvertibleP", "WithTrailingCommaSyntax"]
+- !private ["s23CustomStringConvertibleP", "asProtocol"]
+- ["s23CustomStringConvertibleP", "attributes"]
+- ["s23CustomStringConvertibleP", "body"]
+- ["s23CustomStringConvertibleP", "identifier"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "labelColon"]
+- ["s23CustomStringConvertibleP", "labelName"]
+- ["s23CustomStringConvertibleP", "leftBrace"]
+- ["s23CustomStringConvertibleP", "leftParen"]
+- ["s23CustomStringConvertibleP", "members"]
+- ["s23CustomStringConvertibleP", "modifiers"]
+- ["s23CustomStringConvertibleP", "rightBrace"]
+- ["s23CustomStringConvertibleP", "rightParen"]
+- ["s23CustomStringConvertibleP", "statements"]
+- ["s23CustomStringConvertibleP", "trailingComma"]
+- ["s23CustomStringConvertibleP", "withAttributes"]
+- ["s23CustomStringConvertibleP", "withBody"]
+- ["s23CustomStringConvertibleP", "withIdentifier"]
+- ["s23CustomStringConvertibleP", "withLabelColon"]
+- ["s23CustomStringConvertibleP", "withLabelName"]
+- ["s23CustomStringConvertibleP", "withLeftBrace"]
+- ["s23CustomStringConvertibleP", "withLeftParen"]
+- ["s23CustomStringConvertibleP", "withMembers"]
+- ["s23CustomStringConvertibleP", "withModifiers"]
+- ["s23CustomStringConvertibleP", "withRightBrace"]
+- ["s23CustomStringConvertibleP", "withRightParen"]
+- ["s23CustomStringConvertibleP", "withStatements"]
+- ["s23CustomStringConvertibleP", "withTrailingComma"]
+- ["11SwiftSyntax09DeclGroupB0P", "AttributeListSyntax"]
+- ["11SwiftSyntax09DeclGroupB0P", "MemberDeclBlockSyntax"]
+- ["11SwiftSyntax09DeclGroupB0P", "ModifierListSyntax"]
+- ["11SwiftSyntax09DeclGroupB0P", ""]
+- ["11SwiftSyntax09DeclGroupB0P", "attributes"]
+- ["11SwiftSyntax09DeclGroupB0P", "identifier"]
+- ["11SwiftSyntax09DeclGroupB0P", "members"]
+- ["11SwiftSyntax09DeclGroupB0P", "modifiers"]
+- ["11SwiftSyntax09DeclGroupB0P", "withAttributes"]
+- ["11SwiftSyntax09DeclGroupB0P", "withIdentifier"]
+- ["11SwiftSyntax09DeclGroupB0P", "withMembers"]
+- ["11SwiftSyntax09DeclGroupB0P", "withModifiers"]
+- ["11SwiftSyntax017DeclNameArgumentsB0V", "deinit"]
+- ["11SwiftSyntax017DeclNameArgumentsB0V", "leftParen"]
+- ["11SwiftSyntax017DeclNameArgumentsB0V", "rightParen"]
+- ["11SwiftSyntax017DeclNameArgumentsB0V", "withLeftParen"]
+- ["11SwiftSyntax017DeclNameArgumentsB0V", "withRightParen"]
+- ["11SwiftSyntax04DeclB8ProtocolP", "attributes"]
+- ["11SwiftSyntax04DeclB8ProtocolP", "identifier"]
+- ["11SwiftSyntax04DeclB8ProtocolP", "leftParen"]
+- ["11SwiftSyntax04DeclB8ProtocolP", "members"]
+- ["11SwiftSyntax04DeclB8ProtocolP", "modifiers"]
+- ["11SwiftSyntax04DeclB8ProtocolP", "rightParen"]
+- ["11SwiftSyntax04DeclB8ProtocolP", "withAttributes"]
+- ["11SwiftSyntax04DeclB8ProtocolP", "withIdentifier"]
+- ["11SwiftSyntax04DeclB8ProtocolP", "withLeftParen"]
+- ["11SwiftSyntax04DeclB8ProtocolP", "withMembers"]
+- ["11SwiftSyntax04DeclB8ProtocolP", "withModifiers"]
+- ["11SwiftSyntax04DeclB8ProtocolP", "withRightParen"]
+- ["11SwiftSyntax09DeferStmtB0V", "body"]
+- ["11SwiftSyntax09DeferStmtB0V", "deinit"]
+- ["11SwiftSyntax09DeferStmtB0V", "withBody"]
+- ["11SwiftSyntax017DictionaryElementB0V", "deinit"]
+- ["11SwiftSyntax017DictionaryElementB0V", "trailingComma"]
+- ["11SwiftSyntax017DictionaryElementB0V", "withTrailingComma"]
+- ["11SwiftSyntax036DifferentiableAttributeFuncSpecifierB0V", "deinit"]
+- ["11SwiftSyntax036DifferentiableAttributeFuncSpecifierB0V", "trailingComma"]
+- ["11SwiftSyntax036DifferentiableAttributeFuncSpecifierB0V", "withTrailingComma"]
+- ["11SwiftSyntax020DifferentiationParamB0V", "deinit"]
+- ["11SwiftSyntax020DifferentiationParamB0V", "trailingComma"]
+- ["11SwiftSyntax020DifferentiationParamB0V", "withTrailingComma"]
+- ["11SwiftSyntax06DoStmtB0V", "body"]
+- ["11SwiftSyntax06DoStmtB0V", "deinit"]
+- ["11SwiftSyntax06DoStmtB0V", "labelColon"]
+- ["11SwiftSyntax06DoStmtB0V", "labelName"]
+- ["11SwiftSyntax06DoStmtB0V", "withBody"]
+- ["11SwiftSyntax06DoStmtB0V", "withLabelColon"]
+- ["11SwiftSyntax06DoStmtB0V", "withLabelName"]
+- ["11SwiftSyntax09ElseBlockB0V", "body"]
+- ["11SwiftSyntax09ElseBlockB0V", "deinit"]
+- ["11SwiftSyntax09ElseBlockB0V", "withBody"]
+- ["11SwiftSyntax015EnumCaseElementB0V", "deinit"]
+- ["11SwiftSyntax015EnumCaseElementB0V", "trailingComma"]
+- ["11SwiftSyntax015EnumCaseElementB0V", "withTrailingComma"]
+- ["11SwiftSyntax08EnumDeclB0V", "deinit"]
+- ["11SwiftSyntax08EnumDeclB0V", "identifier"]
+- ["11SwiftSyntax08EnumDeclB0V", "withIdentifier"]
+- !private ["SQ", "asProtocol"]
+- ["SQ", "attributes"]
+- ["SQ", "body"]
+- ["SQ", "identifier"]
+- !private ["SQ", "init"]
+- ["SQ", "labelColon"]
+- ["SQ", "labelName"]
+- ["SQ", "leftBrace"]
+- ["SQ", "leftParen"]
+- ["SQ", "members"]
+- ["SQ", "modifiers"]
+- ["SQ", "rightBrace"]
+- ["SQ", "rightParen"]
+- ["SQ", "statements"]
+- ["SQ", "trailingComma"]
+- ["SQ", "withAttributes"]
+- ["SQ", "withBody"]
+- ["SQ", "withIdentifier"]
+- ["SQ", "withLabelColon"]
+- ["SQ", "withLabelName"]
+- ["SQ", "withLeftBrace"]
+- ["SQ", "withLeftParen"]
+- ["SQ", "withMembers"]
+- ["SQ", "withModifiers"]
+- ["SQ", "withRightBrace"]
+- ["SQ", "withRightParen"]
+- ["SQ", "withStatements"]
+- ["SQ", "withTrailingComma"]
+- ["11SwiftSyntax04ExprB8ProtocolP", "leftBrace"]
+- ["11SwiftSyntax04ExprB8ProtocolP", "leftParen"]
+- ["11SwiftSyntax04ExprB8ProtocolP", "rightBrace"]
+- ["11SwiftSyntax04ExprB8ProtocolP", "rightParen"]
+- ["11SwiftSyntax04ExprB8ProtocolP", "statements"]
+- ["11SwiftSyntax04ExprB8ProtocolP", "withLeftBrace"]
+- ["11SwiftSyntax04ExprB8ProtocolP", "withLeftParen"]
+- ["11SwiftSyntax04ExprB8ProtocolP", "withRightBrace"]
+- ["11SwiftSyntax04ExprB8ProtocolP", "withRightParen"]
+- ["11SwiftSyntax04ExprB8ProtocolP", "withStatements"]
+- ["11SwiftSyntax017ExpressionSegmentB0V", "deinit"]
+- ["11SwiftSyntax017ExpressionSegmentB0V", "leftParen"]
+- ["11SwiftSyntax017ExpressionSegmentB0V", "rightParen"]
+- ["11SwiftSyntax017ExpressionSegmentB0V", "withLeftParen"]
+- ["11SwiftSyntax017ExpressionSegmentB0V", "withRightParen"]
+- ["11SwiftSyntax013ExtensionDeclB0V", "attributes"]
+- ["11SwiftSyntax013ExtensionDeclB0V", "deinit"]
+- ["11SwiftSyntax013ExtensionDeclB0V", "members"]
+- ["11SwiftSyntax013ExtensionDeclB0V", "modifiers"]
+- ["11SwiftSyntax013ExtensionDeclB0V", "withAttributes"]
+- ["11SwiftSyntax013ExtensionDeclB0V", "withMembers"]
+- ["11SwiftSyntax013ExtensionDeclB0V", "withModifiers"]
+- ["11SwiftSyntax09ForInStmtB0V", "body"]
+- ["11SwiftSyntax09ForInStmtB0V", "deinit"]
+- ["11SwiftSyntax09ForInStmtB0V", "labelColon"]
+- ["11SwiftSyntax09ForInStmtB0V", "labelName"]
+- ["11SwiftSyntax09ForInStmtB0V", "withBody"]
+- ["11SwiftSyntax09ForInStmtB0V", "withLabelColon"]
+- ["11SwiftSyntax09ForInStmtB0V", "withLabelName"]
+- ["11SwiftSyntax012FunctionDeclB0V", "deinit"]
+- ["11SwiftSyntax012FunctionDeclB0V", "identifier"]
+- ["11SwiftSyntax012FunctionDeclB0V", "withIdentifier"]
+- ["11SwiftSyntax017FunctionParameterB0V", "deinit"]
+- ["11SwiftSyntax017FunctionParameterB0V", "trailingComma"]
+- ["11SwiftSyntax017FunctionParameterB0V", "withTrailingComma"]
+- ["11SwiftSyntax012FunctionTypeB0V", "deinit"]
+- ["11SwiftSyntax012FunctionTypeB0V", "leftParen"]
+- ["11SwiftSyntax012FunctionTypeB0V", "rightParen"]
+- ["11SwiftSyntax012FunctionTypeB0V", "withLeftParen"]
+- ["11SwiftSyntax012FunctionTypeB0V", "withRightParen"]
+- ["11SwiftSyntax015GenericArgumentB0V", "deinit"]
+- ["11SwiftSyntax015GenericArgumentB0V", "trailingComma"]
+- ["11SwiftSyntax015GenericArgumentB0V", "withTrailingComma"]
+- ["11SwiftSyntax016GenericParameterB0V", "deinit"]
+- ["11SwiftSyntax016GenericParameterB0V", "trailingComma"]
+- ["11SwiftSyntax016GenericParameterB0V", "withTrailingComma"]
+- ["11SwiftSyntax018GenericRequirementB0V", "deinit"]
+- ["11SwiftSyntax018GenericRequirementB0V", "trailingComma"]
+- ["11SwiftSyntax018GenericRequirementB0V", "withTrailingComma"]
+- ["11SwiftSyntax09GuardStmtB0V", "body"]
+- ["11SwiftSyntax09GuardStmtB0V", "deinit"]
+- ["11SwiftSyntax09GuardStmtB0V", "withBody"]
+- !private ["SH", "asProtocol"]
+- ["SH", "attributes"]
+- ["SH", "body"]
+- ["SH", "identifier"]
+- !private ["SH", "init"]
+- ["SH", "labelColon"]
+- ["SH", "labelName"]
+- ["SH", "leftBrace"]
+- ["SH", "leftParen"]
+- ["SH", "members"]
+- ["SH", "modifiers"]
+- ["SH", "rightBrace"]
+- ["SH", "rightParen"]
+- ["SH", "statements"]
+- ["SH", "trailingComma"]
+- ["SH", "withAttributes"]
+- ["SH", "withBody"]
+- ["SH", "withIdentifier"]
+- ["SH", "withLabelColon"]
+- ["SH", "withLabelName"]
+- ["SH", "withLeftBrace"]
+- ["SH", "withLeftParen"]
+- ["SH", "withMembers"]
+- ["SH", "withModifiers"]
+- ["SH", "withRightBrace"]
+- ["SH", "withRightParen"]
+- ["SH", "withStatements"]
+- ["SH", "withTrailingComma"]
+- ["11SwiftSyntax014IdentifiedDeclB0P", "TokenSyntax"]
+- ["11SwiftSyntax014IdentifiedDeclB0P", ""]
+- ["11SwiftSyntax014IdentifiedDeclB0P", "attributes"]
+- ["11SwiftSyntax014IdentifiedDeclB0P", "identifier"]
+- ["11SwiftSyntax014IdentifiedDeclB0P", "members"]
+- ["11SwiftSyntax014IdentifiedDeclB0P", "modifiers"]
+- ["11SwiftSyntax014IdentifiedDeclB0P", "withAttributes"]
+- ["11SwiftSyntax014IdentifiedDeclB0P", "withIdentifier"]
+- ["11SwiftSyntax014IdentifiedDeclB0P", "withMembers"]
+- ["11SwiftSyntax014IdentifiedDeclB0P", "withModifiers"]
+- ["11SwiftSyntax06IfStmtB0V", "body"]
+- ["11SwiftSyntax06IfStmtB0V", "deinit"]
+- ["11SwiftSyntax06IfStmtB0V", "labelColon"]
+- ["11SwiftSyntax06IfStmtB0V", "labelName"]
+- ["11SwiftSyntax06IfStmtB0V", "withBody"]
+- ["11SwiftSyntax06IfStmtB0V", "withLabelColon"]
+- ["11SwiftSyntax06IfStmtB0V", "withLabelName"]
+- ["11SwiftSyntax013InheritedTypeB0V", "deinit"]
+- ["11SwiftSyntax013InheritedTypeB0V", "trailingComma"]
+- ["11SwiftSyntax013InheritedTypeB0V", "withTrailingComma"]
+- ["11SwiftSyntax022LabeledSpecializeEntryB0V", "deinit"]
+- ["11SwiftSyntax022LabeledSpecializeEntryB0V", "trailingComma"]
+- ["11SwiftSyntax022LabeledSpecializeEntryB0V", "withTrailingComma"]
+- ["11SwiftSyntax07LabeledB0P", "TokenSyntax"]
+- ["11SwiftSyntax07LabeledB0P", ""]
+- ["11SwiftSyntax07LabeledB0P", "body"]
+- ["11SwiftSyntax07LabeledB0P", "labelColon"]
+- ["11SwiftSyntax07LabeledB0P", "labelName"]
+- ["11SwiftSyntax07LabeledB0P", "leftBrace"]
+- ["11SwiftSyntax07LabeledB0P", "rightBrace"]
+- ["11SwiftSyntax07LabeledB0P", "trailingComma"]
+- ["11SwiftSyntax07LabeledB0P", "withBody"]
+- ["11SwiftSyntax07LabeledB0P", "withLabelColon"]
+- ["11SwiftSyntax07LabeledB0P", "withLabelName"]
+- ["11SwiftSyntax07LabeledB0P", "withLeftBrace"]
+- ["11SwiftSyntax07LabeledB0P", "withRightBrace"]
+- ["11SwiftSyntax07LabeledB0P", "withTrailingComma"]
+- ["11SwiftSyntax015MemberDeclBlockB0V", "deinit"]
+- ["11SwiftSyntax015MemberDeclBlockB0V", "leftBrace"]
+- ["11SwiftSyntax015MemberDeclBlockB0V", "rightBrace"]
+- ["11SwiftSyntax015MemberDeclBlockB0V", "withLeftBrace"]
+- ["11SwiftSyntax015MemberDeclBlockB0V", "withRightBrace"]
+- ["11SwiftSyntax015ObjcKeyPathExprB0V", "deinit"]
+- ["11SwiftSyntax015ObjcKeyPathExprB0V", "leftParen"]
+- ["11SwiftSyntax015ObjcKeyPathExprB0V", "rightParen"]
+- ["11SwiftSyntax015ObjcKeyPathExprB0V", "withLeftParen"]
+- ["11SwiftSyntax015ObjcKeyPathExprB0V", "withRightParen"]
+- ["11SwiftSyntax016ObjcSelectorExprB0V", "deinit"]
+- ["11SwiftSyntax016ObjcSelectorExprB0V", "leftParen"]
+- ["11SwiftSyntax016ObjcSelectorExprB0V", "rightParen"]
+- ["11SwiftSyntax016ObjcSelectorExprB0V", "withLeftParen"]
+- ["11SwiftSyntax016ObjcSelectorExprB0V", "withRightParen"]
+- ["11SwiftSyntax017ObjectLiteralExprB0V", "deinit"]
+- ["11SwiftSyntax017ObjectLiteralExprB0V", "leftParen"]
+- ["11SwiftSyntax017ObjectLiteralExprB0V", "rightParen"]
+- ["11SwiftSyntax017ObjectLiteralExprB0V", "withLeftParen"]
+- ["11SwiftSyntax017ObjectLiteralExprB0V", "withRightParen"]
+- ["11SwiftSyntax012OperatorDeclB0V", "deinit"]
+- ["11SwiftSyntax012OperatorDeclB0V", "identifier"]
+- ["11SwiftSyntax012OperatorDeclB0V", "withIdentifier"]
+- ["11SwiftSyntax015ParameterClauseB0V", "deinit"]
+- ["11SwiftSyntax015ParameterClauseB0V", "leftParen"]
+- ["11SwiftSyntax015ParameterClauseB0V", "rightParen"]
+- ["11SwiftSyntax015ParameterClauseB0V", "withLeftParen"]
+- ["11SwiftSyntax015ParameterClauseB0V", "withRightParen"]
+- ["11SwiftSyntax013ParenthesizedB0P", "TokenSyntax"]
+- ["11SwiftSyntax013ParenthesizedB0P", ""]
+- ["11SwiftSyntax013ParenthesizedB0P", "leftParen"]
+- ["11SwiftSyntax013ParenthesizedB0P", "rightParen"]
+- ["11SwiftSyntax013ParenthesizedB0P", "withLeftParen"]
+- ["11SwiftSyntax013ParenthesizedB0P", "withRightParen"]
+- ["11SwiftSyntax014PatternBindingB0V", "deinit"]
+- ["11SwiftSyntax014PatternBindingB0V", "trailingComma"]
+- ["11SwiftSyntax014PatternBindingB0V", "withTrailingComma"]
+- ["11SwiftSyntax07PatternB8ProtocolP", "leftParen"]
+- ["11SwiftSyntax07PatternB8ProtocolP", "rightParen"]
+- ["11SwiftSyntax07PatternB8ProtocolP", "withLeftParen"]
+- ["11SwiftSyntax07PatternB8ProtocolP", "withRightParen"]
+- ["11SwiftSyntax014PoundErrorDeclB0V", "deinit"]
+- ["11SwiftSyntax014PoundErrorDeclB0V", "leftParen"]
+- ["11SwiftSyntax014PoundErrorDeclB0V", "rightParen"]
+- ["11SwiftSyntax014PoundErrorDeclB0V", "withLeftParen"]
+- ["11SwiftSyntax014PoundErrorDeclB0V", "withRightParen"]
+- ["11SwiftSyntax019PoundSourceLocationB0V", "deinit"]
+- ["11SwiftSyntax019PoundSourceLocationB0V", "leftParen"]
+- ["11SwiftSyntax019PoundSourceLocationB0V", "rightParen"]
+- ["11SwiftSyntax019PoundSourceLocationB0V", "withLeftParen"]
+- ["11SwiftSyntax019PoundSourceLocationB0V", "withRightParen"]
+- ["11SwiftSyntax016PoundWarningDeclB0V", "deinit"]
+- ["11SwiftSyntax016PoundWarningDeclB0V", "leftParen"]
+- ["11SwiftSyntax016PoundWarningDeclB0V", "rightParen"]
+- ["11SwiftSyntax016PoundWarningDeclB0V", "withLeftParen"]
+- ["11SwiftSyntax016PoundWarningDeclB0V", "withRightParen"]
+- ["11SwiftSyntax019PrecedenceGroupDeclB0V", "deinit"]
+- ["11SwiftSyntax019PrecedenceGroupDeclB0V", "identifier"]
+- ["11SwiftSyntax019PrecedenceGroupDeclB0V", "withIdentifier"]
+- ["11SwiftSyntax012ProtocolDeclB0V", "attributes"]
+- ["11SwiftSyntax012ProtocolDeclB0V", "deinit"]
+- ["11SwiftSyntax012ProtocolDeclB0V", "identifier"]
+- ["11SwiftSyntax012ProtocolDeclB0V", "members"]
+- ["11SwiftSyntax012ProtocolDeclB0V", "modifiers"]
+- ["11SwiftSyntax012ProtocolDeclB0V", "withAttributes"]
+- ["11SwiftSyntax012ProtocolDeclB0V", "withIdentifier"]
+- ["11SwiftSyntax012ProtocolDeclB0V", "withMembers"]
+- ["11SwiftSyntax012ProtocolDeclB0V", "withModifiers"]
+- ["11SwiftSyntax015RepeatWhileStmtB0V", "body"]
+- ["11SwiftSyntax015RepeatWhileStmtB0V", "deinit"]
+- ["11SwiftSyntax015RepeatWhileStmtB0V", "labelColon"]
+- ["11SwiftSyntax015RepeatWhileStmtB0V", "labelName"]
+- ["11SwiftSyntax015RepeatWhileStmtB0V", "withBody"]
+- ["11SwiftSyntax015RepeatWhileStmtB0V", "withLabelColon"]
+- ["11SwiftSyntax015RepeatWhileStmtB0V", "withLabelName"]
+- ["11SwiftSyntax010SourceFileB0V", "deinit"]
+- ["11SwiftSyntax010SourceFileB0V", "statements"]
+- ["11SwiftSyntax010SourceFileB0V", "withStatements"]
+- ["11SwiftSyntax04StmtB8ProtocolP", "body"]
+- ["11SwiftSyntax04StmtB8ProtocolP", "labelColon"]
+- ["11SwiftSyntax04StmtB8ProtocolP", "labelName"]
+- ["11SwiftSyntax04StmtB8ProtocolP", "leftBrace"]
+- ["11SwiftSyntax04StmtB8ProtocolP", "rightBrace"]
+- ["11SwiftSyntax04StmtB8ProtocolP", "withBody"]
+- ["11SwiftSyntax04StmtB8ProtocolP", "withLabelColon"]
+- ["11SwiftSyntax04StmtB8ProtocolP", "withLabelName"]
+- ["11SwiftSyntax04StmtB8ProtocolP", "withLeftBrace"]
+- ["11SwiftSyntax04StmtB8ProtocolP", "withRightBrace"]
+- ["11SwiftSyntax010StructDeclB0V", "attributes"]
+- ["11SwiftSyntax010StructDeclB0V", "deinit"]
+- ["11SwiftSyntax010StructDeclB0V", "identifier"]
+- ["11SwiftSyntax010StructDeclB0V", "members"]
+- ["11SwiftSyntax010StructDeclB0V", "modifiers"]
+- ["11SwiftSyntax010StructDeclB0V", "withAttributes"]
+- ["11SwiftSyntax010StructDeclB0V", "withIdentifier"]
+- ["11SwiftSyntax010StructDeclB0V", "withMembers"]
+- ["11SwiftSyntax010StructDeclB0V", "withModifiers"]
+- ["11SwiftSyntax010SwitchCaseB0V", "deinit"]
+- ["11SwiftSyntax010SwitchCaseB0V", "statements"]
+- ["11SwiftSyntax010SwitchCaseB0V", "withStatements"]
+- ["11SwiftSyntax010SwitchStmtB0V", "deinit"]
+- ["11SwiftSyntax010SwitchStmtB0V", "labelColon"]
+- ["11SwiftSyntax010SwitchStmtB0V", "labelName"]
+- ["11SwiftSyntax010SwitchStmtB0V", "leftBrace"]
+- ["11SwiftSyntax010SwitchStmtB0V", "rightBrace"]
+- ["11SwiftSyntax010SwitchStmtB0V", "withLabelColon"]
+- ["11SwiftSyntax010SwitchStmtB0V", "withLabelName"]
+- ["11SwiftSyntax010SwitchStmtB0V", "withLeftBrace"]
+- ["11SwiftSyntax010SwitchStmtB0V", "withRightBrace"]
+- !private ["11SwiftSyntax0B0V", "asProtocol"]
+- !private ["11SwiftSyntax0B0V", "deinit"]
+- !private ["11SwiftSyntax0B0V", "init"]
+- !private ["11SwiftSyntax0B8HashableP", "asProtocol"]
+- ["11SwiftSyntax0B8HashableP", "attributes"]
+- ["11SwiftSyntax0B8HashableP", "body"]
+- ["11SwiftSyntax0B8HashableP", "identifier"]
+- !private ["11SwiftSyntax0B8HashableP", "init"]
+- ["11SwiftSyntax0B8HashableP", "labelColon"]
+- ["11SwiftSyntax0B8HashableP", "labelName"]
+- ["11SwiftSyntax0B8HashableP", "leftBrace"]
+- ["11SwiftSyntax0B8HashableP", "leftParen"]
+- ["11SwiftSyntax0B8HashableP", "members"]
+- ["11SwiftSyntax0B8HashableP", "modifiers"]
+- ["11SwiftSyntax0B8HashableP", "rightBrace"]
+- ["11SwiftSyntax0B8HashableP", "rightParen"]
+- ["11SwiftSyntax0B8HashableP", "statements"]
+- ["11SwiftSyntax0B8HashableP", "trailingComma"]
+- ["11SwiftSyntax0B8HashableP", "withAttributes"]
+- ["11SwiftSyntax0B8HashableP", "withBody"]
+- ["11SwiftSyntax0B8HashableP", "withIdentifier"]
+- ["11SwiftSyntax0B8HashableP", "withLabelColon"]
+- ["11SwiftSyntax0B8HashableP", "withLabelName"]
+- ["11SwiftSyntax0B8HashableP", "withLeftBrace"]
+- ["11SwiftSyntax0B8HashableP", "withLeftParen"]
+- ["11SwiftSyntax0B8HashableP", "withMembers"]
+- ["11SwiftSyntax0B8HashableP", "withModifiers"]
+- ["11SwiftSyntax0B8HashableP", "withRightBrace"]
+- ["11SwiftSyntax0B8HashableP", "withRightParen"]
+- ["11SwiftSyntax0B8HashableP", "withStatements"]
+- ["11SwiftSyntax0B8HashableP", "withTrailingComma"]
+- ["11SwiftSyntax0B8ProtocolP", "AttributeListSyntax"]
+- ["11SwiftSyntax0B8ProtocolP", "Bool"]
+- ["11SwiftSyntax0B8ProtocolP", "BracedSyntax"]
+- ["11SwiftSyntax0B8ProtocolP", "CodeBlockItemListSyntax"]
+- ["11SwiftSyntax0B8ProtocolP", "CodeBlockSyntax"]
+- ["11SwiftSyntax0B8ProtocolP", "DeclGroupSyntax"]
+- ["11SwiftSyntax0B8ProtocolP", "IdentifiedDeclSyntax"]
+- ["11SwiftSyntax0B8ProtocolP", "LabeledSyntax"]
+- ["11SwiftSyntax0B8ProtocolP", "MemberDeclBlockSyntax"]
+- ["11SwiftSyntax0B8ProtocolP", "ModifierListSyntax"]
+- ["11SwiftSyntax0B8ProtocolP", "ParenthesizedSyntax"]
+- !private ["11SwiftSyntax0B8ProtocolP", "Syntax"]
+- !private ["11SwiftSyntax0B8ProtocolP", "SyntaxProtocol"]
+- ["11SwiftSyntax0B8ProtocolP", "TokenSyntax"]
+- ["11SwiftSyntax0B8ProtocolP", "WithCodeBlockSyntax"]
+- ["11SwiftSyntax0B8ProtocolP", "WithStatementsSyntax"]
+- ["11SwiftSyntax0B8ProtocolP", "WithTrailingCommaSyntax"]
+- ["11SwiftSyntax0B8ProtocolP", ""]
+- ["11SwiftSyntax0B8ProtocolP", "asProtocol"]
+- ["11SwiftSyntax0B8ProtocolP", "attributes"]
+- ["11SwiftSyntax0B8ProtocolP", "body"]
+- ["11SwiftSyntax0B8ProtocolP", "identifier"]
+- !private ["11SwiftSyntax0B8ProtocolP", "init"]
+- ["11SwiftSyntax0B8ProtocolP", "isProtocol"]
+- ["11SwiftSyntax0B8ProtocolP", "labelColon"]
+- ["11SwiftSyntax0B8ProtocolP", "labelName"]
+- ["11SwiftSyntax0B8ProtocolP", "leftBrace"]
+- ["11SwiftSyntax0B8ProtocolP", "leftParen"]
+- ["11SwiftSyntax0B8ProtocolP", "members"]
+- ["11SwiftSyntax0B8ProtocolP", "modifiers"]
+- ["11SwiftSyntax0B8ProtocolP", "rightBrace"]
+- ["11SwiftSyntax0B8ProtocolP", "rightParen"]
+- ["11SwiftSyntax0B8ProtocolP", "statements"]
+- ["11SwiftSyntax0B8ProtocolP", "trailingComma"]
+- ["11SwiftSyntax0B8ProtocolP", "withAttributes"]
+- ["11SwiftSyntax0B8ProtocolP", "withBody"]
+- ["11SwiftSyntax0B8ProtocolP", "withIdentifier"]
+- ["11SwiftSyntax0B8ProtocolP", "withLabelColon"]
+- ["11SwiftSyntax0B8ProtocolP", "withLabelName"]
+- ["11SwiftSyntax0B8ProtocolP", "withLeftBrace"]
+- ["11SwiftSyntax0B8ProtocolP", "withLeftParen"]
+- ["11SwiftSyntax0B8ProtocolP", "withMembers"]
+- ["11SwiftSyntax0B8ProtocolP", "withModifiers"]
+- ["11SwiftSyntax0B8ProtocolP", "withRightBrace"]
+- ["11SwiftSyntax0B8ProtocolP", "withRightParen"]
+- ["11SwiftSyntax0B8ProtocolP", "withStatements"]
+- ["11SwiftSyntax0B8ProtocolP", "withTrailingComma"]
+- ["s20TextOutputStreamableP", "AttributeListSyntax"]
+- ["s20TextOutputStreamableP", "Bool"]
+- ["s20TextOutputStreamableP", "BracedSyntax"]
+- ["s20TextOutputStreamableP", "CodeBlockItemListSyntax"]
+- ["s20TextOutputStreamableP", "CodeBlockSyntax"]
+- ["s20TextOutputStreamableP", "DeclGroupSyntax"]
+- ["s20TextOutputStreamableP", "IdentifiedDeclSyntax"]
+- ["s20TextOutputStreamableP", "LabeledSyntax"]
+- ["s20TextOutputStreamableP", "MemberDeclBlockSyntax"]
+- ["s20TextOutputStreamableP", "ModifierListSyntax"]
+- ["s20TextOutputStreamableP", "ParenthesizedSyntax"]
+- !private ["s20TextOutputStreamableP", "Syntax"]
+- !private ["s20TextOutputStreamableP", "SyntaxProtocol"]
+- ["s20TextOutputStreamableP", "TokenSyntax"]
+- ["s20TextOutputStreamableP", "WithCodeBlockSyntax"]
+- ["s20TextOutputStreamableP", "WithStatementsSyntax"]
+- ["s20TextOutputStreamableP", "WithTrailingCommaSyntax"]
+- !private ["s20TextOutputStreamableP", "asProtocol"]
+- ["s20TextOutputStreamableP", "attributes"]
+- ["s20TextOutputStreamableP", "body"]
+- ["s20TextOutputStreamableP", "identifier"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "labelColon"]
+- ["s20TextOutputStreamableP", "labelName"]
+- ["s20TextOutputStreamableP", "leftBrace"]
+- ["s20TextOutputStreamableP", "leftParen"]
+- ["s20TextOutputStreamableP", "members"]
+- ["s20TextOutputStreamableP", "modifiers"]
+- ["s20TextOutputStreamableP", "rightBrace"]
+- ["s20TextOutputStreamableP", "rightParen"]
+- ["s20TextOutputStreamableP", "statements"]
+- ["s20TextOutputStreamableP", "trailingComma"]
+- ["s20TextOutputStreamableP", "withAttributes"]
+- ["s20TextOutputStreamableP", "withBody"]
+- ["s20TextOutputStreamableP", "withIdentifier"]
+- ["s20TextOutputStreamableP", "withLabelColon"]
+- ["s20TextOutputStreamableP", "withLabelName"]
+- ["s20TextOutputStreamableP", "withLeftBrace"]
+- ["s20TextOutputStreamableP", "withLeftParen"]
+- ["s20TextOutputStreamableP", "withMembers"]
+- ["s20TextOutputStreamableP", "withModifiers"]
+- ["s20TextOutputStreamableP", "withRightBrace"]
+- ["s20TextOutputStreamableP", "withRightParen"]
+- ["s20TextOutputStreamableP", "withStatements"]
+- ["s20TextOutputStreamableP", "withTrailingComma"]
+- ["11SwiftSyntax016TupleExprElementB0V", "deinit"]
+- ["11SwiftSyntax016TupleExprElementB0V", "trailingComma"]
+- ["11SwiftSyntax016TupleExprElementB0V", "withTrailingComma"]
+- ["11SwiftSyntax09TupleExprB0V", "deinit"]
+- ["11SwiftSyntax09TupleExprB0V", "leftParen"]
+- ["11SwiftSyntax09TupleExprB0V", "rightParen"]
+- ["11SwiftSyntax09TupleExprB0V", "withLeftParen"]
+- ["11SwiftSyntax09TupleExprB0V", "withRightParen"]
+- ["11SwiftSyntax019TuplePatternElementB0V", "deinit"]
+- ["11SwiftSyntax019TuplePatternElementB0V", "labelColon"]
+- ["11SwiftSyntax019TuplePatternElementB0V", "labelName"]
+- ["11SwiftSyntax019TuplePatternElementB0V", "trailingComma"]
+- ["11SwiftSyntax019TuplePatternElementB0V", "withLabelColon"]
+- ["11SwiftSyntax019TuplePatternElementB0V", "withLabelName"]
+- ["11SwiftSyntax019TuplePatternElementB0V", "withTrailingComma"]
+- ["11SwiftSyntax012TuplePatternB0V", "deinit"]
+- ["11SwiftSyntax012TuplePatternB0V", "leftParen"]
+- ["11SwiftSyntax012TuplePatternB0V", "rightParen"]
+- ["11SwiftSyntax012TuplePatternB0V", "withLeftParen"]
+- ["11SwiftSyntax012TuplePatternB0V", "withRightParen"]
+- ["11SwiftSyntax016TupleTypeElementB0V", "deinit"]
+- ["11SwiftSyntax016TupleTypeElementB0V", "trailingComma"]
+- ["11SwiftSyntax016TupleTypeElementB0V", "withTrailingComma"]
+- ["11SwiftSyntax09TupleTypeB0V", "deinit"]
+- ["11SwiftSyntax09TupleTypeB0V", "leftParen"]
+- ["11SwiftSyntax09TupleTypeB0V", "rightParen"]
+- ["11SwiftSyntax09TupleTypeB0V", "withLeftParen"]
+- ["11SwiftSyntax09TupleTypeB0V", "withRightParen"]
+- ["11SwiftSyntax04TypeB8ProtocolP", "leftParen"]
+- ["11SwiftSyntax04TypeB8ProtocolP", "rightParen"]
+- ["11SwiftSyntax04TypeB8ProtocolP", "withLeftParen"]
+- ["11SwiftSyntax04TypeB8ProtocolP", "withRightParen"]
+- ["11SwiftSyntax013TypealiasDeclB0V", "deinit"]
+- ["11SwiftSyntax013TypealiasDeclB0V", "identifier"]
+- ["11SwiftSyntax013TypealiasDeclB0V", "withIdentifier"]
+- ["11SwiftSyntax09WhileStmtB0V", "body"]
+- ["11SwiftSyntax09WhileStmtB0V", "deinit"]
+- ["11SwiftSyntax09WhileStmtB0V", "labelColon"]
+- ["11SwiftSyntax09WhileStmtB0V", "labelName"]
+- ["11SwiftSyntax09WhileStmtB0V", "withBody"]
+- ["11SwiftSyntax09WhileStmtB0V", "withLabelColon"]
+- ["11SwiftSyntax09WhileStmtB0V", "withLabelName"]
+- ["11SwiftSyntax013WithCodeBlockB0P", "CodeBlockSyntax"]
+- ["11SwiftSyntax013WithCodeBlockB0P", ""]
+- ["11SwiftSyntax013WithCodeBlockB0P", "body"]
+- ["11SwiftSyntax013WithCodeBlockB0P", "labelColon"]
+- ["11SwiftSyntax013WithCodeBlockB0P", "labelName"]
+- ["11SwiftSyntax013WithCodeBlockB0P", "withBody"]
+- ["11SwiftSyntax013WithCodeBlockB0P", "withLabelColon"]
+- ["11SwiftSyntax013WithCodeBlockB0P", "withLabelName"]
+- ["11SwiftSyntax014WithStatementsB0P", "CodeBlockItemListSyntax"]
+- ["11SwiftSyntax014WithStatementsB0P", ""]
+- ["11SwiftSyntax014WithStatementsB0P", "leftBrace"]
+- ["11SwiftSyntax014WithStatementsB0P", "rightBrace"]
+- ["11SwiftSyntax014WithStatementsB0P", "statements"]
+- ["11SwiftSyntax014WithStatementsB0P", "withLeftBrace"]
+- ["11SwiftSyntax014WithStatementsB0P", "withRightBrace"]
+- ["11SwiftSyntax014WithStatementsB0P", "withStatements"]
+- ["11SwiftSyntax017WithTrailingCommaB0P", "TokenSyntax"]
+- ["11SwiftSyntax017WithTrailingCommaB0P", ""]
+- ["11SwiftSyntax017WithTrailingCommaB0P", "labelColon"]
+- ["11SwiftSyntax017WithTrailingCommaB0P", "labelName"]
+- ["11SwiftSyntax017WithTrailingCommaB0P", "trailingComma"]
+- ["11SwiftSyntax017WithTrailingCommaB0P", "withLabelColon"]
+- ["11SwiftSyntax017WithTrailingCommaB0P", "withLabelName"]
+- ["11SwiftSyntax017WithTrailingCommaB0P", "withTrailingComma"]
+depends-nominal:
+- "11SwiftSyntax013AccessorBlockB0V"
+- "11SwiftSyntax017AccessorParameterB0V"
+- "11SwiftSyntax012ArrayElementB0V"
+- "11SwiftSyntax018AssociatedtypeDeclB0V"
+- "11SwiftSyntax06BracedB0P"
+- "11SwiftSyntax08CaseItemB0V"
+- "11SwiftSyntax09ClassDeclB0V"
+- "11SwiftSyntax018ClosureCaptureItemB0V"
+- "11SwiftSyntax011ClosureExprB0V"
+- "11SwiftSyntax012ClosureParamB0V"
+- "11SwiftSyntax09CodeBlockB0V"
+- "11SwiftSyntax016ConditionElementB0V"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "11SwiftSyntax09DeclGroupB0P"
+- "11SwiftSyntax017DeclNameArgumentsB0V"
+- "11SwiftSyntax04DeclB8ProtocolP"
+- "11SwiftSyntax09DeferStmtB0V"
+- "11SwiftSyntax017DictionaryElementB0V"
+- "11SwiftSyntax036DifferentiableAttributeFuncSpecifierB0V"
+- "11SwiftSyntax020DifferentiationParamB0V"
+- "11SwiftSyntax06DoStmtB0V"
+- "11SwiftSyntax09ElseBlockB0V"
+- "11SwiftSyntax015EnumCaseElementB0V"
+- "11SwiftSyntax08EnumDeclB0V"
+- "SQ"
+- "11SwiftSyntax04ExprB8ProtocolP"
+- "11SwiftSyntax017ExpressionSegmentB0V"
+- "11SwiftSyntax013ExtensionDeclB0V"
+- "11SwiftSyntax09ForInStmtB0V"
+- "11SwiftSyntax012FunctionDeclB0V"
+- "11SwiftSyntax017FunctionParameterB0V"
+- "11SwiftSyntax012FunctionTypeB0V"
+- "11SwiftSyntax015GenericArgumentB0V"
+- "11SwiftSyntax016GenericParameterB0V"
+- "11SwiftSyntax018GenericRequirementB0V"
+- "11SwiftSyntax09GuardStmtB0V"
+- "SH"
+- "11SwiftSyntax014IdentifiedDeclB0P"
+- "11SwiftSyntax06IfStmtB0V"
+- "11SwiftSyntax013InheritedTypeB0V"
+- "11SwiftSyntax022LabeledSpecializeEntryB0V"
+- "11SwiftSyntax07LabeledB0P"
+- "11SwiftSyntax015MemberDeclBlockB0V"
+- "11SwiftSyntax015ObjcKeyPathExprB0V"
+- "11SwiftSyntax016ObjcSelectorExprB0V"
+- "11SwiftSyntax017ObjectLiteralExprB0V"
+- "11SwiftSyntax012OperatorDeclB0V"
+- "11SwiftSyntax015ParameterClauseB0V"
+- "11SwiftSyntax013ParenthesizedB0P"
+- "11SwiftSyntax014PatternBindingB0V"
+- "11SwiftSyntax07PatternB8ProtocolP"
+- "11SwiftSyntax014PoundErrorDeclB0V"
+- "11SwiftSyntax019PoundSourceLocationB0V"
+- "11SwiftSyntax016PoundWarningDeclB0V"
+- "11SwiftSyntax019PrecedenceGroupDeclB0V"
+- "11SwiftSyntax012ProtocolDeclB0V"
+- "11SwiftSyntax015RepeatWhileStmtB0V"
+- "11SwiftSyntax010SourceFileB0V"
+- "11SwiftSyntax04StmtB8ProtocolP"
+- "11SwiftSyntax010StructDeclB0V"
+- "11SwiftSyntax010SwitchCaseB0V"
+- "11SwiftSyntax010SwitchStmtB0V"
+- !private "11SwiftSyntax0B0V"
+- "11SwiftSyntax0B8HashableP"
+- "11SwiftSyntax0B8ProtocolP"
+- "s20TextOutputStreamableP"
+- "11SwiftSyntax016TupleExprElementB0V"
+- "11SwiftSyntax09TupleExprB0V"
+- "11SwiftSyntax019TuplePatternElementB0V"
+- "11SwiftSyntax012TuplePatternB0V"
+- "11SwiftSyntax016TupleTypeElementB0V"
+- "11SwiftSyntax09TupleTypeB0V"
+- "11SwiftSyntax04TypeB8ProtocolP"
+- "11SwiftSyntax013TypealiasDeclB0V"
+- "11SwiftSyntax09WhileStmtB0V"
+- "11SwiftSyntax013WithCodeBlockB0P"
+- "11SwiftSyntax014WithStatementsB0P"
+- "11SwiftSyntax017WithTrailingCommaB0P"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/_CSwiftSyntax/include/atomic-counter.h"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatConfiguration.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntaxBuilder.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatWhitespaceLinter.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatRules.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormat.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatPrettyPrint.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatTestSupport.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/_CSwiftSyntax.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bb9f7e55bf8953778441471d19afe971"

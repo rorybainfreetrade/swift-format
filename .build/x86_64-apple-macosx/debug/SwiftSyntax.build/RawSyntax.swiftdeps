@@ -1,0 +1,1048 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RawSyntaxDataElement"
+- "RawSyntaxBase"
+- "RawSyntax"
+- "UnsafeTokenText"
+- "UnsafeTriviaPiece"
+provides-nominal:
+- "11SwiftSyntax03RawB4BaseV"
+- "11SwiftSyntax03RawB0C"
+- "11SwiftSyntax15UnsafeTokenTextV"
+- "11SwiftSyntax17UnsafeTriviaPieceV"
+provides-member:
+- ["11SwiftSyntax03RawB4BaseV", ""]
+- ["11SwiftSyntax03RawB0C", ""]
+- ["11SwiftSyntax15UnsafeTokenTextV", ""]
+- ["11SwiftSyntax17UnsafeTriviaPieceV", ""]
+- ["11SwiftSyntax03RawB0C", "moveFromOpaque"]
+- ["11SwiftSyntax03RawB0C", "getFromOpaque"]
+- ["11SwiftSyntax03RawB0C", "firstPresentToken"]
+- ["11SwiftSyntax03RawB0C", "lastPresentToken"]
+- ["11SwiftSyntax03RawB0C", "formLeadingTrivia"]
+- ["11SwiftSyntax03RawB0C", "formTrailingTrivia"]
+- ["11SwiftSyntax03RawB0C", "leadingTriviaLength"]
+- ["11SwiftSyntax03RawB0C", "trailingTriviaLength"]
+- ["11SwiftSyntax03RawB0C", "contentLength"]
+- ["11SwiftSyntax03RawB0C", "tokenContentLength"]
+- ["11SwiftSyntax03RawB0C", "createAndCalcLength"]
+- ["11SwiftSyntax03RawB0C", "createAndCalcLength"]
+provides-dynamic-lookup:
+- "appending"
+- "child"
+- "contentLength"
+- "create"
+- "createAndCalcLength"
+- "description"
+- "firstPresentToken"
+- "formLayoutArray"
+- "formLeadingTrivia"
+- "formTokenKind"
+- "formTokenLeadingTrivia"
+- "formTokenTrailingTrivia"
+- "formTrailingTrivia"
+- "getFromOpaque"
+- "hasChild"
+- "isMissing"
+- "isPresent"
+- "isToken"
+- "kind"
+- "lastPresentToken"
+- "leadingTriviaLength"
+- "missing"
+- "missingToken"
+- "moveFromOpaque"
+- "numberOfChildren"
+- "presence"
+- "replacingChild"
+- "replacingLayout"
+- "subscript"
+- "tokenContentLength"
+- "tokenLeadingTriviaLength"
+- "tokenTrailingTriviaLength"
+- "totalLength"
+- "totalNodes"
+- "trailingTriviaLength"
+- "withLeadingTrivia"
+- "withTrailingTrivia"
+- "withUnsafeLeadingTriviaPiece"
+- "withUnsafeTokenText"
+- "withUnsafeTrailingTriviaPiece"
+- "write"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "..<"
+- !private "<"
+- !private "<="
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CClientNode"
+- "CLayoutData"
+- "CSyntaxNode"
+- "CTokenKind"
+- "CTriviaPiece"
+- !private "CTriviaPiecePtr"
+- "ConstructedLayoutData"
+- "ConstructedTokenData"
+- "CustomStringConvertible"
+- "DataElementPtr"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "LayoutData"
+- "ManagedBuffer"
+- !private "MemoryLayout"
+- "MutableDataElementPtr"
+- !private "OpaquePointer"
+- "RawRepresentable"
+- "RawSyntax"
+- "RawSyntaxBase"
+- "RawSyntaxData"
+- "RawSyntaxDataElement"
+- "RawTokenKind"
+- "SourceLength"
+- "SourcePresence"
+- "String"
+- !private "StringLiteralType"
+- "SyntaxKind"
+- "TernaryPrecedence"
+- "TextOutputStream"
+- "TextOutputStreamable"
+- "TokenData"
+- "TokenKind"
+- "Trivia"
+- !private "TriviaPiece"
+- "TriviaPieceKind"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+- !private "Unmanaged"
+- "UnsafeBufferPointer"
+- "UnsafeMutablePointer"
+- !private "UnsafeMutableRawPointer"
+- "UnsafeParsedTokenData"
+- "UnsafePointer"
+- "UnsafeTokenText"
+- "UnsafeTriviaPiece"
+- !private "assert"
+- !private "castElementAs"
+- !private "emptyStringBuffer"
+- !private "initializeElement"
+- !private "numberOfElements"
+- !private "precondition"
+- !private "readElement"
+- !private "unsafeDowncast"
+- !private "||"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["s18AdditiveArithmeticP", "quotientAndRemainder"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "reserveCapacity"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "enumerated"]
+- !private ["SK", "fromBuffer"]
+- !private ["SK", "index"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "reserveCapacity"]
+- !private ["SK", "reversed"]
+- !private ["SK", "startIndex"]
+- !private ["SK", "subscript"]
+- !private ["SK", "utf8"]
+- !private ["SK", "withUnsafeTriviaPiece"]
+- !private ["Sz", "init"]
+- !private ["Sz", "quotientAndRemainder"]
+- !private ["s7CVarArgP", "advanced"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "deinitialize"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "fromBuffer"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initialize"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "quotientAndRemainder"]
+- !private ["s7CVarArgP", "reserveCapacity"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "successor"]
+- !private ["s7CVarArgP", "utf8"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "enumerated"]
+- !private ["Sl", "fromBuffer"]
+- !private ["Sl", "index"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "reserveCapacity"]
+- !private ["Sl", "reversed"]
+- !private ["Sl", "sourceLength"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "utf8"]
+- !private ["Sl", "withUnsafeTriviaPiece"]
+- !private ["SL", "advanced"]
+- !private ["SL", "assumingMemoryBound"]
+- !private ["SL", "deinitialize"]
+- !private ["SL", "fromBuffer"]
+- !private ["SL", "init"]
+- !private ["SL", "initialize"]
+- !private ["SL", "pointee"]
+- !private ["SL", "quotientAndRemainder"]
+- !private ["SL", "subscript"]
+- !private ["SL", "successor"]
+- !private ["SL", "utf8"]
+- !private ["SL", "utf8Length"]
+- !private ["SL", "zero"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "enumerated"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "reserveCapacity"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "withUnsafeTriviaPiece"]
+- !private ["s28CustomDebugStringConvertibleP", "advanced"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "assumingMemoryBound"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "deinitialize"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "fromBuffer"]
+- !private ["s28CustomDebugStringConvertibleP", "fromRawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "getFromOpaque"]
+- !private ["s28CustomDebugStringConvertibleP", "hasText"]
+- !private ["s28CustomDebugStringConvertibleP", "index"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initialize"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "reserveCapacity"]
+- !private ["s28CustomDebugStringConvertibleP", "reversed"]
+- !private ["s28CustomDebugStringConvertibleP", "startIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "successor"]
+- !private ["s28CustomDebugStringConvertibleP", "utf8"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeTriviaPiece"]
+- !private ["s28CustomDebugStringConvertibleP", "write"]
+- !private ["s17CustomReflectableP", "advanced"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "assumingMemoryBound"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "deinitialize"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "fromBuffer"]
+- !private ["s17CustomReflectableP", "getFromOpaque"]
+- !private ["s17CustomReflectableP", "index"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "initialize"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "quotientAndRemainder"]
+- !private ["s17CustomReflectableP", "reserveCapacity"]
+- !private ["s17CustomReflectableP", "reversed"]
+- !private ["s17CustomReflectableP", "startIndex"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "successor"]
+- !private ["s17CustomReflectableP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "ConstructedLayoutData"]
+- !private ["s23CustomStringConvertibleP", "ConstructedTokenData"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "LayoutData"]
+- !private ["s23CustomStringConvertibleP", "RawSyntax"]
+- !private ["s23CustomStringConvertibleP", "RawSyntaxBase"]
+- !private ["s23CustomStringConvertibleP", "SourceLength"]
+- !private ["s23CustomStringConvertibleP", "SyntaxKind"]
+- !private ["s23CustomStringConvertibleP", "TokenData"]
+- !private ["s23CustomStringConvertibleP", "Unmanaged"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "child"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "create"]
+- !private ["s23CustomStringConvertibleP", "createAndCalcLength"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "firstPresentToken"]
+- !private ["s23CustomStringConvertibleP", "formLayoutArray"]
+- !private ["s23CustomStringConvertibleP", "formLeadingTrivia"]
+- !private ["s23CustomStringConvertibleP", "formTokenKind"]
+- !private ["s23CustomStringConvertibleP", "formTokenLeadingTrivia"]
+- !private ["s23CustomStringConvertibleP", "formTokenTrailingTrivia"]
+- !private ["s23CustomStringConvertibleP", "formTrailingTrivia"]
+- !private ["s23CustomStringConvertibleP", "fromBuffer"]
+- !private ["s23CustomStringConvertibleP", "getFromOpaque"]
+- !private ["s23CustomStringConvertibleP", "header"]
+- !private ["s23CustomStringConvertibleP", "index"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isPresent"]
+- !private ["s23CustomStringConvertibleP", "isToken"]
+- !private ["s23CustomStringConvertibleP", "kind"]
+- !private ["s23CustomStringConvertibleP", "lastPresentToken"]
+- !private ["s23CustomStringConvertibleP", "leadingTriviaLength"]
+- !private ["s23CustomStringConvertibleP", "moveFromOpaque"]
+- !private ["s23CustomStringConvertibleP", "numberOfChildren"]
+- !private ["s23CustomStringConvertibleP", "precondition"]
+- !private ["s23CustomStringConvertibleP", "presence"]
+- !private ["s23CustomStringConvertibleP", "quotientAndRemainder"]
+- !private ["s23CustomStringConvertibleP", "replacingLayout"]
+- !private ["s23CustomStringConvertibleP", "reserveCapacity"]
+- !private ["s23CustomStringConvertibleP", "reversed"]
+- !private ["s23CustomStringConvertibleP", "startIndex"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "tokenLeadingTriviaLength"]
+- !private ["s23CustomStringConvertibleP", "tokenTrailingTriviaLength"]
+- !private ["s23CustomStringConvertibleP", "totalLength"]
+- !private ["s23CustomStringConvertibleP", "totalNodes"]
+- !private ["s23CustomStringConvertibleP", "trailingTriviaLength"]
+- !private ["s23CustomStringConvertibleP", "unsafeDowncast"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "withLeadingTrivia"]
+- !private ["s23CustomStringConvertibleP", "withTrailingTrivia"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeMutablePointerToElements"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeMutablePointers"]
+- ["s23CustomStringConvertibleP", "write"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "enumerated"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["10Foundation12DataProtocolP", "reserveCapacity"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "withUnsafeTriviaPiece"]
+- !private ["Se", "append"]
+- !private ["Se", "assumingMemoryBound"]
+- !private ["Se", "count"]
+- !private ["Se", "enumerated"]
+- !private ["Se", "fromBuffer"]
+- !private ["Se", "getFromOpaque"]
+- !private ["Se", "init"]
+- !private ["Se", "quotientAndRemainder"]
+- !private ["Se", "reserveCapacity"]
+- !private ["Se", "reversed"]
+- !private ["Se", "subscript"]
+- !private ["Se", "utf8"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "append"]
+- !private ["SE", "assumingMemoryBound"]
+- !private ["SE", "count"]
+- !private ["SE", "enumerated"]
+- !private ["SE", "fromBuffer"]
+- !private ["SE", "getFromOpaque"]
+- !private ["SE", "init"]
+- !private ["SE", "quotientAndRemainder"]
+- !private ["SE", "reserveCapacity"]
+- !private ["SE", "reversed"]
+- !private ["SE", "subscript"]
+- !private ["SE", "utf8"]
+- !private ["s18EnumeratedSequenceV", "reversed"]
+- !private ["SQ", "advanced"]
+- !private ["SQ", "append"]
+- !private ["SQ", "assumingMemoryBound"]
+- !private ["SQ", "count"]
+- !private ["SQ", "deinitialize"]
+- !private ["SQ", "enumerated"]
+- !private ["SQ", "fromBuffer"]
+- !private ["SQ", "fromRawValue"]
+- !private ["SQ", "getFromOpaque"]
+- !private ["SQ", "hasText"]
+- !private ["SQ", "init"]
+- !private ["SQ", "initialize"]
+- ["SQ", "missing"]
+- !private ["SQ", "pointee"]
+- !private ["SQ", "present"]
+- !private ["SQ", "quotientAndRemainder"]
+- !private ["SQ", "reserveCapacity"]
+- !private ["SQ", "reversed"]
+- !private ["SQ", "sourceLength"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "successor"]
+- !private ["SQ", "text"]
+- !private ["SQ", "token"]
+- !private ["SQ", "utf8"]
+- !private ["SQ", "utf8Length"]
+- !private ["SQ", "withUnsafeTokenText"]
+- !private ["SQ", "withUnsafeTriviaPiece"]
+- !private ["SQ", "write"]
+- !private ["SQ", "zero"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "reserveCapacity"]
+- !private ["s25ExpressibleByArrayLiteralP", "sourceLength"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "fromBuffer"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "quotientAndRemainder"]
+- !private ["s23ExpressibleByNilLiteralP", "assumingMemoryBound"]
+- !private ["s23ExpressibleByNilLiteralP", "getFromOpaque"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "fromBuffer"]
+- !private ["s32ExpressibleByStringInterpolationP", "utf8"]
+- !private ["s26ExpressibleByStringLiteralP", "fromBuffer"]
+- !private ["s26ExpressibleByStringLiteralP", "utf8"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "fromBuffer"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf8"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "quotientAndRemainder"]
+- !private ["SH", "advanced"]
+- !private ["SH", "append"]
+- !private ["SH", "assumingMemoryBound"]
+- !private ["SH", "count"]
+- !private ["SH", "deinitialize"]
+- !private ["SH", "enumerated"]
+- !private ["SH", "fromBuffer"]
+- !private ["SH", "fromRawValue"]
+- !private ["SH", "getFromOpaque"]
+- !private ["SH", "init"]
+- !private ["SH", "initialize"]
+- ["SH", "missing"]
+- !private ["SH", "pointee"]
+- !private ["SH", "present"]
+- !private ["SH", "quotientAndRemainder"]
+- !private ["SH", "reserveCapacity"]
+- !private ["SH", "reversed"]
+- !private ["SH", "subscript"]
+- !private ["SH", "successor"]
+- !private ["SH", "token"]
+- !private ["SH", "utf8"]
+- !private ["Si", "init"]
+- !private ["Si", "quotientAndRemainder"]
+- !private ["s20LazySequenceProtocolP", "withUnsafeTriviaPiece"]
+- !private ["s25LosslessStringConvertibleP", "fromBuffer"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "quotientAndRemainder"]
+- !private ["s25LosslessStringConvertibleP", "utf8"]
+- ["s13ManagedBufferC", "Bool"]
+- ["s13ManagedBufferC", "CClientNode"]
+- ["s13ManagedBufferC", "CSyntaxNode"]
+- !private ["s13ManagedBufferC", "ConstructedLayoutData"]
+- !private ["s13ManagedBufferC", "ConstructedTokenData"]
+- ["s13ManagedBufferC", "Int"]
+- !private ["s13ManagedBufferC", "LayoutData"]
+- ["s13ManagedBufferC", "RawRepresentable"]
+- ["s13ManagedBufferC", "RawSyntax"]
+- !private ["s13ManagedBufferC", "RawSyntaxBase"]
+- !private ["s13ManagedBufferC", "RawSyntaxData"]
+- ["s13ManagedBufferC", "SourceLength"]
+- ["s13ManagedBufferC", "SourcePresence"]
+- ["s13ManagedBufferC", "String"]
+- ["s13ManagedBufferC", "SyntaxKind"]
+- ["s13ManagedBufferC", "TextOutputStream"]
+- !private ["s13ManagedBufferC", "TokenData"]
+- ["s13ManagedBufferC", "TokenKind"]
+- ["s13ManagedBufferC", "Trivia"]
+- !private ["s13ManagedBufferC", "Unmanaged"]
+- ["s13ManagedBufferC", "UnsafePointer"]
+- ["s13ManagedBufferC", "UnsafeTokenText"]
+- ["s13ManagedBufferC", "UnsafeTriviaPiece"]
+- ["s13ManagedBufferC", ""]
+- ["s13ManagedBufferC", "appending"]
+- ["s13ManagedBufferC", "child"]
+- ["s13ManagedBufferC", "contentLength"]
+- ["s13ManagedBufferC", "create"]
+- ["s13ManagedBufferC", "createAndCalcLength"]
+- ["s13ManagedBufferC", "description"]
+- ["s13ManagedBufferC", "firstPresentToken"]
+- ["s13ManagedBufferC", "formLayoutArray"]
+- ["s13ManagedBufferC", "formLeadingTrivia"]
+- ["s13ManagedBufferC", "formTokenKind"]
+- ["s13ManagedBufferC", "formTokenLeadingTrivia"]
+- ["s13ManagedBufferC", "formTokenTrailingTrivia"]
+- ["s13ManagedBufferC", "formTrailingTrivia"]
+- ["s13ManagedBufferC", "getFromOpaque"]
+- ["s13ManagedBufferC", "hasChild"]
+- !private ["s13ManagedBufferC", "header"]
+- ["s13ManagedBufferC", "init"]
+- ["s13ManagedBufferC", "isMissing"]
+- ["s13ManagedBufferC", "isPresent"]
+- ["s13ManagedBufferC", "isToken"]
+- ["s13ManagedBufferC", "kind"]
+- ["s13ManagedBufferC", "lastPresentToken"]
+- ["s13ManagedBufferC", "leadingTriviaLength"]
+- ["s13ManagedBufferC", "missing"]
+- ["s13ManagedBufferC", "missingToken"]
+- ["s13ManagedBufferC", "moveFromOpaque"]
+- ["s13ManagedBufferC", "numberOfChildren"]
+- !private ["s13ManagedBufferC", "precondition"]
+- ["s13ManagedBufferC", "presence"]
+- ["s13ManagedBufferC", "replacingChild"]
+- ["s13ManagedBufferC", "replacingLayout"]
+- ["s13ManagedBufferC", "subscript"]
+- ["s13ManagedBufferC", "tokenContentLength"]
+- ["s13ManagedBufferC", "tokenLeadingTriviaLength"]
+- ["s13ManagedBufferC", "tokenTrailingTriviaLength"]
+- ["s13ManagedBufferC", "totalLength"]
+- ["s13ManagedBufferC", "totalNodes"]
+- ["s13ManagedBufferC", "trailingTriviaLength"]
+- !private ["s13ManagedBufferC", "unsafeDowncast"]
+- ["s13ManagedBufferC", "withLeadingTrivia"]
+- ["s13ManagedBufferC", "withTrailingTrivia"]
+- ["s13ManagedBufferC", "withUnsafeLeadingTriviaPiece"]
+- !private ["s13ManagedBufferC", "withUnsafeMutablePointerToElements"]
+- !private ["s13ManagedBufferC", "withUnsafeMutablePointers"]
+- ["s13ManagedBufferC", "withUnsafeTokenText"]
+- ["s13ManagedBufferC", "withUnsafeTrailingTriviaPiece"]
+- ["s13ManagedBufferC", "write"]
+- !private ["s12MemoryLayoutO", "alignment"]
+- !private ["s12MemoryLayoutO", "size"]
+- !private ["s12MemoryLayoutO", "stride"]
+- !private ["s10MirrorPathP", "fromBuffer"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "quotientAndRemainder"]
+- !private ["s10MirrorPathP", "utf8"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "enumerated"]
+- !private ["SM", "reserveCapacity"]
+- !private ["SM", "subscript"]
+- !private ["SM", "withUnsafeTriviaPiece"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "enumerated"]
+- !private ["10Foundation19MutableDataProtocolP", "reserveCapacity"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "utf8"]
+- !private ["So9NSCopyingP", "utf8"]
+- !private ["So21NSItemProviderReadingP", "utf8"]
+- !private ["So21NSItemProviderWritingP", "utf8"]
+- !private ["So16NSMutableCopyingP", "utf8"]
+- !private ["So8NSObjectC", "utf8"]
+- !private ["So8NSObjectP", "utf8"]
+- !private ["So14NSSecureCodingP", "utf8"]
+- !private ["So8NSStringC", "utf8"]
+- !private ["Sj", "init"]
+- !private ["Sj", "quotientAndRemainder"]
+- !private ["s13OpaquePointerV", "init"]
+- !private ["Sq", "assumingMemoryBound"]
+- !private ["Sq", "getFromOpaque"]
+- !private ["Sq", "init"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "enumerated"]
+- !private ["Sk", "init"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "reserveCapacity"]
+- !private ["Sk", "reversed"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "withUnsafeTriviaPiece"]
+- !private ["Sn", "reversed"]
+- !private ["SX", "reversed"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "enumerated"]
+- !private ["Sm", "fromBuffer"]
+- !private ["Sm", "reserveCapacity"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "utf8"]
+- !private ["Sm", "withUnsafeTriviaPiece"]
+- !private ["SY", "fromRawValue"]
+- ["SY", "missing"]
+- !private ["SY", "present"]
+- !private ["SY", "rawValue"]
+- !private ["SY", "token"]
+- ["11SwiftSyntax03RawB0C", "Bool"]
+- ["11SwiftSyntax03RawB0C", "CClientNode"]
+- ["11SwiftSyntax03RawB0C", "CSyntaxNode"]
+- !private ["11SwiftSyntax03RawB0C", "ConstructedLayoutData"]
+- !private ["11SwiftSyntax03RawB0C", "ConstructedTokenData"]
+- ["11SwiftSyntax03RawB0C", "Int"]
+- !private ["11SwiftSyntax03RawB0C", "LayoutData"]
+- ["11SwiftSyntax03RawB0C", "RawRepresentable"]
+- ["11SwiftSyntax03RawB0C", "RawSyntax"]
+- !private ["11SwiftSyntax03RawB0C", "RawSyntaxBase"]
+- !private ["11SwiftSyntax03RawB0C", "RawSyntaxData"]
+- ["11SwiftSyntax03RawB0C", "SourceLength"]
+- ["11SwiftSyntax03RawB0C", "SourcePresence"]
+- ["11SwiftSyntax03RawB0C", "String"]
+- ["11SwiftSyntax03RawB0C", "SyntaxKind"]
+- ["11SwiftSyntax03RawB0C", "TextOutputStream"]
+- !private ["11SwiftSyntax03RawB0C", "TokenData"]
+- ["11SwiftSyntax03RawB0C", "TokenKind"]
+- ["11SwiftSyntax03RawB0C", "Trivia"]
+- !private ["11SwiftSyntax03RawB0C", "Unmanaged"]
+- ["11SwiftSyntax03RawB0C", "UnsafePointer"]
+- ["11SwiftSyntax03RawB0C", "UnsafeTokenText"]
+- ["11SwiftSyntax03RawB0C", "UnsafeTriviaPiece"]
+- ["11SwiftSyntax03RawB0C", "appending"]
+- ["11SwiftSyntax03RawB0C", "child"]
+- ["11SwiftSyntax03RawB0C", "contentLength"]
+- ["11SwiftSyntax03RawB0C", "create"]
+- ["11SwiftSyntax03RawB0C", "createAndCalcLength"]
+- ["11SwiftSyntax03RawB0C", "deinit"]
+- ["11SwiftSyntax03RawB0C", "description"]
+- ["11SwiftSyntax03RawB0C", "firstPresentToken"]
+- ["11SwiftSyntax03RawB0C", "formLayoutArray"]
+- ["11SwiftSyntax03RawB0C", "formLeadingTrivia"]
+- ["11SwiftSyntax03RawB0C", "formTokenKind"]
+- ["11SwiftSyntax03RawB0C", "formTokenLeadingTrivia"]
+- ["11SwiftSyntax03RawB0C", "formTokenTrailingTrivia"]
+- ["11SwiftSyntax03RawB0C", "formTrailingTrivia"]
+- ["11SwiftSyntax03RawB0C", "getFromOpaque"]
+- ["11SwiftSyntax03RawB0C", "hasChild"]
+- !private ["11SwiftSyntax03RawB0C", "header"]
+- ["11SwiftSyntax03RawB0C", "isMissing"]
+- ["11SwiftSyntax03RawB0C", "isPresent"]
+- ["11SwiftSyntax03RawB0C", "isToken"]
+- ["11SwiftSyntax03RawB0C", "kind"]
+- ["11SwiftSyntax03RawB0C", "lastPresentToken"]
+- ["11SwiftSyntax03RawB0C", "leadingTriviaLength"]
+- ["11SwiftSyntax03RawB0C", "missing"]
+- ["11SwiftSyntax03RawB0C", "missingToken"]
+- ["11SwiftSyntax03RawB0C", "moveFromOpaque"]
+- ["11SwiftSyntax03RawB0C", "numberOfChildren"]
+- !private ["11SwiftSyntax03RawB0C", "precondition"]
+- ["11SwiftSyntax03RawB0C", "presence"]
+- ["11SwiftSyntax03RawB0C", "replacingChild"]
+- ["11SwiftSyntax03RawB0C", "replacingLayout"]
+- ["11SwiftSyntax03RawB0C", "subscript"]
+- ["11SwiftSyntax03RawB0C", "tokenContentLength"]
+- ["11SwiftSyntax03RawB0C", "tokenLeadingTriviaLength"]
+- ["11SwiftSyntax03RawB0C", "tokenTrailingTriviaLength"]
+- ["11SwiftSyntax03RawB0C", "totalLength"]
+- ["11SwiftSyntax03RawB0C", "totalNodes"]
+- ["11SwiftSyntax03RawB0C", "trailingTriviaLength"]
+- !private ["11SwiftSyntax03RawB0C", "unsafeDowncast"]
+- ["11SwiftSyntax03RawB0C", "withLeadingTrivia"]
+- ["11SwiftSyntax03RawB0C", "withTrailingTrivia"]
+- ["11SwiftSyntax03RawB0C", "withUnsafeLeadingTriviaPiece"]
+- !private ["11SwiftSyntax03RawB0C", "withUnsafeMutablePointerToElements"]
+- !private ["11SwiftSyntax03RawB0C", "withUnsafeMutablePointers"]
+- ["11SwiftSyntax03RawB0C", "withUnsafeTokenText"]
+- ["11SwiftSyntax03RawB0C", "withUnsafeTrailingTriviaPiece"]
+- ["11SwiftSyntax03RawB0C", "write"]
+- ["11SwiftSyntax03RawB4BaseV", "Bool"]
+- ["11SwiftSyntax03RawB4BaseV", "DataElementPtr"]
+- ["11SwiftSyntax03RawB4BaseV", "Int"]
+- ["11SwiftSyntax03RawB4BaseV", "MutableDataElementPtr"]
+- ["11SwiftSyntax03RawB4BaseV", "RawSyntax"]
+- ["11SwiftSyntax03RawB4BaseV", "RawSyntaxData"]
+- ["11SwiftSyntax03RawB4BaseV", "SourceLength"]
+- ["11SwiftSyntax03RawB4BaseV", "SyntaxKind"]
+- ["11SwiftSyntax03RawB4BaseV", "TextOutputStream"]
+- ["11SwiftSyntax03RawB4BaseV", "TokenKind"]
+- ["11SwiftSyntax03RawB4BaseV", "Trivia"]
+- ["11SwiftSyntax03RawB4BaseV", "UInt32"]
+- ["11SwiftSyntax03RawB4BaseV", "UnsafeTokenText"]
+- ["11SwiftSyntax03RawB4BaseV", "UnsafeTriviaPiece"]
+- !private ["11SwiftSyntax03RawB4BaseV", "byteLength"]
+- !private ["11SwiftSyntax03RawB4BaseV", "child"]
+- !private ["11SwiftSyntax03RawB4BaseV", "data"]
+- !private ["11SwiftSyntax03RawB4BaseV", "deinitialize"]
+- !private ["11SwiftSyntax03RawB4BaseV", "formLayoutArray"]
+- !private ["11SwiftSyntax03RawB4BaseV", "formTokenKind"]
+- !private ["11SwiftSyntax03RawB4BaseV", "formTokenLeadingTrivia"]
+- !private ["11SwiftSyntax03RawB4BaseV", "formTokenTrailingTrivia"]
+- !private ["11SwiftSyntax03RawB4BaseV", "getTokenLeadingTriviaLength"]
+- !private ["11SwiftSyntax03RawB4BaseV", "getTokenTrailingTriviaLength"]
+- !private ["11SwiftSyntax03RawB4BaseV", "hasChild"]
+- !private ["11SwiftSyntax03RawB4BaseV", "init"]
+- !private ["11SwiftSyntax03RawB4BaseV", "isPresent"]
+- !private ["11SwiftSyntax03RawB4BaseV", "isToken"]
+- !private ["11SwiftSyntax03RawB4BaseV", "kind"]
+- !private ["11SwiftSyntax03RawB4BaseV", "numberOfChildren"]
+- !private ["11SwiftSyntax03RawB4BaseV", "totalNodes"]
+- !private ["11SwiftSyntax03RawB4BaseV", "withUnsafeLeadingTriviaPiece"]
+- !private ["11SwiftSyntax03RawB4BaseV", "withUnsafeTokenText"]
+- !private ["11SwiftSyntax03RawB4BaseV", "withUnsafeTrailingTriviaPiece"]
+- !private ["11SwiftSyntax03RawB4BaseV", "writeToken"]
+- !private ["11SwiftSyntax12RawTokenKindO", "fromRawValue"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s10SIMDScalarP", "quotientAndRemainder"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "enumerated"]
+- !private ["ST", "fromBuffer"]
+- !private ["ST", "index"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "reserveCapacity"]
+- !private ["ST", "reversed"]
+- !private ["ST", "sourceLength"]
+- !private ["ST", "startIndex"]
+- !private ["ST", "subscript"]
+- !private ["ST", "utf8"]
+- !private ["ST", "withUnsafeTriviaPiece"]
+- !private ["SZ", "init"]
+- !private ["SZ", "quotientAndRemainder"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "quotientAndRemainder"]
+- !private ["s5SliceV", "withUnsafeTriviaPiece"]
+- !private ["11SwiftSyntax12SourceLengthV", "init"]
+- !private ["11SwiftSyntax12SourceLengthV", "utf8Length"]
+- !private ["11SwiftSyntax12SourceLengthV", "zero"]
+- !private ["11SwiftSyntax14SourcePresenceO", "deinit"]
+- ["11SwiftSyntax14SourcePresenceO", "missing"]
+- !private ["11SwiftSyntax14SourcePresenceO", "present"]
+- !private ["Sx", "advanced"]
+- !private ["Sx", "assumingMemoryBound"]
+- !private ["Sx", "deinitialize"]
+- !private ["Sx", "init"]
+- !private ["Sx", "initialize"]
+- !private ["Sx", "pointee"]
+- !private ["Sx", "quotientAndRemainder"]
+- !private ["Sx", "subscript"]
+- !private ["Sx", "successor"]
+- !private ["SS", "fromBuffer"]
+- !private ["SS", "utf8"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "fromBuffer"]
+- !private ["Sy", "utf8"]
+- !private ["11SwiftSyntax0B4KindO", "deinit"]
+- !private ["11SwiftSyntax0B4KindO", "fromRawValue"]
+- !private ["11SwiftSyntax0B4KindO", "token"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "fromBuffer"]
+- !private ["s16TextOutputStreamP", "utf8"]
+- !private ["s16TextOutputStreamP", "write"]
+- !private ["s20TextOutputStreamableP", "ConstructedLayoutData"]
+- !private ["s20TextOutputStreamableP", "ConstructedTokenData"]
+- !private ["s20TextOutputStreamableP", "Int"]
+- !private ["s20TextOutputStreamableP", "LayoutData"]
+- !private ["s20TextOutputStreamableP", "RawSyntax"]
+- !private ["s20TextOutputStreamableP", "RawSyntaxBase"]
+- !private ["s20TextOutputStreamableP", "SourceLength"]
+- !private ["s20TextOutputStreamableP", "SyntaxKind"]
+- !private ["s20TextOutputStreamableP", "TokenData"]
+- !private ["s20TextOutputStreamableP", "Unmanaged"]
+- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "child"]
+- !private ["s20TextOutputStreamableP", "create"]
+- !private ["s20TextOutputStreamableP", "createAndCalcLength"]
+- ["s20TextOutputStreamableP", "description"]
+- !private ["s20TextOutputStreamableP", "firstPresentToken"]
+- !private ["s20TextOutputStreamableP", "formLayoutArray"]
+- !private ["s20TextOutputStreamableP", "formLeadingTrivia"]
+- !private ["s20TextOutputStreamableP", "formTokenKind"]
+- !private ["s20TextOutputStreamableP", "formTokenLeadingTrivia"]
+- !private ["s20TextOutputStreamableP", "formTokenTrailingTrivia"]
+- !private ["s20TextOutputStreamableP", "formTrailingTrivia"]
+- !private ["s20TextOutputStreamableP", "fromBuffer"]
+- !private ["s20TextOutputStreamableP", "fromRawValue"]
+- !private ["s20TextOutputStreamableP", "getFromOpaque"]
+- !private ["s20TextOutputStreamableP", "hasText"]
+- !private ["s20TextOutputStreamableP", "header"]
+- !private ["s20TextOutputStreamableP", "isPresent"]
+- !private ["s20TextOutputStreamableP", "isToken"]
+- !private ["s20TextOutputStreamableP", "kind"]
+- !private ["s20TextOutputStreamableP", "lastPresentToken"]
+- !private ["s20TextOutputStreamableP", "leadingTriviaLength"]
+- !private ["s20TextOutputStreamableP", "moveFromOpaque"]
+- !private ["s20TextOutputStreamableP", "numberOfChildren"]
+- !private ["s20TextOutputStreamableP", "precondition"]
+- !private ["s20TextOutputStreamableP", "presence"]
+- !private ["s20TextOutputStreamableP", "replacingLayout"]
+- !private ["s20TextOutputStreamableP", "tokenLeadingTriviaLength"]
+- !private ["s20TextOutputStreamableP", "tokenTrailingTriviaLength"]
+- !private ["s20TextOutputStreamableP", "totalLength"]
+- !private ["s20TextOutputStreamableP", "totalNodes"]
+- !private ["s20TextOutputStreamableP", "trailingTriviaLength"]
+- !private ["s20TextOutputStreamableP", "unsafeDowncast"]
+- !private ["s20TextOutputStreamableP", "utf8"]
+- !private ["s20TextOutputStreamableP", "withLeadingTrivia"]
+- !private ["s20TextOutputStreamableP", "withTrailingTrivia"]
+- !private ["s20TextOutputStreamableP", "withUnsafeMutablePointerToElements"]
+- !private ["s20TextOutputStreamableP", "withUnsafeMutablePointers"]
+- !private ["s20TextOutputStreamableP", "withUnsafeTriviaPiece"]
+- ["s20TextOutputStreamableP", "write"]
+- !private ["11SwiftSyntax9TokenKindO", "fromRawValue"]
+- !private ["11SwiftSyntax9TokenKindO", "hasText"]
+- !private ["11SwiftSyntax9TokenKindO", "sourceLength"]
+- !private ["11SwiftSyntax9TokenKindO", "text"]
+- !private ["11SwiftSyntax9TokenKindO", "withUnsafeTokenText"]
+- !private ["11SwiftSyntax6TriviaV", "count"]
+- !private ["11SwiftSyntax6TriviaV", "deinit"]
+- !private ["11SwiftSyntax6TriviaV", "init"]
+- !private ["11SwiftSyntax6TriviaV", "sourceLength"]
+- !private ["11SwiftSyntax6TriviaV", "subscript"]
+- !private ["11SwiftSyntax11TriviaPieceO", "deinit"]
+- !private ["11SwiftSyntax11TriviaPieceO", "fromRawValue"]
+- !private ["11SwiftSyntax11TriviaPieceO", "hasText"]
+- !private ["11SwiftSyntax11TriviaPieceO", "withUnsafeTriviaPiece"]
+- !private ["11SwiftSyntax11TriviaPieceO", "write"]
+- !private ["11SwiftSyntax15TriviaPieceKindO", "fromRawValue"]
+- !private ["s6UInt16V", "init"]
+- !private ["s6UInt32V", "init"]
+- !private ["SS8UTF8ViewV", "index"]
+- !private ["SS8UTF8ViewV", "startIndex"]
+- !private ["SS8UTF8ViewV", "subscript"]
+- !private ["s9UnmanagedV", "fromOpaque"]
+- !private ["s9UnmanagedV", "takeRetainedValue"]
+- !private ["s9UnmanagedV", "takeUnretainedValue"]
+- !private ["SR", "count"]
+- !private ["SR", "init"]
+- !private ["SR", "isEmpty"]
+- !private ["SR", "subscript"]
+- !private ["Sp", "advanced"]
+- !private ["Sp", "deinitialize"]
+- !private ["Sp", "initialize"]
+- !private ["Sp", "pointee"]
+- !private ["Sp", "successor"]
+- !private ["Sv", "assumingMemoryBound"]
+- !private ["Sv", "init"]
+- !private ["SP", "advanced"]
+- !private ["SP", "init"]
+- !private ["SP", "initialize"]
+- !private ["SP", "pointee"]
+- !private ["SP", "subscript"]
+- ["11SwiftSyntax15UnsafeTokenTextV", "Int"]
+- ["11SwiftSyntax15UnsafeTokenTextV", "RawTokenKind"]
+- ["11SwiftSyntax15UnsafeTokenTextV", "UInt8"]
+- ["11SwiftSyntax15UnsafeTokenTextV", "UnsafeBufferPointer"]
+- ["11SwiftSyntax15UnsafeTokenTextV", "customText"]
+- ["11SwiftSyntax15UnsafeTokenTextV", "init"]
+- ["11SwiftSyntax15UnsafeTokenTextV", "kind"]
+- ["11SwiftSyntax15UnsafeTokenTextV", "length"]
+- ["11SwiftSyntax17UnsafeTriviaPieceV", "CTriviaPiece"]
+- ["11SwiftSyntax17UnsafeTriviaPieceV", "Int"]
+- ["11SwiftSyntax17UnsafeTriviaPieceV", "TriviaPieceKind"]
+- ["11SwiftSyntax17UnsafeTriviaPieceV", "UInt8"]
+- ["11SwiftSyntax17UnsafeTriviaPieceV", "UnsafeBufferPointer"]
+- ["11SwiftSyntax17UnsafeTriviaPieceV", "UnsafeTriviaPiece"]
+- ["11SwiftSyntax17UnsafeTriviaPieceV", "customText"]
+- ["11SwiftSyntax17UnsafeTriviaPieceV", "fromRawValue"]
+- ["11SwiftSyntax17UnsafeTriviaPieceV", "init"]
+- ["11SwiftSyntax17UnsafeTriviaPieceV", "kind"]
+- ["11SwiftSyntax17UnsafeTriviaPieceV", "length"]
+- !private ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "reserveCapacity"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "advanced"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "assumingMemoryBound"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "deinitialize"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "fromBuffer"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "index"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "initialize"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "quotientAndRemainder"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "startIndex"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "successor"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "utf8"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "reserveCapacity"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "fromBuffer"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "quotientAndRemainder"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "fromBuffer"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "utf8"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "fromBuffer"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "enumerated"]
+- !private ["s19_HasContiguousBytesP", "fromBuffer"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "reserveCapacity"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "utf8"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "enumerated"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "quotientAndRemainder"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reserveCapacity"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "utf8"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "utf8"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "utf8"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "assumingMemoryBound"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "fromBuffer"]
+- !private ["s21_ObjectiveCBridgeableP", "getFromOpaque"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "quotientAndRemainder"]
+- !private ["s21_ObjectiveCBridgeableP", "reserveCapacity"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "utf8"]
+- !private ["s8_PointerP", "advanced"]
+- !private ["s8_PointerP", "assumingMemoryBound"]
+- !private ["s8_PointerP", "deinitialize"]
+- !private ["s8_PointerP", "init"]
+- !private ["s8_PointerP", "initialize"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s8_PointerP", "subscript"]
+- !private ["s8_PointerP", "successor"]
+- !private ["s14_StringElementP", "init"]
+- !private ["So24swiftparse_layout_data_ta", "nodes"]
+- !private ["So24swiftparse_layout_data_ta", "nodes_count"]
+- !private ["So18swiftparse_range_ta", "length"]
+- !private ["So18swiftparse_range_ta", "offset"]
+- !private ["So24swiftparse_syntax_node_ta", "kind"]
+- !private ["So24swiftparse_syntax_node_ta", "layout_data"]
+- !private ["So24swiftparse_syntax_node_ta", "present"]
+- !private ["So24swiftparse_syntax_node_ta", "range"]
+- !private ["So24swiftparse_syntax_node_ta", "token_data"]
+- !private ["So23swiftparse_token_data_ta", "kind"]
+- !private ["So23swiftparse_token_data_ta", "leading_trivia"]
+- !private ["So23swiftparse_token_data_ta", "leading_trivia_count"]
+- !private ["So23swiftparse_token_data_ta", "trailing_trivia"]
+- !private ["So23swiftparse_token_data_ta", "trailing_trivia_count"]
+- !private ["So25swiftparse_trivia_piece_ta", "kind"]
+- !private ["So25swiftparse_trivia_piece_ta", "length"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- !private "s18EnumeratedSequenceV"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "Si"
+- !private "s20LazySequenceProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- "s13ManagedBufferC"
+- !private "s12MemoryLayoutO"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "s13OpaquePointerV"
+- !private "Sq"
+- !private "Sk"
+- !private "Sn"
+- !private "SX"
+- !private "Sm"
+- "SY"
+- "11SwiftSyntax03RawB0C"
+- "11SwiftSyntax03RawB4BaseV"
+- !private "11SwiftSyntax12RawTokenKindO"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "s5SliceV"
+- !private "11SwiftSyntax12SourceLengthV"
+- "11SwiftSyntax14SourcePresenceO"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "11SwiftSyntax0B4KindO"
+- !private "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "11SwiftSyntax9TokenKindO"
+- !private "11SwiftSyntax6TriviaV"
+- !private "11SwiftSyntax11TriviaPieceO"
+- !private "11SwiftSyntax15TriviaPieceKindO"
+- !private "s6UInt16V"
+- !private "s6UInt32V"
+- !private "SS8UTF8ViewV"
+- !private "s9UnmanagedV"
+- !private "SR"
+- !private "Sp"
+- !private "Sv"
+- !private "SP"
+- "11SwiftSyntax15UnsafeTokenTextV"
+- "11SwiftSyntax17UnsafeTriviaPieceV"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s14_StringElementP"
+- !private "So24swiftparse_layout_data_ta"
+- !private "So18swiftparse_range_ta"
+- !private "So24swiftparse_syntax_node_ta"
+- !private "So23swiftparse_token_data_ta"
+- !private "So25swiftparse_trivia_piece_ta"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/_CSwiftSyntax/include/atomic-counter.h"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatConfiguration.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntaxBuilder.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatWhitespaceLinter.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatRules.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormat.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatPrettyPrint.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatTestSupport.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/_CSwiftSyntax.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "802e936e690bd07f15b848abc12fa4bf"

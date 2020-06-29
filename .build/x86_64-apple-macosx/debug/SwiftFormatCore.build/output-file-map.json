@@ -1,0 +1,59 @@
+{
+  "": {
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/master.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatCore/Context.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/Context.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/Context.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/Context~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/Context.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatCore/Diagnostic+Rule.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/Diagnostic+Rule.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/Diagnostic+Rule.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/Diagnostic+Rule~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/Diagnostic+Rule.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatCore/Rule.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/Rule.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/Rule.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/Rule~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/Rule.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatCore/RuleMask.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/RuleMask.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/RuleMask.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/RuleMask~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/RuleMask.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatCore/RuleState.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/RuleState.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/RuleState.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/RuleState~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/RuleState.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatCore/SyntaxFormatRule.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/SyntaxFormatRule.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/SyntaxFormatRule.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/SyntaxFormatRule~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/SyntaxFormatRule.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatCore/SyntaxLintRule.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/SyntaxLintRule.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/SyntaxLintRule.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/SyntaxLintRule~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/SyntaxLintRule.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatCore/SyntaxProtocol+Convenience.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/SyntaxProtocol+Convenience.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/SyntaxProtocol+Convenience.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/SyntaxProtocol+Convenience~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/SyntaxProtocol+Convenience.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatCore/Trivia+Convenience.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/Trivia+Convenience.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/Trivia+Convenience.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/Trivia+Convenience~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/Trivia+Convenience.swiftdeps"
+  }
+}

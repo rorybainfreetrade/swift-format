@@ -1,0 +1,633 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DiagnosingTestCase"
+provides-nominal:
+- "22SwiftFormatTestSupport010DiagnosingC4CaseC"
+provides-member:
+- ["22SwiftFormatTestSupport010DiagnosingC4CaseC", ""]
+provides-dynamic-lookup:
+- "XCTAssertDiagnosed"
+- "XCTAssertNotDiagnosed"
+- "XCTAssertStringsEqualWithDiff"
+- "consumer"
+- "makeContext"
+- "setUp"
+- "shouldCheckForUnassertedDiagnostics"
+- "stopTrackingDiagnostics"
+- "tearDown"
+depends-top-level:
+- !private "!"
+- !private "+="
+- !private "<"
+- !private "??"
+- "AssignmentPrecedence"
+- !private "Bool"
+- "BooleanLiteralType"
+- "Configuration"
+- "Context"
+- "DiagnosingTestCase"
+- "Diagnostic"
+- !private "DiagnosticEngine"
+- "DiagnosticTrackingConsumer"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "SourceFileSyntax"
+- "StaticString"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- "UInt"
+- !private "URL"
+- !private "UnicodeScalarType"
+- !private "XCTAssertEqual"
+- !private "XCTAssertFalse"
+- !private "XCTFail"
+- "XCTestCase"
+- !private "||"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "difference"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "components"]
+- !private ["SK", "count"]
+- !private ["SK", "difference"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "Configuration"]
+- !private ["s7CVarArgP", "Context"]
+- !private ["s7CVarArgP", "DiagnosticEngine"]
+- ["s7CVarArgP", "DiagnosticTrackingConsumer"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "XCTAssertEqual"]
+- !private ["s7CVarArgP", "XCTAssertFalse"]
+- !private ["s7CVarArgP", "XCTFail"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "components"]
+- !private ["s7CVarArgP", "consumer"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "difference"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "shouldCheckForUnassertedDiagnostics"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s20CollectionDifferenceV6ChangeO", "insert"]
+- ["s20CollectionDifferenceV6ChangeO", "remove"]
+- !private ["10Foundation12CharacterSetV", "newlines"]
+- !private ["Sl", "components"]
+- !private ["Sl", "count"]
+- !private ["Sl", "difference"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "subscript"]
+- !private ["s20CollectionDifferenceV", "isEmpty"]
+- !private ["SL", "components"]
+- !private ["SL", "isEmpty"]
+- !private ["24SwiftFormatConfiguration0C0V", "init"]
+- !private ["15SwiftFormatCore7ContextC", "diagnosticEngine"]
+- !private ["15SwiftFormatCore7ContextC", "init"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "difference"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "Configuration"]
+- !private ["s28CustomDebugStringConvertibleP", "Context"]
+- !private ["s28CustomDebugStringConvertibleP", "DiagnosticEngine"]
+- ["s28CustomDebugStringConvertibleP", "DiagnosticTrackingConsumer"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- ["s28CustomDebugStringConvertibleP", "Message"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertEqual"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertFalse"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTFail"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "components"]
+- !private ["s28CustomDebugStringConvertibleP", "consumer"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "difference"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "newlines"]
+- !private ["s28CustomDebugStringConvertibleP", "shouldCheckForUnassertedDiagnostics"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s17CustomReflectableP", "components"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "difference"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Configuration"]
+- !private ["s23CustomStringConvertibleP", "Context"]
+- !private ["s23CustomStringConvertibleP", "DiagnosticEngine"]
+- ["s23CustomStringConvertibleP", "DiagnosticTrackingConsumer"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertEqual"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertFalse"]
+- !private ["s23CustomStringConvertibleP", "XCTFail"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "components"]
+- !private ["s23CustomStringConvertibleP", "consumer"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "difference"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "newlines"]
+- !private ["s23CustomStringConvertibleP", "shouldCheckForUnassertedDiagnostics"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "difference"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- ["Se", "Message"]
+- !private ["Se", "components"]
+- !private ["Se", "count"]
+- !private ["Se", "difference"]
+- !private ["Se", "init"]
+- ["Se", "insert"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "newlines"]
+- ["Se", "remove"]
+- !private ["Se", "subscript"]
+- !private ["Se", "text"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "Bool"]
+- ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "Configuration"]
+- ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "Context"]
+- ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "Diagnostic"]
+- !private ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "DiagnosticEngine"]
+- ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "DiagnosticTrackingConsumer"]
+- ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "Int"]
+- ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "SourceFileSyntax"]
+- ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "StaticString"]
+- ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "String"]
+- ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "UInt"]
+- !private ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "URL"]
+- ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "XCTAssertDiagnosed"]
+- !private ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "XCTAssertEqual"]
+- !private ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "XCTAssertFalse"]
+- ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "XCTAssertNotDiagnosed"]
+- ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "XCTAssertStringsEqualWithDiff"]
+- !private ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "XCTFail"]
+- !private ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "consumer"]
+- ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "deinit"]
+- ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "init"]
+- ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "makeContext"]
+- ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "setUp"]
+- ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "shouldCheckForUnassertedDiagnostics"]
+- ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "stopTrackingDiagnostics"]
+- ["22SwiftFormatTestSupport010DiagnosingC4CaseC", "tearDown"]
+- ["11SwiftSyntax10DiagnosticV", "Message"]
+- !private ["11SwiftSyntax18DiagnosticConsumerP", "emittedDiagnostics"]
+- ["11SwiftSyntax18DiagnosticConsumerP", "init"]
+- !private ["11SwiftSyntax18DiagnosticConsumerP", "popDiagnostic"]
+- !private ["11SwiftSyntax18DiagnosticConsumerP", "stopTrackingDiagnostics"]
+- !private ["11SwiftSyntax16DiagnosticEngineC", "addConsumer"]
+- !private ["11SwiftSyntax16DiagnosticEngineC", "init"]
+- !private ["22SwiftFormatTestSupport26DiagnosticTrackingConsumerC", "deinit"]
+- !private ["22SwiftFormatTestSupport26DiagnosticTrackingConsumerC", "emittedDiagnostics"]
+- ["22SwiftFormatTestSupport26DiagnosticTrackingConsumerC", "init"]
+- !private ["22SwiftFormatTestSupport26DiagnosticTrackingConsumerC", "popDiagnostic"]
+- !private ["22SwiftFormatTestSupport26DiagnosticTrackingConsumerC", "stopTrackingDiagnostics"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- ["SE", "Message"]
+- !private ["SE", "components"]
+- !private ["SE", "count"]
+- !private ["SE", "difference"]
+- !private ["SE", "init"]
+- ["SE", "insert"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "newlines"]
+- ["SE", "remove"]
+- !private ["SE", "subscript"]
+- !private ["SE", "text"]
+- !private ["SQ", "Configuration"]
+- !private ["SQ", "Context"]
+- !private ["SQ", "DiagnosticEngine"]
+- ["SQ", "DiagnosticTrackingConsumer"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "String"]
+- !private ["SQ", "URL"]
+- !private ["SQ", "XCTAssertEqual"]
+- !private ["SQ", "XCTAssertFalse"]
+- !private ["SQ", "XCTFail"]
+- ["SQ", ""]
+- !private ["SQ", "components"]
+- !private ["SQ", "consumer"]
+- !private ["SQ", "count"]
+- !private ["SQ", "difference"]
+- !private ["SQ", "init"]
+- ["SQ", "insert"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "newlines"]
+- ["SQ", "remove"]
+- !private ["SQ", "shouldCheckForUnassertedDiagnostics"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "difference"]
+- !private ["s25ExpressibleByArrayLiteralP", "newlines"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "components"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s32ExpressibleByStringInterpolationP", "components"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "components"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "components"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["SH", "Configuration"]
+- !private ["SH", "Context"]
+- !private ["SH", "DiagnosticEngine"]
+- ["SH", "DiagnosticTrackingConsumer"]
+- !private ["SH", "Int"]
+- !private ["SH", "String"]
+- !private ["SH", "URL"]
+- !private ["SH", "XCTAssertEqual"]
+- !private ["SH", "XCTAssertFalse"]
+- !private ["SH", "XCTFail"]
+- ["SH", ""]
+- !private ["SH", "components"]
+- !private ["SH", "consumer"]
+- !private ["SH", "count"]
+- !private ["SH", "difference"]
+- !private ["SH", "init"]
+- ["SH", "insert"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "newlines"]
+- ["SH", "remove"]
+- !private ["SH", "shouldCheckForUnassertedDiagnostics"]
+- !private ["SH", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "components"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["11SwiftSyntax10DiagnosticV7MessageV", "text"]
+- !private ["s10MirrorPathP", "components"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["SM", "count"]
+- !private ["SM", "difference"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "difference"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "components"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So9NSCopyingP", "components"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "components"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "components"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "components"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Configuration"]
+- ["So8NSObjectC", "Context"]
+- ["So8NSObjectC", "Diagnostic"]
+- !private ["So8NSObjectC", "DiagnosticEngine"]
+- ["So8NSObjectC", "DiagnosticTrackingConsumer"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "SourceFileSyntax"]
+- ["So8NSObjectC", "StaticString"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UInt"]
+- !private ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "XCTAssertDiagnosed"]
+- !private ["So8NSObjectC", "XCTAssertEqual"]
+- !private ["So8NSObjectC", "XCTAssertFalse"]
+- ["So8NSObjectC", "XCTAssertNotDiagnosed"]
+- ["So8NSObjectC", "XCTAssertStringsEqualWithDiff"]
+- !private ["So8NSObjectC", "XCTFail"]
+- !private ["So8NSObjectC", "components"]
+- ["So8NSObjectC", "consumer"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEmpty"]
+- ["So8NSObjectC", "makeContext"]
+- ["So8NSObjectC", "setUp"]
+- ["So8NSObjectC", "shouldCheckForUnassertedDiagnostics"]
+- ["So8NSObjectC", "stopTrackingDiagnostics"]
+- ["So8NSObjectC", "tearDown"]
+- !private ["So8NSObjectP", "Configuration"]
+- !private ["So8NSObjectP", "Context"]
+- !private ["So8NSObjectP", "DiagnosticEngine"]
+- ["So8NSObjectP", "DiagnosticTrackingConsumer"]
+- !private ["So8NSObjectP", "Int"]
+- !private ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "URL"]
+- !private ["So8NSObjectP", "XCTAssertEqual"]
+- !private ["So8NSObjectP", "XCTAssertFalse"]
+- !private ["So8NSObjectP", "XCTFail"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "components"]
+- !private ["So8NSObjectP", "consumer"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So8NSObjectP", "shouldCheckForUnassertedDiagnostics"]
+- !private ["So19NSPasteboardReadingP", "components"]
+- !private ["So19NSPasteboardReadingP", "isEmpty"]
+- !private ["So19NSPasteboardWritingP", "components"]
+- !private ["So19NSPasteboardWritingP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "components"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So8NSStringC", "components"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["Sk", "count"]
+- !private ["Sk", "difference"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "components"]
+- !private ["Sm", "count"]
+- !private ["Sm", "difference"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "subscript"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "newlines"]
+- !private ["ST", "components"]
+- !private ["ST", "count"]
+- !private ["ST", "difference"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "newlines"]
+- !private ["SS", "components"]
+- !private ["SS", "isEmpty"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "components"]
+- !private ["Sy", "isEmpty"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "components"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "components"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["So11XCTActivityP", "Configuration"]
+- !private ["So11XCTActivityP", "Context"]
+- !private ["So11XCTActivityP", "DiagnosticEngine"]
+- ["So11XCTActivityP", "DiagnosticTrackingConsumer"]
+- !private ["So11XCTActivityP", "Int"]
+- !private ["So11XCTActivityP", "String"]
+- !private ["So11XCTActivityP", "URL"]
+- !private ["So11XCTActivityP", "XCTAssertEqual"]
+- !private ["So11XCTActivityP", "XCTAssertFalse"]
+- !private ["So11XCTActivityP", "XCTFail"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "consumer"]
+- !private ["So11XCTActivityP", "shouldCheckForUnassertedDiagnostics"]
+- !private ["So17XCTWaiterDelegateP", "Configuration"]
+- !private ["So17XCTWaiterDelegateP", "Context"]
+- !private ["So17XCTWaiterDelegateP", "DiagnosticEngine"]
+- ["So17XCTWaiterDelegateP", "DiagnosticTrackingConsumer"]
+- !private ["So17XCTWaiterDelegateP", "Int"]
+- !private ["So17XCTWaiterDelegateP", "String"]
+- !private ["So17XCTWaiterDelegateP", "URL"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertEqual"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertFalse"]
+- !private ["So17XCTWaiterDelegateP", "XCTFail"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "consumer"]
+- !private ["So17XCTWaiterDelegateP", "shouldCheckForUnassertedDiagnostics"]
+- !private ["So6XCTestC", "Bool"]
+- ["So6XCTestC", "Configuration"]
+- ["So6XCTestC", "Context"]
+- ["So6XCTestC", "Diagnostic"]
+- !private ["So6XCTestC", "DiagnosticEngine"]
+- ["So6XCTestC", "DiagnosticTrackingConsumer"]
+- ["So6XCTestC", "Int"]
+- ["So6XCTestC", "SourceFileSyntax"]
+- ["So6XCTestC", "StaticString"]
+- ["So6XCTestC", "String"]
+- ["So6XCTestC", "UInt"]
+- !private ["So6XCTestC", "URL"]
+- ["So6XCTestC", "XCTAssertDiagnosed"]
+- !private ["So6XCTestC", "XCTAssertEqual"]
+- !private ["So6XCTestC", "XCTAssertFalse"]
+- ["So6XCTestC", "XCTAssertNotDiagnosed"]
+- ["So6XCTestC", "XCTAssertStringsEqualWithDiff"]
+- !private ["So6XCTestC", "XCTFail"]
+- ["So6XCTestC", "consumer"]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "makeContext"]
+- ["So6XCTestC", "setUp"]
+- ["So6XCTestC", "shouldCheckForUnassertedDiagnostics"]
+- ["So6XCTestC", "stopTrackingDiagnostics"]
+- ["So6XCTestC", "tearDown"]
+- !private ["So10XCTestCaseC", "Bool"]
+- ["So10XCTestCaseC", "Configuration"]
+- ["So10XCTestCaseC", "Context"]
+- ["So10XCTestCaseC", "Diagnostic"]
+- !private ["So10XCTestCaseC", "DiagnosticEngine"]
+- ["So10XCTestCaseC", "DiagnosticTrackingConsumer"]
+- ["So10XCTestCaseC", "Int"]
+- ["So10XCTestCaseC", "SourceFileSyntax"]
+- ["So10XCTestCaseC", "StaticString"]
+- ["So10XCTestCaseC", "String"]
+- ["So10XCTestCaseC", "UInt"]
+- !private ["So10XCTestCaseC", "URL"]
+- ["So10XCTestCaseC", "XCTAssertDiagnosed"]
+- !private ["So10XCTestCaseC", "XCTAssertEqual"]
+- !private ["So10XCTestCaseC", "XCTAssertFalse"]
+- ["So10XCTestCaseC", "XCTAssertNotDiagnosed"]
+- ["So10XCTestCaseC", "XCTAssertStringsEqualWithDiff"]
+- !private ["So10XCTestCaseC", "XCTFail"]
+- ["So10XCTestCaseC", ""]
+- ["So10XCTestCaseC", "consumer"]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "makeContext"]
+- ["So10XCTestCaseC", "setUp"]
+- ["So10XCTestCaseC", "shouldCheckForUnassertedDiagnostics"]
+- ["So10XCTestCaseC", "stopTrackingDiagnostics"]
+- ["So10XCTestCaseC", "tearDown"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "difference"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "components"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "difference"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "components"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "components"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "components"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "components"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "difference"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "components"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "difference"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Configuration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Context"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DiagnosticEngine"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DiagnosticTrackingConsumer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertEqual"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertFalse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTFail"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "components"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "consumer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shouldCheckForUnassertedDiagnostics"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Configuration"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Context"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DiagnosticEngine"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DiagnosticTrackingConsumer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Int"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XCTAssertEqual"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XCTAssertFalse"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XCTFail"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "components"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "consumer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmpty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shouldCheckForUnassertedDiagnostics"]
+- !private ["s21_ObjectiveCBridgeableP", "components"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "difference"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "insert"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "newlines"]
+- ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- "s7CVarArgP"
+- "s20CollectionDifferenceV6ChangeO"
+- !private "10Foundation12CharacterSetV"
+- !private "Sl"
+- !private "s20CollectionDifferenceV"
+- !private "SL"
+- !private "24SwiftFormatConfiguration0C0V"
+- !private "15SwiftFormatCore7ContextC"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "22SwiftFormatTestSupport010DiagnosingC4CaseC"
+- "11SwiftSyntax10DiagnosticV"
+- "11SwiftSyntax18DiagnosticConsumerP"
+- !private "11SwiftSyntax16DiagnosticEngineC"
+- "22SwiftFormatTestSupport26DiagnosticTrackingConsumerC"
+- !private "SD"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "11SwiftSyntax10DiagnosticV7MessageV"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatConfiguration.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/XCTest.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatConfiguration.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntaxBuilder.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatWhitespaceLinter.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatRules.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormat.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatPrettyPrint.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatTestSupport.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/_CSwiftSyntax.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3c3d9b6b6737ac60408e252233252ced"

@@ -1,0 +1,630 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SyntaxChildrenIndexData"
+- "SyntaxChildrenIndex"
+- "RawSyntaxChildren"
+- "PresentRawSyntaxChildren"
+- "SyntaxChildren"
+- "<"
+- "<"
+provides-nominal:
+- "11SwiftSyntax0B17ChildrenIndexDataV"
+- "11SwiftSyntax0B13ChildrenIndexV"
+- "11SwiftSyntax03RawB8ChildrenV"
+- "11SwiftSyntax03RawB8ChildrenV8IteratorV"
+- "11SwiftSyntax010PresentRawB8ChildrenV"
+- "11SwiftSyntax010PresentRawB8ChildrenV8IteratorV"
+- "11SwiftSyntax0B8ChildrenV"
+provides-member:
+- ["11SwiftSyntax0B17ChildrenIndexDataV", ""]
+- ["11SwiftSyntax0B13ChildrenIndexV", ""]
+- ["11SwiftSyntax03RawB8ChildrenV", ""]
+- ["11SwiftSyntax03RawB8ChildrenV8IteratorV", ""]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", ""]
+- ["11SwiftSyntax010PresentRawB8ChildrenV8IteratorV", ""]
+- ["11SwiftSyntax0B8ChildrenV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private "-"
+- "<"
+- "<="
+- "=="
+- ">"
+- ">="
+- !private "??"
+- "AbsoluteRawSyntax"
+- "AbsoluteSyntaxInfo"
+- !private "AbsoluteSyntaxPosition"
+- "AssignmentPrecedence"
+- "BidirectionalCollection"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Comparable"
+- "ExpressibleByNilLiteral"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "IteratorProtocol"
+- "PresentRawSyntaxChildren"
+- "RawSyntax"
+- "RawSyntaxChildren"
+- !private "Self"
+- !private "StringLiteralType"
+- "Syntax"
+- "SyntaxChildren"
+- "SyntaxChildrenIndex"
+- "SyntaxChildrenIndexData"
+- !private "SyntaxData"
+- !private "SyntaxIdentifier"
+- "SyntaxIndexInTree"
+- "UInt32"
+- !private "fatalError"
+depends-member:
+- !private ["11SwiftSyntax011AbsoluteRawB0V", "info"]
+- !private ["11SwiftSyntax011AbsoluteRawB0V", "init"]
+- !private ["11SwiftSyntax011AbsoluteRawB0V", "raw"]
+- !private ["11SwiftSyntax08AbsoluteB4InfoV", "AbsoluteSyntaxPosition"]
+- ["11SwiftSyntax08AbsoluteB4InfoV", "SyntaxChildrenIndexData"]
+- !private ["11SwiftSyntax08AbsoluteB4InfoV", "SyntaxIdentifier"]
+- ["11SwiftSyntax08AbsoluteB4InfoV", "UInt32"]
+- !private ["11SwiftSyntax08AbsoluteB4InfoV", "advancedToFirstChild"]
+- !private ["11SwiftSyntax08AbsoluteB4InfoV", "indexInParent"]
+- !private ["11SwiftSyntax08AbsoluteB4InfoV", "init"]
+- !private ["11SwiftSyntax08AbsoluteB4InfoV", "nodeId"]
+- !private ["11SwiftSyntax08AbsoluteB4InfoV", "offset"]
+- !private ["11SwiftSyntax08AbsoluteB8PositionV", "init"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["SK", "AbsoluteRawSyntax"]
+- !private ["SK", "AbsoluteSyntaxInfo"]
+- ["SK", "Element"]
+- ["SK", "Index"]
+- ["SK", "Indices"]
+- !private ["SK", "Int"]
+- ["SK", "Iterator"]
+- ["SK", "IteratorProtocol"]
+- !private ["SK", "PresentRawSyntaxChildren"]
+- !private ["SK", "RawSyntaxChildren"]
+- !private ["SK", "Self"]
+- ["SK", "SubSequence"]
+- !private ["SK", "Syntax"]
+- !private ["SK", "SyntaxChildrenIndex"]
+- !private ["SK", "SyntaxData"]
+- !private ["SK", "SyntaxIndexInTree"]
+- !private ["SK", "UInt32"]
+- ["SK", ""]
+- ["SK", "_Default_Indices"]
+- ["SK", "_Default_Iterator"]
+- ["SK", "_Default_SubSequence"]
+- ["SK", "_copyContents"]
+- ["SK", "_copyToContiguousArray"]
+- ["SK", "_customContainsEquatableElement"]
+- ["SK", "_customIndexOfEquatableElement"]
+- ["SK", "_customLastIndexOfEquatableElement"]
+- ["SK", "_failEarlyRangeCheck"]
+- !private ["SK", "allChildren"]
+- ["SK", "count"]
+- ["SK", "distance"]
+- ["SK", "endIndex"]
+- !private ["SK", "fatalError"]
+- ["SK", "formIndex"]
+- ["SK", "index"]
+- ["SK", "indices"]
+- !private ["SK", "init"]
+- ["SK", "isEmpty"]
+- ["SK", "makeIterator"]
+- !private ["SK", "numberOfChildren"]
+- !private ["SK", "parent"]
+- !private ["SK", "presentIndex"]
+- !private ["SK", "raw"]
+- !private ["SK", "rawChildren"]
+- !private ["SK", "rootId"]
+- ["SK", "startIndex"]
+- ["SK", "subscript"]
+- ["SK", "underestimatedCount"]
+- ["SK", "withContiguousStorageIfAvailable"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "AbsoluteRawSyntax"]
+- !private ["Sl", "AbsoluteSyntaxInfo"]
+- ["Sl", "Element"]
+- ["Sl", "Index"]
+- ["Sl", "Indices"]
+- !private ["Sl", "Int"]
+- ["Sl", "Iterator"]
+- ["Sl", "IteratorProtocol"]
+- !private ["Sl", "PresentRawSyntaxChildren"]
+- !private ["Sl", "RawSyntaxChildren"]
+- !private ["Sl", "Self"]
+- ["Sl", "SubSequence"]
+- !private ["Sl", "Syntax"]
+- !private ["Sl", "SyntaxChildrenIndex"]
+- !private ["Sl", "SyntaxData"]
+- !private ["Sl", "SyntaxIndexInTree"]
+- !private ["Sl", "UInt32"]
+- ["Sl", ""]
+- ["Sl", "_Default_Indices"]
+- ["Sl", "_Default_Iterator"]
+- ["Sl", "_Default_SubSequence"]
+- ["Sl", "_copyContents"]
+- ["Sl", "_copyToContiguousArray"]
+- ["Sl", "_customContainsEquatableElement"]
+- ["Sl", "_customIndexOfEquatableElement"]
+- ["Sl", "_customLastIndexOfEquatableElement"]
+- ["Sl", "_failEarlyRangeCheck"]
+- !private ["Sl", "allChildren"]
+- ["Sl", "count"]
+- ["Sl", "distance"]
+- ["Sl", "endIndex"]
+- !private ["Sl", "fatalError"]
+- ["Sl", "formIndex"]
+- ["Sl", "index"]
+- ["Sl", "indices"]
+- !private ["Sl", "init"]
+- ["Sl", "isEmpty"]
+- ["Sl", "makeIterator"]
+- !private ["Sl", "numberOfChildren"]
+- !private ["Sl", "parent"]
+- !private ["Sl", "presentIndex"]
+- !private ["Sl", "raw"]
+- !private ["Sl", "rawChildren"]
+- !private ["Sl", "rootId"]
+- ["Sl", "startIndex"]
+- ["Sl", "subscript"]
+- ["Sl", "underestimatedCount"]
+- ["Sl", "withContiguousStorageIfAvailable"]
+- ["SL", "<"]
+- ["SL", "<="]
+- ["SL", "=="]
+- ["SL", ">"]
+- ["SL", ">="]
+- !private ["SL", "SyntaxChildrenIndexData"]
+- ["SL", ""]
+- !private ["SL", "data"]
+- !private ["SL", "indexInParent"]
+- !private ["SL", "indexInTree"]
+- ["SL", "init"]
+- !private ["SL", "offset"]
+- !private ["SL", "utf8Length"]
+- !private ["10Foundation15ContiguousBytesP", "raw"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "none"]
+- ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "none"]
+- ["s17CustomReflectableP", "some"]
+- !private ["s23CustomStringConvertibleP", "child"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isPresent"]
+- !private ["s23CustomStringConvertibleP", "numberOfChildren"]
+- !private ["s23CustomStringConvertibleP", "totalLength"]
+- !private ["s23CustomStringConvertibleP", "totalNodes"]
+- !private ["10Foundation12DataProtocolP", "raw"]
+- !private ["Se", "init"]
+- ["Se", "none"]
+- ["Se", "some"]
+- !private ["SE", "init"]
+- ["SE", "none"]
+- ["SE", "some"]
+- ["SQ", "<"]
+- ["SQ", "<="]
+- ["SQ", "=="]
+- ["SQ", ">"]
+- ["SQ", ">="]
+- !private ["SQ", "SyntaxChildrenIndexData"]
+- ["SQ", ""]
+- !private ["SQ", "advancedBySibling"]
+- !private ["SQ", "data"]
+- !private ["SQ", "indexInParent"]
+- !private ["SQ", "indexInTree"]
+- ["SQ", "init"]
+- ["SQ", "none"]
+- !private ["SQ", "offset"]
+- !private ["SQ", "reversedBySibling"]
+- !private ["SQ", "rootId"]
+- ["SQ", "some"]
+- !private ["SQ", "utf8Length"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s23ExpressibleByNilLiteralP", "<"]
+- ["s23ExpressibleByNilLiteralP", "<="]
+- ["s23ExpressibleByNilLiteralP", "=="]
+- ["s23ExpressibleByNilLiteralP", ">"]
+- ["s23ExpressibleByNilLiteralP", ">="]
+- !private ["s23ExpressibleByNilLiteralP", "SyntaxChildrenIndexData"]
+- ["s23ExpressibleByNilLiteralP", ""]
+- !private ["s23ExpressibleByNilLiteralP", "data"]
+- ["s23ExpressibleByNilLiteralP", "init"]
+- ["s23ExpressibleByNilLiteralP", "none"]
+- ["s23ExpressibleByNilLiteralP", "some"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "advancedBySibling"]
+- !private ["SH", "data"]
+- !private ["SH", "indexInTree"]
+- !private ["SH", "init"]
+- ["SH", "none"]
+- !private ["SH", "reversedBySibling"]
+- !private ["SH", "rootId"]
+- ["SH", "some"]
+- !private ["Si", "init"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV8IteratorV", "AbsoluteRawSyntax"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV8IteratorV", "Element"]
+- ["11SwiftSyntax03RawB8ChildrenV8IteratorV", "Element"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV8IteratorV", "RawSyntaxChildren"]
+- ["11SwiftSyntax03RawB8ChildrenV8IteratorV", "RawSyntaxChildren"]
+- ["11SwiftSyntax03RawB8ChildrenV8IteratorV", "SyntaxChildrenIndex"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV8IteratorV", "_Default_Element"]
+- ["11SwiftSyntax03RawB8ChildrenV8IteratorV", "_Default_Element"]
+- ["11SwiftSyntax03RawB8ChildrenV8IteratorV", "collection"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV8IteratorV", "deinit"]
+- ["11SwiftSyntax03RawB8ChildrenV8IteratorV", "deinit"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV8IteratorV", "init"]
+- ["11SwiftSyntax03RawB8ChildrenV8IteratorV", "init"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV8IteratorV", "iterator"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV8IteratorV", "next"]
+- ["11SwiftSyntax03RawB8ChildrenV8IteratorV", "next"]
+- ["11SwiftSyntax03RawB8ChildrenV8IteratorV", "nextIndex"]
+- !private ["St", "AbsoluteRawSyntax"]
+- ["St", "Element"]
+- ["St", ""]
+- ["St", "_Default_Element"]
+- !private ["St", "collection"]
+- !private ["St", "init"]
+- !private ["St", "iterator"]
+- ["St", "next"]
+- !private ["St", "nextIndex"]
+- !private ["s20LazySequenceProtocolP", "raw"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s13ManagedBufferC", "child"]
+- !private ["s13ManagedBufferC", "isPresent"]
+- !private ["s13ManagedBufferC", "numberOfChildren"]
+- !private ["s13ManagedBufferC", "totalLength"]
+- !private ["s13ManagedBufferC", "totalNodes"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "raw"]
+- !private ["Sj", "init"]
+- ["Sq", "none"]
+- ["Sq", "some"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "AbsoluteRawSyntax"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "Element"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "Index"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "Indices"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "Iterator"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "IteratorProtocol"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "RawSyntaxChildren"]
+- !private ["11SwiftSyntax010PresentRawB8ChildrenV", "Self"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "SubSequence"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "Syntax"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "SyntaxChildrenIndex"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "_Default_Indices"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "_Default_SubSequence"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "_copyContents"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "_copyToContiguousArray"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "_customContainsEquatableElement"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "_customIndexOfEquatableElement"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "_customLastIndexOfEquatableElement"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "_failEarlyRangeCheck"]
+- !private ["11SwiftSyntax010PresentRawB8ChildrenV", "allChildren"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "count"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "deinit"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "distance"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "endIndex"]
+- !private ["11SwiftSyntax010PresentRawB8ChildrenV", "fatalError"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "formIndex"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "index"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "indices"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "init"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "isEmpty"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "makeIterator"]
+- !private ["11SwiftSyntax010PresentRawB8ChildrenV", "presentIndex"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "startIndex"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "subscript"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "underestimatedCount"]
+- ["11SwiftSyntax010PresentRawB8ChildrenV", "withContiguousStorageIfAvailable"]
+- !private ["Sk", "raw"]
+- !private ["Sm", "raw"]
+- !private ["11SwiftSyntax03RawB0C", "child"]
+- !private ["11SwiftSyntax03RawB0C", "isPresent"]
+- !private ["11SwiftSyntax03RawB0C", "numberOfChildren"]
+- !private ["11SwiftSyntax03RawB0C", "totalLength"]
+- !private ["11SwiftSyntax03RawB0C", "totalNodes"]
+- ["11SwiftSyntax03RawB8ChildrenV", "AbsoluteRawSyntax"]
+- ["11SwiftSyntax03RawB8ChildrenV", "AbsoluteSyntaxInfo"]
+- ["11SwiftSyntax03RawB8ChildrenV", "Element"]
+- ["11SwiftSyntax03RawB8ChildrenV", "Index"]
+- ["11SwiftSyntax03RawB8ChildrenV", "Indices"]
+- ["11SwiftSyntax03RawB8ChildrenV", "Int"]
+- ["11SwiftSyntax03RawB8ChildrenV", "Iterator"]
+- ["11SwiftSyntax03RawB8ChildrenV", "IteratorProtocol"]
+- ["11SwiftSyntax03RawB8ChildrenV", "RawSyntax"]
+- ["11SwiftSyntax03RawB8ChildrenV", "RawSyntaxChildren"]
+- ["11SwiftSyntax03RawB8ChildrenV", "SubSequence"]
+- ["11SwiftSyntax03RawB8ChildrenV", "Syntax"]
+- ["11SwiftSyntax03RawB8ChildrenV", "SyntaxChildrenIndex"]
+- !private ["11SwiftSyntax03RawB8ChildrenV", "SyntaxIndexInTree"]
+- ["11SwiftSyntax03RawB8ChildrenV", "UInt32"]
+- ["11SwiftSyntax03RawB8ChildrenV", "_Default_Indices"]
+- ["11SwiftSyntax03RawB8ChildrenV", "_Default_SubSequence"]
+- ["11SwiftSyntax03RawB8ChildrenV", "_copyContents"]
+- ["11SwiftSyntax03RawB8ChildrenV", "_copyToContiguousArray"]
+- ["11SwiftSyntax03RawB8ChildrenV", "_customContainsEquatableElement"]
+- ["11SwiftSyntax03RawB8ChildrenV", "_customIndexOfEquatableElement"]
+- ["11SwiftSyntax03RawB8ChildrenV", "_customLastIndexOfEquatableElement"]
+- ["11SwiftSyntax03RawB8ChildrenV", "_failEarlyRangeCheck"]
+- ["11SwiftSyntax03RawB8ChildrenV", "count"]
+- ["11SwiftSyntax03RawB8ChildrenV", "deinit"]
+- ["11SwiftSyntax03RawB8ChildrenV", "distance"]
+- ["11SwiftSyntax03RawB8ChildrenV", "endIndex"]
+- ["11SwiftSyntax03RawB8ChildrenV", "formIndex"]
+- ["11SwiftSyntax03RawB8ChildrenV", "index"]
+- ["11SwiftSyntax03RawB8ChildrenV", "indices"]
+- ["11SwiftSyntax03RawB8ChildrenV", "init"]
+- ["11SwiftSyntax03RawB8ChildrenV", "isEmpty"]
+- ["11SwiftSyntax03RawB8ChildrenV", "makeIterator"]
+- !private ["11SwiftSyntax03RawB8ChildrenV", "numberOfChildren"]
+- !private ["11SwiftSyntax03RawB8ChildrenV", "parent"]
+- !private ["11SwiftSyntax03RawB8ChildrenV", "rootId"]
+- ["11SwiftSyntax03RawB8ChildrenV", "startIndex"]
+- ["11SwiftSyntax03RawB8ChildrenV", "subscript"]
+- ["11SwiftSyntax03RawB8ChildrenV", "underestimatedCount"]
+- ["11SwiftSyntax03RawB8ChildrenV", "withContiguousStorageIfAvailable"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "AbsoluteRawSyntax"]
+- !private ["ST", "AbsoluteSyntaxInfo"]
+- ["ST", "Element"]
+- ["ST", "Index"]
+- ["ST", "Indices"]
+- !private ["ST", "Int"]
+- ["ST", "Iterator"]
+- ["ST", "IteratorProtocol"]
+- !private ["ST", "PresentRawSyntaxChildren"]
+- !private ["ST", "RawSyntaxChildren"]
+- !private ["ST", "Self"]
+- ["ST", "SubSequence"]
+- !private ["ST", "Syntax"]
+- !private ["ST", "SyntaxChildrenIndex"]
+- !private ["ST", "SyntaxData"]
+- !private ["ST", "SyntaxIndexInTree"]
+- !private ["ST", "UInt32"]
+- ["ST", ""]
+- ["ST", "_Default_Indices"]
+- ["ST", "_Default_Iterator"]
+- ["ST", "_Default_SubSequence"]
+- ["ST", "_copyContents"]
+- ["ST", "_copyToContiguousArray"]
+- ["ST", "_customContainsEquatableElement"]
+- ["ST", "_customIndexOfEquatableElement"]
+- ["ST", "_customLastIndexOfEquatableElement"]
+- ["ST", "_failEarlyRangeCheck"]
+- !private ["ST", "allChildren"]
+- ["ST", "count"]
+- ["ST", "distance"]
+- ["ST", "endIndex"]
+- !private ["ST", "fatalError"]
+- ["ST", "formIndex"]
+- ["ST", "index"]
+- ["ST", "indices"]
+- !private ["ST", "init"]
+- ["ST", "isEmpty"]
+- ["ST", "makeIterator"]
+- !private ["ST", "numberOfChildren"]
+- !private ["ST", "parent"]
+- !private ["ST", "presentIndex"]
+- !private ["ST", "raw"]
+- !private ["ST", "rawChildren"]
+- !private ["ST", "rootId"]
+- ["ST", "startIndex"]
+- ["ST", "subscript"]
+- ["ST", "underestimatedCount"]
+- ["ST", "withContiguousStorageIfAvailable"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s5SliceV", "raw"]
+- !private ["11SwiftSyntax12SourceLengthV", "utf8Length"]
+- !private ["Sx", "init"]
+- !private ["11SwiftSyntax0B0V", "data"]
+- !private ["11SwiftSyntax0B0V", "deinit"]
+- !private ["11SwiftSyntax0B0V", "init"]
+- ["11SwiftSyntax0B8ChildrenV", "Element"]
+- ["11SwiftSyntax0B8ChildrenV", "Index"]
+- ["11SwiftSyntax0B8ChildrenV", "Indices"]
+- ["11SwiftSyntax0B8ChildrenV", "Iterator"]
+- ["11SwiftSyntax0B8ChildrenV", "PresentRawSyntaxChildren"]
+- ["11SwiftSyntax0B8ChildrenV", "SubSequence"]
+- ["11SwiftSyntax0B8ChildrenV", "Syntax"]
+- ["11SwiftSyntax0B8ChildrenV", "SyntaxChildrenIndex"]
+- !private ["11SwiftSyntax0B8ChildrenV", "SyntaxData"]
+- ["11SwiftSyntax0B8ChildrenV", "_Default_Indices"]
+- ["11SwiftSyntax0B8ChildrenV", "_Default_Iterator"]
+- ["11SwiftSyntax0B8ChildrenV", "_Default_SubSequence"]
+- ["11SwiftSyntax0B8ChildrenV", "_copyContents"]
+- ["11SwiftSyntax0B8ChildrenV", "_copyToContiguousArray"]
+- ["11SwiftSyntax0B8ChildrenV", "_customContainsEquatableElement"]
+- ["11SwiftSyntax0B8ChildrenV", "_customIndexOfEquatableElement"]
+- ["11SwiftSyntax0B8ChildrenV", "_customLastIndexOfEquatableElement"]
+- ["11SwiftSyntax0B8ChildrenV", "_failEarlyRangeCheck"]
+- ["11SwiftSyntax0B8ChildrenV", "count"]
+- ["11SwiftSyntax0B8ChildrenV", "deinit"]
+- ["11SwiftSyntax0B8ChildrenV", "distance"]
+- ["11SwiftSyntax0B8ChildrenV", "endIndex"]
+- ["11SwiftSyntax0B8ChildrenV", "formIndex"]
+- ["11SwiftSyntax0B8ChildrenV", "index"]
+- ["11SwiftSyntax0B8ChildrenV", "indices"]
+- ["11SwiftSyntax0B8ChildrenV", "init"]
+- ["11SwiftSyntax0B8ChildrenV", "isEmpty"]
+- ["11SwiftSyntax0B8ChildrenV", "makeIterator"]
+- !private ["11SwiftSyntax0B8ChildrenV", "parent"]
+- !private ["11SwiftSyntax0B8ChildrenV", "rawChildren"]
+- ["11SwiftSyntax0B8ChildrenV", "startIndex"]
+- ["11SwiftSyntax0B8ChildrenV", "subscript"]
+- ["11SwiftSyntax0B8ChildrenV", "underestimatedCount"]
+- ["11SwiftSyntax0B8ChildrenV", "withContiguousStorageIfAvailable"]
+- ["11SwiftSyntax0B13ChildrenIndexV", "<"]
+- ["11SwiftSyntax0B13ChildrenIndexV", "<="]
+- ["11SwiftSyntax0B13ChildrenIndexV", "=="]
+- ["11SwiftSyntax0B13ChildrenIndexV", ">"]
+- ["11SwiftSyntax0B13ChildrenIndexV", ">="]
+- ["11SwiftSyntax0B13ChildrenIndexV", "AbsoluteSyntaxInfo"]
+- ["11SwiftSyntax0B13ChildrenIndexV", "Bool"]
+- ["11SwiftSyntax0B13ChildrenIndexV", "SyntaxChildrenIndex"]
+- ["11SwiftSyntax0B13ChildrenIndexV", "SyntaxChildrenIndexData"]
+- ["11SwiftSyntax0B13ChildrenIndexV", "SyntaxIndexInTree"]
+- ["11SwiftSyntax0B13ChildrenIndexV", "UInt32"]
+- ["11SwiftSyntax0B13ChildrenIndexV", "__derived_struct_equals"]
+- !private ["11SwiftSyntax0B13ChildrenIndexV", "data"]
+- ["11SwiftSyntax0B13ChildrenIndexV", "deinit"]
+- ["11SwiftSyntax0B13ChildrenIndexV", "init"]
+- ["11SwiftSyntax0B17ChildrenIndexDataV", "<"]
+- ["11SwiftSyntax0B17ChildrenIndexDataV", "<="]
+- ["11SwiftSyntax0B17ChildrenIndexDataV", "=="]
+- ["11SwiftSyntax0B17ChildrenIndexDataV", ">"]
+- ["11SwiftSyntax0B17ChildrenIndexDataV", ">="]
+- ["11SwiftSyntax0B17ChildrenIndexDataV", "AbsoluteSyntaxInfo"]
+- ["11SwiftSyntax0B17ChildrenIndexDataV", "Bool"]
+- ["11SwiftSyntax0B17ChildrenIndexDataV", "SyntaxChildrenIndexData"]
+- ["11SwiftSyntax0B17ChildrenIndexDataV", "SyntaxIndexInTree"]
+- ["11SwiftSyntax0B17ChildrenIndexDataV", "UInt32"]
+- ["11SwiftSyntax0B17ChildrenIndexDataV", "__derived_struct_equals"]
+- ["11SwiftSyntax0B17ChildrenIndexDataV", "deinit"]
+- !private ["11SwiftSyntax0B17ChildrenIndexDataV", "indexInParent"]
+- !private ["11SwiftSyntax0B17ChildrenIndexDataV", "indexInTree"]
+- ["11SwiftSyntax0B17ChildrenIndexDataV", "init"]
+- !private ["11SwiftSyntax0B17ChildrenIndexDataV", "offset"]
+- !private ["11SwiftSyntax0B4DataV", "absoluteRaw"]
+- !private ["11SwiftSyntax0B4DataV", "init"]
+- !private ["11SwiftSyntax0B8HashableP", "data"]
+- !private ["11SwiftSyntax0B8HashableP", "init"]
+- !private ["11SwiftSyntax0B10IdentifierV", "indexInTree"]
+- !private ["11SwiftSyntax0B10IdentifierV", "init"]
+- !private ["11SwiftSyntax0B10IdentifierV", "rootId"]
+- !private ["11SwiftSyntax0B11IndexInTreeV", "advancedBySibling"]
+- ["11SwiftSyntax0B11IndexInTreeV", "deinit"]
+- !private ["11SwiftSyntax0B11IndexInTreeV", "indexInTree"]
+- !private ["11SwiftSyntax0B11IndexInTreeV", "init"]
+- !private ["11SwiftSyntax0B11IndexInTreeV", "reversedBySibling"]
+- !private ["11SwiftSyntax0B8ProtocolP", "data"]
+- !private ["11SwiftSyntax0B8ProtocolP", "init"]
+- !private ["s20TextOutputStreamableP", "child"]
+- !private ["s20TextOutputStreamableP", "data"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isPresent"]
+- !private ["s20TextOutputStreamableP", "numberOfChildren"]
+- !private ["s20TextOutputStreamableP", "totalLength"]
+- !private ["s20TextOutputStreamableP", "totalNodes"]
+- !private ["s6UInt32V", "init"]
+- !private ["SU", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "none"]
+- ["s21_ObjectiveCBridgeableP", "some"]
+depends-nominal:
+- !private "11SwiftSyntax011AbsoluteRawB0V"
+- "11SwiftSyntax08AbsoluteB4InfoV"
+- !private "11SwiftSyntax08AbsoluteB8PositionV"
+- !private "s18AdditiveArithmeticP"
+- "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "Si"
+- "11SwiftSyntax010PresentRawB8ChildrenV8IteratorV"
+- "11SwiftSyntax03RawB8ChildrenV8IteratorV"
+- "11SwiftSyntax010PresentRawB8ChildrenV8IteratorV"
+- "11SwiftSyntax03RawB8ChildrenV8IteratorV"
+- "11SwiftSyntax010PresentRawB8ChildrenV8IteratorV"
+- "11SwiftSyntax03RawB8ChildrenV8IteratorV"
+- "11SwiftSyntax010PresentRawB8ChildrenV8IteratorV"
+- "11SwiftSyntax03RawB8ChildrenV8IteratorV"
+- "11SwiftSyntax010PresentRawB8ChildrenV8IteratorV"
+- "11SwiftSyntax03RawB8ChildrenV8IteratorV"
+- "11SwiftSyntax010PresentRawB8ChildrenV8IteratorV"
+- "11SwiftSyntax03RawB8ChildrenV8IteratorV"
+- "St"
+- !private "s20LazySequenceProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s13ManagedBufferC"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "Sj"
+- "Sq"
+- "11SwiftSyntax010PresentRawB8ChildrenV"
+- !private "Sk"
+- !private "Sm"
+- !private "11SwiftSyntax03RawB0C"
+- "11SwiftSyntax03RawB8ChildrenV"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "s5SliceV"
+- !private "11SwiftSyntax12SourceLengthV"
+- !private "Sx"
+- !private "11SwiftSyntax0B0V"
+- "11SwiftSyntax0B8ChildrenV"
+- "11SwiftSyntax0B13ChildrenIndexV"
+- "11SwiftSyntax0B17ChildrenIndexDataV"
+- !private "11SwiftSyntax0B4DataV"
+- !private "11SwiftSyntax0B8HashableP"
+- !private "11SwiftSyntax0B10IdentifierV"
+- "11SwiftSyntax0B11IndexInTreeV"
+- !private "11SwiftSyntax0B8ProtocolP"
+- !private "s20TextOutputStreamableP"
+- !private "s6UInt32V"
+- !private "SU"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/_CSwiftSyntax/include/atomic-counter.h"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatConfiguration.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntaxBuilder.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatWhitespaceLinter.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatRules.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormat.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatPrettyPrint.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatTestSupport.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/_CSwiftSyntax.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "dbf623129b84b81bb57eff5d6164e3b7"

@@ -1,0 +1,382 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "12swift_format18SwiftFormatCommandV4LintV"
+provides-member:
+- ["12swift_format18SwiftFormatCommandV", ""]
+- ["12swift_format18SwiftFormatCommandV4LintV", ""]
+- ["12swift_format18SwiftFormatCommandV", "Lint"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "CommandConfiguration"
+- "Configuration"
+- "DebugOptions"
+- !private "Diagnostic"
+- "DiagnosticEngine"
+- "FileHandle"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "LintFormatOptions"
+- "OptionGroup"
+- "ParsableCommand"
+- !private "SourceLocationConverter"
+- "String"
+- "StringLiteralType"
+- "SwiftFormatCommand"
+- !private "SwiftFormatError"
+- !private "SwiftLinter"
+- !private "URL"
+- !private "UnicodeScalarType"
+- !private "failIfDiagnosticsEmitted"
+- !private "lintMain"
+- !private "loadConfiguration"
+- !private "makeDiagnosticEngine"
+- !private "processSources"
+- !private "readSource"
+- !private "~="
+depends-member:
+- ["14ArgumentParser0A11SetProviderP", "init"]
+- ["14ArgumentParser0A11SetProviderP", "wrappedValue"]
+- !private ["Sa", "isEmpty"]
+- !private ["SK", "isEmpty"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "standardInput"]
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", "isEmpty"]
+- ["14ArgumentParser20CommandConfigurationV", "init"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- !private ["s28CustomDebugStringConvertibleP", "Message"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "standardInput"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- ["s23CustomStringConvertibleP", "=="]
+- !private ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "standardInput"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "wrappedValue"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- ["Se", "CommandConfiguration"]
+- !private ["Se", "FileHandle"]
+- !private ["Se", "Message"]
+- ["Se", "OptionGroup"]
+- ["Se", "ParsableCommand"]
+- ["Se", ""]
+- ["Se", "_commandName"]
+- !private ["Se", "_lintOptions"]
+- !private ["Se", "assumeFilename"]
+- ["Se", "configuration"]
+- !private ["Se", "configurationPath"]
+- !private ["Se", "debugOptions"]
+- !private ["Se", "error"]
+- !private ["Se", "failIfDiagnosticsEmitted"]
+- ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "lintMain"]
+- !private ["Se", "lintOptions"]
+- !private ["Se", "loadConfiguration"]
+- !private ["Se", "makeDiagnosticEngine"]
+- !private ["Se", "path"]
+- !private ["Se", "paths"]
+- !private ["Se", "processSources"]
+- ["Se", "run"]
+- ["Se", "validate"]
+- ["Se", "wrappedValue"]
+- !private ["s7DecoderP", "container"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["11SwiftSyntax10DiagnosticV", "Message"]
+- !private ["11SwiftSyntax16DiagnosticEngineC", "diagnose"]
+- !private ["SE", "Message"]
+- !private ["SE", "error"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "path"]
+- ["SQ", "=="]
+- !private ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "error"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "path"]
+- !private ["SQ", "standardInput"]
+- ["SQ", "stringValue"]
+- ["s5ErrorP", "fileContainsInvalidSyntax"]
+- ["s5ErrorP", "fileNotReadable"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["So12NSFileHandleC", "standardInput"]
+- ["SH", "=="]
+- !private ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- !private ["SH", "error"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "path"]
+- !private ["SH", "standardInput"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- ["12swift_format18SwiftFormatCommandV4LintV", "CommandConfiguration"]
+- !private ["12swift_format18SwiftFormatCommandV4LintV", "FileHandle"]
+- ["12swift_format18SwiftFormatCommandV4LintV", "LintFormatOptions"]
+- ["12swift_format18SwiftFormatCommandV4LintV", "OptionGroup"]
+- ["12swift_format18SwiftFormatCommandV4LintV", "_commandName"]
+- !private ["12swift_format18SwiftFormatCommandV4LintV", "_lintOptions"]
+- ["12swift_format18SwiftFormatCommandV4LintV", "configuration"]
+- ["12swift_format18SwiftFormatCommandV4LintV", "deinit"]
+- !private ["12swift_format18SwiftFormatCommandV4LintV", "failIfDiagnosticsEmitted"]
+- ["12swift_format18SwiftFormatCommandV4LintV", "init"]
+- !private ["12swift_format18SwiftFormatCommandV4LintV", "lintMain"]
+- ["12swift_format18SwiftFormatCommandV4LintV", "lintOptions"]
+- !private ["12swift_format18SwiftFormatCommandV4LintV", "loadConfiguration"]
+- !private ["12swift_format18SwiftFormatCommandV4LintV", "makeDiagnosticEngine"]
+- !private ["12swift_format18SwiftFormatCommandV4LintV", "processSources"]
+- ["12swift_format18SwiftFormatCommandV4LintV", "run"]
+- ["12swift_format18SwiftFormatCommandV4LintV", "validate"]
+- !private ["12swift_format17LintFormatOptionsV", "assumeFilename"]
+- !private ["12swift_format17LintFormatOptionsV", "configurationPath"]
+- !private ["12swift_format17LintFormatOptionsV", "debugOptions"]
+- ["12swift_format17LintFormatOptionsV", "deinit"]
+- !private ["12swift_format17LintFormatOptionsV", "paths"]
+- !private ["11SwiftSyntax10DiagnosticV7MessageV", "init"]
+- !private ["SM", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["So8NSCodingP", "standardInput"]
+- !private ["So8NSObjectC", "standardInput"]
+- !private ["So8NSObjectP", "standardInput"]
+- !private ["So14NSSecureCodingP", "standardInput"]
+- ["14ArgumentParser11OptionGroupV", "init"]
+- ["14ArgumentParser11OptionGroupV", "wrappedValue"]
+- ["14ArgumentParser17ParsableArgumentsP", "CommandConfiguration"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "FileHandle"]
+- ["14ArgumentParser17ParsableArgumentsP", "OptionGroup"]
+- ["14ArgumentParser17ParsableArgumentsP", "ParsableCommand"]
+- ["14ArgumentParser17ParsableArgumentsP", ""]
+- ["14ArgumentParser17ParsableArgumentsP", "_commandName"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "_lintOptions"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "assumeFilename"]
+- ["14ArgumentParser17ParsableArgumentsP", "configuration"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "configurationPath"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "debugOptions"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "failIfDiagnosticsEmitted"]
+- ["14ArgumentParser17ParsableArgumentsP", "init"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "lintMain"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "lintOptions"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "loadConfiguration"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "makeDiagnosticEngine"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "paths"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "processSources"]
+- ["14ArgumentParser17ParsableArgumentsP", "run"]
+- ["14ArgumentParser17ParsableArgumentsP", "validate"]
+- ["14ArgumentParser15ParsableCommandP", "CommandConfiguration"]
+- !private ["14ArgumentParser15ParsableCommandP", "FileHandle"]
+- ["14ArgumentParser15ParsableCommandP", "OptionGroup"]
+- ["14ArgumentParser15ParsableCommandP", "ParsableCommand"]
+- ["14ArgumentParser15ParsableCommandP", ""]
+- ["14ArgumentParser15ParsableCommandP", "_commandName"]
+- !private ["14ArgumentParser15ParsableCommandP", "_lintOptions"]
+- ["14ArgumentParser15ParsableCommandP", "configuration"]
+- !private ["14ArgumentParser15ParsableCommandP", "failIfDiagnosticsEmitted"]
+- ["14ArgumentParser15ParsableCommandP", "init"]
+- !private ["14ArgumentParser15ParsableCommandP", "lintMain"]
+- !private ["14ArgumentParser15ParsableCommandP", "lintOptions"]
+- !private ["14ArgumentParser15ParsableCommandP", "loadConfiguration"]
+- !private ["14ArgumentParser15ParsableCommandP", "makeDiagnosticEngine"]
+- !private ["14ArgumentParser15ParsableCommandP", "processSources"]
+- ["14ArgumentParser15ParsableCommandP", "run"]
+- ["14ArgumentParser15ParsableCommandP", "validate"]
+- ["14ArgumentParser13ParsedWrapperP", "init"]
+- ["14ArgumentParser13ParsedWrapperP", "wrappedValue"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sm", "isEmpty"]
+- !private ["SY", "error"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["ST", "isEmpty"]
+- !private ["11SwiftSyntax10DiagnosticV8SeverityO", "error"]
+- !private ["11SwiftSyntax23SourceLocationConverterC", "init"]
+- !private ["11SwiftSyntax23SourceLocationConverterC", "location"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- ["12swift_format18SwiftFormatCommandV", "CommandConfiguration"]
+- !private ["12swift_format18SwiftFormatCommandV", "FileHandle"]
+- ["12swift_format18SwiftFormatCommandV", "Lint"]
+- ["12swift_format18SwiftFormatCommandV", "LintFormatOptions"]
+- ["12swift_format18SwiftFormatCommandV", "OptionGroup"]
+- ["12swift_format18SwiftFormatCommandV", "ParsableCommand"]
+- !private ["12swift_format18SwiftFormatCommandV", "failIfDiagnosticsEmitted"]
+- !private ["12swift_format18SwiftFormatCommandV", "lintMain"]
+- !private ["12swift_format18SwiftFormatCommandV", "loadConfiguration"]
+- !private ["12swift_format18SwiftFormatCommandV", "makeDiagnosticEngine"]
+- !private ["12swift_format18SwiftFormatCommandV", "processSources"]
+- ["11SwiftFormat0aB5ErrorO", "fileContainsInvalidSyntax"]
+- ["11SwiftFormat0aB5ErrorO", "fileNotReadable"]
+- !private ["11SwiftFormat0A6LinterC", "debugOptions"]
+- !private ["11SwiftFormat0A6LinterC", "init"]
+- !private ["11SwiftFormat0A6LinterC", "lint"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "standardInput"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "path"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standardInput"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "standardInput"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+depends-nominal:
+- "14ArgumentParser0A11SetProviderP"
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- !private "Sl"
+- "14ArgumentParser20CommandConfigurationV"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s7DecoderP"
+- !private "s26DefaultStringInterpolationV"
+- !private "11SwiftSyntax10DiagnosticV"
+- !private "11SwiftSyntax16DiagnosticEngineC"
+- !private "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "So12NSFileHandleC"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- "12swift_format18SwiftFormatCommandV4LintV"
+- "12swift_format17LintFormatOptionsV"
+- !private "11SwiftSyntax10DiagnosticV7MessageV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "14ArgumentParser11OptionGroupV"
+- "14ArgumentParser17ParsableArgumentsP"
+- "14ArgumentParser15ParsableCommandP"
+- "14ArgumentParser13ParsedWrapperP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "11SwiftSyntax10DiagnosticV8SeverityO"
+- !private "11SwiftSyntax23SourceLocationConverterC"
+- !private "s27StringInterpolationProtocolP"
+- "12swift_format18SwiftFormatCommandV"
+- "11SwiftFormat0aB5ErrorO"
+- !private "11SwiftFormat0A6LinterC"
+- !private "s16TextOutputStreamP"
+- !private "10Foundation3URLV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatConfiguration.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/ArgumentParser.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatWhitespaceLinter.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatRules.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormat.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatPrettyPrint.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatConfiguration.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntaxBuilder.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatWhitespaceLinter.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatRules.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormat.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatPrettyPrint.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatTestSupport.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/_CSwiftSyntax.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "569f398fd8ffaa2e434a3b60580a067a"

@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/master.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/generate-pipeline/FileGenerator.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/FileGenerator.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/FileGenerator.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/FileGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/FileGenerator.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/generate-pipeline/PipelineGenerator.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/PipelineGenerator.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/PipelineGenerator.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/PipelineGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/PipelineGenerator.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/generate-pipeline/RuleCollector.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/RuleCollector.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/RuleCollector.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/RuleCollector~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/RuleCollector.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/generate-pipeline/RuleRegistryGenerator.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/RuleRegistryGenerator.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/RuleRegistryGenerator.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/RuleRegistryGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/RuleRegistryGenerator.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/generate-pipeline/Syntax+Convenience.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/Syntax+Convenience.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/Syntax+Convenience.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/Syntax+Convenience~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/Syntax+Convenience.swiftdeps"
+  },
+  "/Users/rorybain/projects/swift-format/Sources/generate-pipeline/main.swift": {
+    "dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/main.d",
+    "object": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/main.swift.o",
+    "swiftmodule": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/generate_pipeline.build/main.swiftdeps"
+  }
+}

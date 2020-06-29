@@ -1,0 +1,263 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NeverUseImplicitlyUnwrappedOptionals"
+provides-nominal:
+- "16SwiftFormatRules36NeverUseImplicitlyUnwrappedOptionalsC"
+provides-member:
+- ["16SwiftFormatRules36NeverUseImplicitlyUnwrappedOptionalsC", ""]
+- ["11SwiftSyntax10DiagnosticV7MessageV", ""]
+- ["11SwiftSyntax10DiagnosticV7MessageV", "doNotUseImplicitUnwrapping"]
+provides-dynamic-lookup:
+- "diagnoseImplicitWrapViolation"
+- "visit"
+depends-top-level:
+- !private "=="
+- !private "AttributeSyntax"
+- "Diagnostic"
+- !private "FloatLiteralType"
+- !private "ImplicitlyUnwrappedOptionalTypeSyntax"
+- !private "IntegerLiteralType"
+- "NeverUseImplicitlyUnwrappedOptionals"
+- "SourceFileSyntax"
+- "String"
+- !private "StringLiteralType"
+- "SyntaxLintRule"
+- "SyntaxVisitorContinueKind"
+- "TypeSyntax"
+- !private "UnicodeScalarType"
+- "VariableDeclSyntax"
+- !private "setImportsXCTest"
+depends-member:
+- !private ["11SwiftSyntax09AttributeB0V", "attributeName"]
+- !private ["15SwiftFormatCore7ContextC", "importsXCTest"]
+- ["s28CustomDebugStringConvertibleP", "Message"]
+- !private ["s28CustomDebugStringConvertibleP", "as"]
+- !private ["s28CustomDebugStringConvertibleP", "attributeName"]
+- !private ["s28CustomDebugStringConvertibleP", "attributes"]
+- !private ["s28CustomDebugStringConvertibleP", "bindings"]
+- !private ["s28CustomDebugStringConvertibleP", "doNotUseImplicitUnwrapping"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- !private ["s28CustomDebugStringConvertibleP", "typeAnnotation"]
+- !private ["s28CustomDebugStringConvertibleP", "wrappedType"]
+- !private ["s17CustomReflectableP", "as"]
+- !private ["s17CustomReflectableP", "attributeName"]
+- !private ["s17CustomReflectableP", "attributes"]
+- !private ["s17CustomReflectableP", "bindings"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s17CustomReflectableP", "type"]
+- !private ["s17CustomReflectableP", "typeAnnotation"]
+- !private ["s17CustomReflectableP", "wrappedType"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "as"]
+- !private ["s23CustomStringConvertibleP", "attributeName"]
+- !private ["s23CustomStringConvertibleP", "attributes"]
+- !private ["s23CustomStringConvertibleP", "bindings"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["s23CustomStringConvertibleP", "typeAnnotation"]
+- !private ["s23CustomStringConvertibleP", "wrappedType"]
+- !private ["11SwiftSyntax04DeclB8ProtocolP", "attributes"]
+- !private ["11SwiftSyntax04DeclB8ProtocolP", "bindings"]
+- ["Se", "Message"]
+- !private ["Se", "doNotUseImplicitUnwrapping"]
+- !private ["Se", "init"]
+- !private ["Se", "warning"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["11SwiftSyntax10DiagnosticV", "Message"]
+- ["SE", "Message"]
+- !private ["SE", "doNotUseImplicitUnwrapping"]
+- !private ["SE", "init"]
+- !private ["SE", "warning"]
+- !private ["SQ", "as"]
+- !private ["SQ", "attributeName"]
+- !private ["SQ", "attributes"]
+- !private ["SQ", "bindings"]
+- !private ["SQ", "doesNotImportXCTest"]
+- !private ["SQ", "skipChildren"]
+- !private ["SQ", "text"]
+- !private ["SQ", "type"]
+- !private ["SQ", "typeAnnotation"]
+- !private ["SQ", "visitChildren"]
+- !private ["SQ", "warning"]
+- !private ["SQ", "wrappedType"]
+- !private ["SH", "as"]
+- !private ["SH", "attributeName"]
+- !private ["SH", "attributes"]
+- !private ["SH", "bindings"]
+- !private ["SH", "doesNotImportXCTest"]
+- !private ["SH", "skipChildren"]
+- !private ["SH", "text"]
+- !private ["SH", "type"]
+- !private ["SH", "typeAnnotation"]
+- !private ["SH", "visitChildren"]
+- !private ["SH", "warning"]
+- !private ["SH", "wrappedType"]
+- !private ["11SwiftSyntax031ImplicitlyUnwrappedOptionalTypeB0V", "wrappedType"]
+- ["11SwiftSyntax10DiagnosticV7MessageV", "Diagnostic"]
+- ["11SwiftSyntax10DiagnosticV7MessageV", "String"]
+- ["11SwiftSyntax10DiagnosticV7MessageV", "doNotUseImplicitUnwrapping"]
+- !private ["11SwiftSyntax10DiagnosticV7MessageV", "init"]
+- !private ["16SwiftFormatRules36NeverUseImplicitlyUnwrappedOptionalsC", "AttributeSyntax"]
+- !private ["16SwiftFormatRules36NeverUseImplicitlyUnwrappedOptionalsC", "ImplicitlyUnwrappedOptionalTypeSyntax"]
+- ["16SwiftFormatRules36NeverUseImplicitlyUnwrappedOptionalsC", "SourceFileSyntax"]
+- ["16SwiftFormatRules36NeverUseImplicitlyUnwrappedOptionalsC", "SyntaxVisitorContinueKind"]
+- ["16SwiftFormatRules36NeverUseImplicitlyUnwrappedOptionalsC", "TypeSyntax"]
+- ["16SwiftFormatRules36NeverUseImplicitlyUnwrappedOptionalsC", "VariableDeclSyntax"]
+- !private ["16SwiftFormatRules36NeverUseImplicitlyUnwrappedOptionalsC", "context"]
+- ["16SwiftFormatRules36NeverUseImplicitlyUnwrappedOptionalsC", "deinit"]
+- !private ["16SwiftFormatRules36NeverUseImplicitlyUnwrappedOptionalsC", "diagnose"]
+- !private ["16SwiftFormatRules36NeverUseImplicitlyUnwrappedOptionalsC", "diagnoseImplicitWrapViolation"]
+- ["16SwiftFormatRules36NeverUseImplicitlyUnwrappedOptionalsC", "init"]
+- !private ["16SwiftFormatRules36NeverUseImplicitlyUnwrappedOptionalsC", "setImportsXCTest"]
+- ["16SwiftFormatRules36NeverUseImplicitlyUnwrappedOptionalsC", "visit"]
+- !private ["11SwiftSyntax014PatternBindingB0V", "typeAnnotation"]
+- !private ["SY", "warning"]
+- !private ["15SwiftFormatCore4RuleP", "AttributeSyntax"]
+- !private ["15SwiftFormatCore4RuleP", "ImplicitlyUnwrappedOptionalTypeSyntax"]
+- ["15SwiftFormatCore4RuleP", ""]
+- !private ["15SwiftFormatCore4RuleP", "context"]
+- !private ["15SwiftFormatCore4RuleP", "diagnose"]
+- !private ["15SwiftFormatCore4RuleP", "diagnoseImplicitWrapViolation"]
+- !private ["15SwiftFormatCore4RuleP", "setImportsXCTest"]
+- !private ["11SwiftSyntax10DiagnosticV8SeverityO", "warning"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["11SwiftSyntax0B0V", "as"]
+- !private ["11SwiftSyntax0B8HashableP", "as"]
+- !private ["11SwiftSyntax0B8HashableP", "attributeName"]
+- !private ["11SwiftSyntax0B8HashableP", "attributes"]
+- !private ["11SwiftSyntax0B8HashableP", "bindings"]
+- !private ["11SwiftSyntax0B8HashableP", "text"]
+- !private ["11SwiftSyntax0B8HashableP", "type"]
+- !private ["11SwiftSyntax0B8HashableP", "typeAnnotation"]
+- !private ["11SwiftSyntax0B8HashableP", "wrappedType"]
+- !private ["15SwiftFormatCore14SyntaxLintRuleC", "AttributeSyntax"]
+- !private ["15SwiftFormatCore14SyntaxLintRuleC", "ImplicitlyUnwrappedOptionalTypeSyntax"]
+- ["15SwiftFormatCore14SyntaxLintRuleC", "SourceFileSyntax"]
+- ["15SwiftFormatCore14SyntaxLintRuleC", "SyntaxVisitorContinueKind"]
+- ["15SwiftFormatCore14SyntaxLintRuleC", "TypeSyntax"]
+- ["15SwiftFormatCore14SyntaxLintRuleC", "VariableDeclSyntax"]
+- ["15SwiftFormatCore14SyntaxLintRuleC", ""]
+- !private ["15SwiftFormatCore14SyntaxLintRuleC", "context"]
+- !private ["15SwiftFormatCore14SyntaxLintRuleC", "diagnose"]
+- ["15SwiftFormatCore14SyntaxLintRuleC", "diagnoseImplicitWrapViolation"]
+- ["15SwiftFormatCore14SyntaxLintRuleC", "init"]
+- !private ["15SwiftFormatCore14SyntaxLintRuleC", "setImportsXCTest"]
+- ["15SwiftFormatCore14SyntaxLintRuleC", "visit"]
+- !private ["11SwiftSyntax0B8ProtocolP", "as"]
+- !private ["11SwiftSyntax0B8ProtocolP", "attributeName"]
+- !private ["11SwiftSyntax0B8ProtocolP", "attributes"]
+- !private ["11SwiftSyntax0B8ProtocolP", "bindings"]
+- !private ["11SwiftSyntax0B8ProtocolP", "text"]
+- !private ["11SwiftSyntax0B8ProtocolP", "type"]
+- !private ["11SwiftSyntax0B8ProtocolP", "typeAnnotation"]
+- !private ["11SwiftSyntax0B8ProtocolP", "wrappedType"]
+- !private ["11SwiftSyntax0B7VisitorC", "AttributeSyntax"]
+- !private ["11SwiftSyntax0B7VisitorC", "ImplicitlyUnwrappedOptionalTypeSyntax"]
+- ["11SwiftSyntax0B7VisitorC", "SourceFileSyntax"]
+- ["11SwiftSyntax0B7VisitorC", "SyntaxVisitorContinueKind"]
+- ["11SwiftSyntax0B7VisitorC", "TypeSyntax"]
+- ["11SwiftSyntax0B7VisitorC", "VariableDeclSyntax"]
+- !private ["11SwiftSyntax0B7VisitorC", "context"]
+- !private ["11SwiftSyntax0B7VisitorC", "diagnose"]
+- ["11SwiftSyntax0B7VisitorC", "diagnoseImplicitWrapViolation"]
+- !private ["11SwiftSyntax0B7VisitorC", "setImportsXCTest"]
+- ["11SwiftSyntax0B7VisitorC", "visit"]
+- !private ["11SwiftSyntax0B19VisitorContinueKindO", "skipChildren"]
+- !private ["11SwiftSyntax0B19VisitorContinueKindO", "visitChildren"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s20TextOutputStreamableP", "as"]
+- !private ["s20TextOutputStreamableP", "attributeName"]
+- !private ["s20TextOutputStreamableP", "attributes"]
+- !private ["s20TextOutputStreamableP", "bindings"]
+- !private ["s20TextOutputStreamableP", "text"]
+- !private ["s20TextOutputStreamableP", "type"]
+- !private ["s20TextOutputStreamableP", "typeAnnotation"]
+- !private ["s20TextOutputStreamableP", "wrappedType"]
+- !private ["11SwiftSyntax05TokenB0V", "text"]
+- !private ["11SwiftSyntax014TypeAnnotationB0V", "type"]
+- !private ["11SwiftSyntax04TypeB0V", "as"]
+- !private ["11SwiftSyntax04TypeB8ProtocolP", "as"]
+- !private ["11SwiftSyntax04TypeB8ProtocolP", "wrappedType"]
+- !private ["11SwiftSyntax012VariableDeclB0V", "attributes"]
+- !private ["11SwiftSyntax012VariableDeclB0V", "bindings"]
+- !private ["11SwiftSyntax017WithTrailingCommaB0P", "typeAnnotation"]
+- !private ["15SwiftFormatCore7ContextC17XCTestImportStateO", "doesNotImportXCTest"]
+depends-nominal:
+- !private "11SwiftSyntax09AttributeB0V"
+- !private "15SwiftFormatCore7ContextC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "11SwiftSyntax04DeclB8ProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "11SwiftSyntax10DiagnosticV"
+- "SE"
+- !private "SQ"
+- !private "SH"
+- !private "11SwiftSyntax031ImplicitlyUnwrappedOptionalTypeB0V"
+- "11SwiftSyntax10DiagnosticV7MessageV"
+- "16SwiftFormatRules36NeverUseImplicitlyUnwrappedOptionalsC"
+- !private "11SwiftSyntax014PatternBindingB0V"
+- !private "SY"
+- "15SwiftFormatCore4RuleP"
+- !private "11SwiftSyntax10DiagnosticV8SeverityO"
+- !private "s27StringInterpolationProtocolP"
+- !private "11SwiftSyntax0B0V"
+- !private "11SwiftSyntax0B8HashableP"
+- "15SwiftFormatCore14SyntaxLintRuleC"
+- !private "11SwiftSyntax0B8ProtocolP"
+- "11SwiftSyntax0B7VisitorC"
+- !private "11SwiftSyntax0B19VisitorContinueKindO"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "11SwiftSyntax05TokenB0V"
+- !private "11SwiftSyntax014TypeAnnotationB0V"
+- !private "11SwiftSyntax04TypeB0V"
+- !private "11SwiftSyntax04TypeB8ProtocolP"
+- !private "11SwiftSyntax012VariableDeclB0V"
+- !private "11SwiftSyntax017WithTrailingCommaB0P"
+- !private "15SwiftFormatCore7ContextC17XCTestImportStateO"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatConfiguration.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatConfiguration.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntaxBuilder.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatWhitespaceLinter.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatRules.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormat.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatPrettyPrint.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatTestSupport.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/_CSwiftSyntax.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bde53ce0eca86cc8433798fab03da6b8"

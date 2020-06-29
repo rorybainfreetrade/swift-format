@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "7cdc7a12a7ac0d8b286bcb88f6d10b6f"
+build_time: [1593424154, 793935000]
+inputs:
+  "/Users/rorybain/projects/swift-format/Sources/generate-pipeline/FileGenerator.swift": [1587743452, 23130099]
+  "/Users/rorybain/projects/swift-format/Sources/generate-pipeline/PipelineGenerator.swift": [1587743452, 23293837]
+  "/Users/rorybain/projects/swift-format/Sources/generate-pipeline/RuleCollector.swift": [1587743452, 23444324]
+  "/Users/rorybain/projects/swift-format/Sources/generate-pipeline/RuleRegistryGenerator.swift": [1587743452, 23604980]
+  "/Users/rorybain/projects/swift-format/Sources/generate-pipeline/Syntax+Convenience.swift": [1587743452, 23728770]
+  "/Users/rorybain/projects/swift-format/Sources/generate-pipeline/main.swift": [1587743452, 23856950]

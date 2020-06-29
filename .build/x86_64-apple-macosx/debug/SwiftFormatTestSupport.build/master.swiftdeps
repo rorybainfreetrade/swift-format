@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "ba21916381ce9550dd9d618164c99f49"
+build_time: [1593424155, 903107000]
+inputs:
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatTestSupport/DiagnosingTestCase.swift": [1587743452, 22186381]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormatTestSupport/DiagnosticTrackingConsumer.swift": [1587743452, 22331788]

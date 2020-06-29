@@ -1,0 +1,446 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AbsoluteSyntaxPosition"
+- "AbsoluteSyntaxInfo"
+- "SyntaxIndexInTree"
+- "SyntaxIdentifier"
+- "AbsoluteRawSyntax"
+- "SyntaxBox"
+- "SyntaxData"
+provides-nominal:
+- "11SwiftSyntax08AbsoluteB8PositionV"
+- "11SwiftSyntax08AbsoluteB4InfoV"
+- "11SwiftSyntax0B11IndexInTreeV"
+- "11SwiftSyntax0B10IdentifierV"
+- "11SwiftSyntax011AbsoluteRawB0V"
+- "11SwiftSyntax0B3BoxC"
+- "11SwiftSyntax0B4DataV"
+provides-member:
+- ["11SwiftSyntax08AbsoluteB8PositionV", ""]
+- ["11SwiftSyntax08AbsoluteB4InfoV", ""]
+- ["11SwiftSyntax0B11IndexInTreeV", ""]
+- ["11SwiftSyntax0B10IdentifierV", ""]
+- ["11SwiftSyntax011AbsoluteRawB0V", ""]
+- ["11SwiftSyntax0B3BoxC", ""]
+- ["11SwiftSyntax0B4DataV", ""]
+provides-dynamic-lookup:
+- "debugDescription"
+- "description"
+- "value"
+- "write"
+depends-top-level:
+- !private "!"
+- !private "+"
+- !private "-"
+- !private "..<"
+- "=="
+- !private "??"
+- "AbsolutePosition"
+- "AbsoluteRawSyntax"
+- "AbsoluteSyntaxInfo"
+- "AbsoluteSyntaxPosition"
+- "AssignmentPrecedence"
+- !private "AtomicCounter"
+- !private "BooleanLiteralType"
+- "CustomDebugStringConvertible"
+- "CustomStringConvertible"
+- "FloatLiteralType"
+- "Hashable"
+- "Int"
+- "IntegerLiteralType"
+- "RawRepresentable"
+- "RawSyntax"
+- !private "RawSyntaxChildren"
+- "String"
+- "Syntax"
+- "SyntaxBox"
+- "SyntaxData"
+- "SyntaxIdentifier"
+- "SyntaxIndexInTree"
+- "TextOutputStream"
+- "TextOutputStreamable"
+- "Trivia"
+- "UInt32"
+- !private "raw"
+depends-member:
+- !private ["11SwiftSyntax16AbsolutePositionV", "init"]
+- ["11SwiftSyntax011AbsoluteRawB0V", "AbsolutePosition"]
+- ["11SwiftSyntax011AbsoluteRawB0V", "AbsoluteRawSyntax"]
+- ["11SwiftSyntax011AbsoluteRawB0V", "AbsoluteSyntaxInfo"]
+- !private ["11SwiftSyntax011AbsoluteRawB0V", "Int"]
+- ["11SwiftSyntax011AbsoluteRawB0V", "RawSyntax"]
+- !private ["11SwiftSyntax011AbsoluteRawB0V", "SyntaxIdentifier"]
+- ["11SwiftSyntax011AbsoluteRawB0V", "UInt32"]
+- ["11SwiftSyntax011AbsoluteRawB0V", "endPosition"]
+- ["11SwiftSyntax011AbsoluteRawB0V", "firstChild"]
+- ["11SwiftSyntax011AbsoluteRawB0V", "forRoot"]
+- ["11SwiftSyntax011AbsoluteRawB0V", "info"]
+- ["11SwiftSyntax011AbsoluteRawB0V", "init"]
+- ["11SwiftSyntax011AbsoluteRawB0V", "nextSibling"]
+- ["11SwiftSyntax011AbsoluteRawB0V", "position"]
+- ["11SwiftSyntax011AbsoluteRawB0V", "raw"]
+- ["11SwiftSyntax011AbsoluteRawB0V", "replacingSelf"]
+- ["11SwiftSyntax08AbsoluteB4InfoV", "AbsoluteSyntaxInfo"]
+- ["11SwiftSyntax08AbsoluteB4InfoV", "AbsoluteSyntaxPosition"]
+- ["11SwiftSyntax08AbsoluteB4InfoV", "RawSyntax"]
+- ["11SwiftSyntax08AbsoluteB4InfoV", "SyntaxIdentifier"]
+- ["11SwiftSyntax08AbsoluteB4InfoV", "UInt32"]
+- ["11SwiftSyntax08AbsoluteB4InfoV", "advancedBySibling"]
+- ["11SwiftSyntax08AbsoluteB4InfoV", "advancedToEndOfChildren"]
+- ["11SwiftSyntax08AbsoluteB4InfoV", "advancedToFirstChild"]
+- ["11SwiftSyntax08AbsoluteB4InfoV", "forRoot"]
+- ["11SwiftSyntax08AbsoluteB4InfoV", "indexInParent"]
+- ["11SwiftSyntax08AbsoluteB4InfoV", "init"]
+- ["11SwiftSyntax08AbsoluteB4InfoV", "nodeId"]
+- ["11SwiftSyntax08AbsoluteB4InfoV", "offset"]
+- ["11SwiftSyntax08AbsoluteB4InfoV", "position"]
+- ["11SwiftSyntax08AbsoluteB4InfoV", "reversedBySibling"]
+- ["11SwiftSyntax08AbsoluteB8PositionV", "AbsoluteSyntaxPosition"]
+- ["11SwiftSyntax08AbsoluteB8PositionV", "RawSyntax"]
+- ["11SwiftSyntax08AbsoluteB8PositionV", "UInt32"]
+- ["11SwiftSyntax08AbsoluteB8PositionV", "advancedBySibling"]
+- ["11SwiftSyntax08AbsoluteB8PositionV", "advancedToEndOfChildren"]
+- ["11SwiftSyntax08AbsoluteB8PositionV", "advancedToFirstChild"]
+- ["11SwiftSyntax08AbsoluteB8PositionV", "forRoot"]
+- ["11SwiftSyntax08AbsoluteB8PositionV", "indexInParent"]
+- ["11SwiftSyntax08AbsoluteB8PositionV", "init"]
+- ["11SwiftSyntax08AbsoluteB8PositionV", "offset"]
+- ["11SwiftSyntax08AbsoluteB8PositionV", "reversedBySibling"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["11SwiftSyntax13AtomicCounterV", "next"]
+- !private ["SK", "init"]
+- !private ["SK", "makeIterator"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "makeIterator"]
+- !private ["SL", "init"]
+- !private ["SL", "utf8Length"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- ["s28CustomDebugStringConvertibleP", "write"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "debugDescription"]
+- !private ["s17CustomReflectableP", "description"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "write"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "child"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "hasChild"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isPresent"]
+- !private ["s23CustomStringConvertibleP", "leadingTriviaLength"]
+- !private ["s23CustomStringConvertibleP", "numberOfChildren"]
+- !private ["s23CustomStringConvertibleP", "replacingChild"]
+- !private ["s23CustomStringConvertibleP", "totalLength"]
+- !private ["s23CustomStringConvertibleP", "totalNodes"]
+- !private ["s23CustomStringConvertibleP", "trailingTriviaLength"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "withLeadingTrivia"]
+- !private ["s23CustomStringConvertibleP", "withTrailingTrivia"]
+- ["s23CustomStringConvertibleP", "write"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- ["SQ", "=="]
+- !private ["SQ", "AtomicCounter"]
+- ["SQ", "SyntaxIndexInTree"]
+- !private ["SQ", "UInt32"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "advancedBySibling"]
+- !private ["SQ", "advancedToEndOfChildren"]
+- !private ["SQ", "advancedToFirstChild"]
+- !private ["SQ", "data"]
+- !private ["SQ", "debugDescription"]
+- !private ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "indexInTree"]
+- ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "newRoot"]
+- !private ["SQ", "reversedBySibling"]
+- !private ["SQ", "rootId"]
+- !private ["SQ", "utf8Length"]
+- !private ["SQ", "write"]
+- !private ["SQ", "zero"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", "=="]
+- !private ["SH", "AtomicCounter"]
+- ["SH", "SyntaxIndexInTree"]
+- !private ["SH", "UInt32"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "advancedBySibling"]
+- !private ["SH", "advancedToEndOfChildren"]
+- !private ["SH", "advancedToFirstChild"]
+- !private ["SH", "data"]
+- !private ["SH", "debugDescription"]
+- !private ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "indexInTree"]
+- ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "newRoot"]
+- !private ["SH", "reversedBySibling"]
+- !private ["SH", "rootId"]
+- !private ["SH", "write"]
+- !private ["SH", "zero"]
+- !private ["s6HasherV", "combine"]
+- !private ["Si", "init"]
+- !private ["11SwiftSyntax03RawB8ChildrenV8IteratorV", "deinit"]
+- !private ["11SwiftSyntax03RawB8ChildrenV8IteratorV", "next"]
+- !private ["St", "next"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s13ManagedBufferC", "child"]
+- !private ["s13ManagedBufferC", "hasChild"]
+- !private ["s13ManagedBufferC", "isPresent"]
+- !private ["s13ManagedBufferC", "leadingTriviaLength"]
+- !private ["s13ManagedBufferC", "numberOfChildren"]
+- !private ["s13ManagedBufferC", "replacingChild"]
+- !private ["s13ManagedBufferC", "totalLength"]
+- !private ["s13ManagedBufferC", "totalNodes"]
+- !private ["s13ManagedBufferC", "trailingTriviaLength"]
+- !private ["s13ManagedBufferC", "withLeadingTrivia"]
+- !private ["s13ManagedBufferC", "withTrailingTrivia"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["Sj", "init"]
+- !private ["Sq", "map"]
+- !private ["SY", "rawValue"]
+- !private ["11SwiftSyntax03RawB0C", "child"]
+- !private ["11SwiftSyntax03RawB0C", "hasChild"]
+- !private ["11SwiftSyntax03RawB0C", "isPresent"]
+- !private ["11SwiftSyntax03RawB0C", "leadingTriviaLength"]
+- !private ["11SwiftSyntax03RawB0C", "numberOfChildren"]
+- !private ["11SwiftSyntax03RawB0C", "replacingChild"]
+- !private ["11SwiftSyntax03RawB0C", "totalLength"]
+- !private ["11SwiftSyntax03RawB0C", "totalNodes"]
+- !private ["11SwiftSyntax03RawB0C", "trailingTriviaLength"]
+- !private ["11SwiftSyntax03RawB0C", "withLeadingTrivia"]
+- !private ["11SwiftSyntax03RawB0C", "withTrailingTrivia"]
+- !private ["11SwiftSyntax03RawB8ChildrenV", "deinit"]
+- !private ["11SwiftSyntax03RawB8ChildrenV", "init"]
+- !private ["11SwiftSyntax03RawB8ChildrenV", "makeIterator"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "makeIterator"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["11SwiftSyntax12SourceLengthV", "utf8Length"]
+- !private ["Sx", "init"]
+- !private ["11SwiftSyntax0B0V", "data"]
+- !private ["11SwiftSyntax0B0V", "debugDescription"]
+- !private ["11SwiftSyntax0B0V", "deinit"]
+- !private ["11SwiftSyntax0B0V", "description"]
+- !private ["11SwiftSyntax0B0V", "init"]
+- !private ["11SwiftSyntax0B0V", "write"]
+- ["11SwiftSyntax0B3BoxC", "String"]
+- ["11SwiftSyntax0B3BoxC", "Syntax"]
+- ["11SwiftSyntax0B3BoxC", "TextOutputStream"]
+- ["11SwiftSyntax0B3BoxC", "debugDescription"]
+- ["11SwiftSyntax0B3BoxC", "deinit"]
+- ["11SwiftSyntax0B3BoxC", "description"]
+- ["11SwiftSyntax0B3BoxC", "init"]
+- ["11SwiftSyntax0B3BoxC", "value"]
+- ["11SwiftSyntax0B3BoxC", "write"]
+- ["11SwiftSyntax0B4DataV", "AbsolutePosition"]
+- ["11SwiftSyntax0B4DataV", "AbsoluteRawSyntax"]
+- ["11SwiftSyntax0B4DataV", "Int"]
+- ["11SwiftSyntax0B4DataV", "RawRepresentable"]
+- ["11SwiftSyntax0B4DataV", "RawSyntax"]
+- !private ["11SwiftSyntax0B4DataV", "RawSyntaxChildren"]
+- ["11SwiftSyntax0B4DataV", "Syntax"]
+- ["11SwiftSyntax0B4DataV", "SyntaxBox"]
+- ["11SwiftSyntax0B4DataV", "SyntaxData"]
+- ["11SwiftSyntax0B4DataV", "SyntaxIdentifier"]
+- ["11SwiftSyntax0B4DataV", "Trivia"]
+- ["11SwiftSyntax0B4DataV", "absoluteRaw"]
+- ["11SwiftSyntax0B4DataV", "child"]
+- ["11SwiftSyntax0B4DataV", "endPosition"]
+- ["11SwiftSyntax0B4DataV", "endPositionBeforeTrailingTrivia"]
+- ["11SwiftSyntax0B4DataV", "forRoot"]
+- ["11SwiftSyntax0B4DataV", "indexInParent"]
+- ["11SwiftSyntax0B4DataV", "init"]
+- ["11SwiftSyntax0B4DataV", "nodeId"]
+- ["11SwiftSyntax0B4DataV", "parent"]
+- !private ["11SwiftSyntax0B4DataV", "parentBox"]
+- ["11SwiftSyntax0B4DataV", "position"]
+- ["11SwiftSyntax0B4DataV", "positionAfterSkippingLeadingTrivia"]
+- ["11SwiftSyntax0B4DataV", "raw"]
+- ["11SwiftSyntax0B4DataV", "replacingChild"]
+- ["11SwiftSyntax0B4DataV", "replacingSelf"]
+- ["11SwiftSyntax0B4DataV", "withLeadingTrivia"]
+- ["11SwiftSyntax0B4DataV", "withTrailingTrivia"]
+- !private ["11SwiftSyntax0B8HashableP", "data"]
+- !private ["11SwiftSyntax0B8HashableP", "debugDescription"]
+- !private ["11SwiftSyntax0B8HashableP", "description"]
+- !private ["11SwiftSyntax0B8HashableP", "init"]
+- !private ["11SwiftSyntax0B8HashableP", "write"]
+- ["11SwiftSyntax0B10IdentifierV", "=="]
+- !private ["11SwiftSyntax0B10IdentifierV", "AtomicCounter"]
+- ["11SwiftSyntax0B10IdentifierV", "RawSyntax"]
+- ["11SwiftSyntax0B10IdentifierV", "SyntaxIdentifier"]
+- ["11SwiftSyntax0B10IdentifierV", "SyntaxIndexInTree"]
+- ["11SwiftSyntax0B10IdentifierV", "UInt32"]
+- ["11SwiftSyntax0B10IdentifierV", "__derived_struct_equals"]
+- ["11SwiftSyntax0B10IdentifierV", "_rawHashValue"]
+- ["11SwiftSyntax0B10IdentifierV", "advancedBySibling"]
+- ["11SwiftSyntax0B10IdentifierV", "advancedToEndOfChildren"]
+- ["11SwiftSyntax0B10IdentifierV", "advancedToFirstChild"]
+- ["11SwiftSyntax0B10IdentifierV", "deinit"]
+- ["11SwiftSyntax0B10IdentifierV", "hash"]
+- ["11SwiftSyntax0B10IdentifierV", "hashValue"]
+- ["11SwiftSyntax0B10IdentifierV", "indexInTree"]
+- ["11SwiftSyntax0B10IdentifierV", "init"]
+- ["11SwiftSyntax0B10IdentifierV", "newRoot"]
+- ["11SwiftSyntax0B10IdentifierV", "reversedBySibling"]
+- ["11SwiftSyntax0B10IdentifierV", "rootId"]
+- ["11SwiftSyntax0B11IndexInTreeV", "=="]
+- ["11SwiftSyntax0B11IndexInTreeV", "RawSyntax"]
+- ["11SwiftSyntax0B11IndexInTreeV", "SyntaxIndexInTree"]
+- ["11SwiftSyntax0B11IndexInTreeV", "UInt32"]
+- ["11SwiftSyntax0B11IndexInTreeV", "__derived_struct_equals"]
+- ["11SwiftSyntax0B11IndexInTreeV", "_rawHashValue"]
+- ["11SwiftSyntax0B11IndexInTreeV", "advancedBySibling"]
+- ["11SwiftSyntax0B11IndexInTreeV", "advancedToEndOfChildren"]
+- ["11SwiftSyntax0B11IndexInTreeV", "advancedToFirstChild"]
+- ["11SwiftSyntax0B11IndexInTreeV", "deinit"]
+- ["11SwiftSyntax0B11IndexInTreeV", "hash"]
+- ["11SwiftSyntax0B11IndexInTreeV", "hashValue"]
+- ["11SwiftSyntax0B11IndexInTreeV", "indexInTree"]
+- ["11SwiftSyntax0B11IndexInTreeV", "init"]
+- ["11SwiftSyntax0B11IndexInTreeV", "reversedBySibling"]
+- ["11SwiftSyntax0B11IndexInTreeV", "zero"]
+- !private ["11SwiftSyntax0B8ProtocolP", "data"]
+- !private ["11SwiftSyntax0B8ProtocolP", "debugDescription"]
+- !private ["11SwiftSyntax0B8ProtocolP", "description"]
+- !private ["11SwiftSyntax0B8ProtocolP", "init"]
+- !private ["11SwiftSyntax0B8ProtocolP", "write"]
+- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "child"]
+- !private ["s20TextOutputStreamableP", "data"]
+- ["s20TextOutputStreamableP", "debugDescription"]
+- ["s20TextOutputStreamableP", "description"]
+- !private ["s20TextOutputStreamableP", "hasChild"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isPresent"]
+- !private ["s20TextOutputStreamableP", "leadingTriviaLength"]
+- !private ["s20TextOutputStreamableP", "numberOfChildren"]
+- !private ["s20TextOutputStreamableP", "replacingChild"]
+- !private ["s20TextOutputStreamableP", "totalLength"]
+- !private ["s20TextOutputStreamableP", "totalNodes"]
+- !private ["s20TextOutputStreamableP", "trailingTriviaLength"]
+- !private ["s20TextOutputStreamableP", "value"]
+- !private ["s20TextOutputStreamableP", "withLeadingTrivia"]
+- !private ["s20TextOutputStreamableP", "withTrailingTrivia"]
+- ["s20TextOutputStreamableP", "write"]
+- !private ["s6UInt32V", "init"]
+- !private ["SU", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- !private "11SwiftSyntax16AbsolutePositionV"
+- "11SwiftSyntax011AbsoluteRawB0V"
+- "11SwiftSyntax08AbsoluteB4InfoV"
+- "11SwiftSyntax08AbsoluteB8PositionV"
+- !private "s18AdditiveArithmeticP"
+- !private "11SwiftSyntax13AtomicCounterV"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s6HasherV"
+- !private "Si"
+- !private "11SwiftSyntax03RawB8ChildrenV8IteratorV"
+- !private "St"
+- !private "s25LosslessStringConvertibleP"
+- !private "s13ManagedBufferC"
+- !private "s10MirrorPathP"
+- !private "Sj"
+- !private "Sq"
+- !private "SY"
+- !private "11SwiftSyntax03RawB0C"
+- !private "11SwiftSyntax03RawB8ChildrenV"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "11SwiftSyntax12SourceLengthV"
+- !private "Sx"
+- !private "11SwiftSyntax0B0V"
+- "11SwiftSyntax0B3BoxC"
+- "11SwiftSyntax0B4DataV"
+- !private "11SwiftSyntax0B8HashableP"
+- "11SwiftSyntax0B10IdentifierV"
+- "11SwiftSyntax0B11IndexInTreeV"
+- !private "11SwiftSyntax0B8ProtocolP"
+- "s20TextOutputStreamableP"
+- !private "s6UInt32V"
+- !private "SU"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/_CSwiftSyntax/include/atomic-counter.h"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatConfiguration.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntaxBuilder.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatWhitespaceLinter.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatRules.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormat.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatPrettyPrint.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatTestSupport.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/_CSwiftSyntax.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9b4120e9d1099e8d162f5b24ab5cc570"

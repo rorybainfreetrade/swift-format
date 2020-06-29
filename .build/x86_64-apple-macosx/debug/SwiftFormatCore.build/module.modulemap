@@ -1,0 +1,4 @@
+module SwiftFormatCore {
+    header "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/SwiftFormatCore-Swift.h"
+    requires objc
+}

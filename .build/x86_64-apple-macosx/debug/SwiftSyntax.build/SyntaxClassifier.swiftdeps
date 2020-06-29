@@ -1,0 +1,707 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SyntaxClassifiedRange"
+- "SyntaxClassifications"
+provides-nominal:
+- "11SwiftSyntax0B15ClassifiedRangeV"
+- "11SwiftSyntax0B15ClassificationsV"
+- "11SwiftSyntax0B15ClassificationsV8IteratorV"
+provides-member:
+- ["11SwiftSyntax0B4DataV", ""]
+- ["11SwiftSyntax05TokenB0V", ""]
+- ["11SwiftSyntax17UnsafeTriviaPieceV", ""]
+- ["11SwiftSyntax15UnsafeTokenTextV", ""]
+- ["11SwiftSyntax0B15ClassifiedRangeV", ""]
+- ["11SwiftSyntax0B15ClassificationsV", ""]
+- ["11SwiftSyntax0B15ClassificationsV8IteratorV", ""]
+- ["11SwiftSyntax0B4DataV", "contextualClassification"]
+- ["11SwiftSyntax05TokenB0V", "tokenClassification"]
+- ["11SwiftSyntax17UnsafeTriviaPieceV", "classify"]
+- ["11SwiftSyntax15UnsafeTokenTextV", "classify"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "..<"
+- !private "<"
+- !private "<="
+- "=="
+- !private ">"
+- !private "??"
+- "AbsoluteNode"
+- "AbsoluteSyntaxPosition"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "ByteSourceRange"
+- "Equatable"
+- "FastTokenSequence"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "IteratorProtocol"
+- "RawSyntax"
+- "Sequence"
+- "Syntax"
+- "SyntaxClassification"
+- "SyntaxClassifications"
+- "SyntaxClassifiedRange"
+- "SyntaxCursor"
+- "SyntaxData"
+- "TokenClassificationIterator"
+- "TokenSyntax"
+- !private "UInt32"
+- "UnsafeTokenText"
+- "UnsafeTriviaPiece"
+- !private "assert"
+- !private "||"
+depends-member:
+- !private ["11SwiftSyntax16AbsolutePositionV", "utf8Offset"]
+- !private ["11SwiftSyntax08AbsoluteB8PositionV", "advancedBySibling"]
+- !private ["11SwiftSyntax08AbsoluteB8PositionV", "advancedToFirstChild"]
+- !private ["11SwiftSyntax08AbsoluteB8PositionV", "indexInParent"]
+- !private ["11SwiftSyntax08AbsoluteB8PositionV", "init"]
+- !private ["11SwiftSyntax08AbsoluteB8PositionV", "offset"]
+- !private ["s18AdditiveArithmeticP", "asciiDoubleQuote"]
+- !private ["s18AdditiveArithmeticP", "asciiLeftAngleBracket"]
+- !private ["s18AdditiveArithmeticP", "asciiPound"]
+- !private ["s18AdditiveArithmeticP", "asciiRightAngleBracket"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "last"]
+- !private ["Sa", "removeLast"]
+- !private ["SK", "append"]
+- !private ["SK", "hasPrefix"]
+- !private ["SK", "hasSuffix"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "last"]
+- !private ["SK", "removeLast"]
+- !private ["Sz", "asciiDoubleQuote"]
+- !private ["Sz", "asciiLeftAngleBracket"]
+- !private ["Sz", "asciiPound"]
+- !private ["Sz", "asciiRightAngleBracket"]
+- !private ["Sz", "init"]
+- ["11SwiftSyntax15ByteSourceRangeV", "deinit"]
+- !private ["11SwiftSyntax15ByteSourceRangeV", "endOffset"]
+- !private ["11SwiftSyntax15ByteSourceRangeV", "init"]
+- !private ["11SwiftSyntax15ByteSourceRangeV", "length"]
+- !private ["11SwiftSyntax15ByteSourceRangeV", "offset"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "asciiDoubleQuote"]
+- !private ["s7CVarArgP", "asciiLeftAngleBracket"]
+- !private ["s7CVarArgP", "asciiPound"]
+- !private ["s7CVarArgP", "asciiRightAngleBracket"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "removeLast"]
+- !private ["Sl", "append"]
+- !private ["Sl", "hasPrefix"]
+- !private ["Sl", "hasSuffix"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "last"]
+- !private ["Sl", "removeLast"]
+- !private ["SL", "asciiDoubleQuote"]
+- !private ["SL", "asciiLeftAngleBracket"]
+- !private ["SL", "asciiPound"]
+- !private ["SL", "asciiRightAngleBracket"]
+- !private ["SL", "init"]
+- !private ["SL", "utf8Length"]
+- !private ["SL", "utf8Offset"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "hasPrefix"]
+- !private ["10Foundation15ContiguousBytesP", "hasSuffix"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "last"]
+- !private ["10Foundation15ContiguousBytesP", "removeLast"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "hasPrefix"]
+- !private ["s28CustomDebugStringConvertibleP", "hasSuffix"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "position"]
+- !private ["s28CustomDebugStringConvertibleP", "raw"]
+- !private ["s28CustomDebugStringConvertibleP", "removeLast"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "asciiDoubleQuote"]
+- !private ["s17CustomReflectableP", "asciiLeftAngleBracket"]
+- !private ["s17CustomReflectableP", "asciiPound"]
+- !private ["s17CustomReflectableP", "asciiRightAngleBracket"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "position"]
+- !private ["s17CustomReflectableP", "raw"]
+- !private ["s17CustomReflectableP", "removeLast"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "asciiDoubleQuote"]
+- !private ["s23CustomStringConvertibleP", "asciiLeftAngleBracket"]
+- !private ["s23CustomStringConvertibleP", "asciiPound"]
+- !private ["s23CustomStringConvertibleP", "asciiRightAngleBracket"]
+- !private ["s23CustomStringConvertibleP", "child"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "isPresent"]
+- !private ["s23CustomStringConvertibleP", "isToken"]
+- !private ["s23CustomStringConvertibleP", "kind"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "numberOfChildren"]
+- !private ["s23CustomStringConvertibleP", "position"]
+- !private ["s23CustomStringConvertibleP", "raw"]
+- !private ["s23CustomStringConvertibleP", "removeLast"]
+- !private ["s23CustomStringConvertibleP", "tokenLeadingTriviaLength"]
+- !private ["s23CustomStringConvertibleP", "totalLength"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeLeadingTriviaPiece"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeTokenText"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeTrailingTriviaPiece"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "hasPrefix"]
+- !private ["10Foundation12DataProtocolP", "hasSuffix"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["10Foundation12DataProtocolP", "last"]
+- !private ["10Foundation12DataProtocolP", "removeLast"]
+- !private ["Se", "append"]
+- !private ["Se", "asciiDoubleQuote"]
+- !private ["Se", "asciiLeftAngleBracket"]
+- !private ["Se", "asciiPound"]
+- !private ["Se", "asciiRightAngleBracket"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "last"]
+- !private ["Se", "removeLast"]
+- !private ["SE", "append"]
+- !private ["SE", "asciiDoubleQuote"]
+- !private ["SE", "asciiLeftAngleBracket"]
+- !private ["SE", "asciiPound"]
+- !private ["SE", "asciiRightAngleBracket"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "last"]
+- !private ["SE", "removeLast"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "asciiDoubleQuote"]
+- !private ["SQ", "asciiLeftAngleBracket"]
+- !private ["SQ", "asciiPound"]
+- !private ["SQ", "asciiRightAngleBracket"]
+- ["SQ", "blockComment"]
+- !private ["SQ", "classification"]
+- !private ["SQ", "classify"]
+- !private ["SQ", "data"]
+- ["SQ", "docBlockComment"]
+- ["SQ", "docLineComment"]
+- !private ["SQ", "editorPlaceholder"]
+- !private ["SQ", "endOffset"]
+- ["SQ", "identifier"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "kind"]
+- !private ["SQ", "last"]
+- !private ["SQ", "length"]
+- ["SQ", "lineComment"]
+- !private ["SQ", "none"]
+- !private ["SQ", "offset"]
+- !private ["SQ", "position"]
+- !private ["SQ", "range"]
+- !private ["SQ", "raw"]
+- !private ["SQ", "removeLast"]
+- !private ["SQ", "stringLiteral"]
+- ["SQ", "unknown"]
+- !private ["SQ", "utf8Length"]
+- !private ["SQ", "utf8Offset"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeLast"]
+- !private ["s27ExpressibleByIntegerLiteralP", "asciiDoubleQuote"]
+- !private ["s27ExpressibleByIntegerLiteralP", "asciiLeftAngleBracket"]
+- !private ["s27ExpressibleByIntegerLiteralP", "asciiPound"]
+- !private ["s27ExpressibleByIntegerLiteralP", "asciiRightAngleBracket"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "asciiDoubleQuote"]
+- !private ["s17FixedWidthIntegerP", "asciiLeftAngleBracket"]
+- !private ["s17FixedWidthIntegerP", "asciiPound"]
+- !private ["s17FixedWidthIntegerP", "asciiRightAngleBracket"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "append"]
+- !private ["SH", "asciiDoubleQuote"]
+- !private ["SH", "asciiLeftAngleBracket"]
+- !private ["SH", "asciiPound"]
+- !private ["SH", "asciiRightAngleBracket"]
+- ["SH", "blockComment"]
+- !private ["SH", "classification"]
+- !private ["SH", "classify"]
+- !private ["SH", "data"]
+- ["SH", "docBlockComment"]
+- ["SH", "docLineComment"]
+- !private ["SH", "editorPlaceholder"]
+- ["SH", "identifier"]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "last"]
+- ["SH", "lineComment"]
+- !private ["SH", "none"]
+- !private ["SH", "position"]
+- !private ["SH", "raw"]
+- !private ["SH", "removeLast"]
+- !private ["SH", "stringLiteral"]
+- ["SH", "unknown"]
+- !private ["Si", "init"]
+- ["11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV", "AbsoluteNode"]
+- ["11SwiftSyntax0B15ClassificationsV8IteratorV", "Bool"]
+- ["11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV", "Bool"]
+- ["11SwiftSyntax0B15ClassificationsV8IteratorV", "ByteSourceRange"]
+- ["11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV", "ByteSourceRange"]
+- ["11SwiftSyntax0B15ClassificationsV8IteratorV", "Element"]
+- ["11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV", "Element"]
+- ["11SwiftSyntax0B15ClassificationsV8IteratorV", "FastTokenSequence"]
+- ["11SwiftSyntax0B15ClassificationsV8IteratorV", "Int"]
+- ["11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV", "Int"]
+- ["11SwiftSyntax0B15ClassificationsV8IteratorV", "RawSyntax"]
+- ["11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV", "RawSyntax"]
+- ["11SwiftSyntax0B15ClassificationsV8IteratorV", "SyntaxClassification"]
+- ["11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV", "SyntaxClassification"]
+- ["11SwiftSyntax0B15ClassificationsV8IteratorV", "SyntaxClassifiedRange"]
+- ["11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV", "SyntaxCursor"]
+- ["11SwiftSyntax0B15ClassificationsV8IteratorV", "TokenClassificationIterator"]
+- ["11SwiftSyntax0B15ClassificationsV8IteratorV", "_Default_Element"]
+- ["11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV", "_Default_Element"]
+- !private ["11SwiftSyntax0B15ClassificationsV8IteratorV", "absRange"]
+- !private ["11SwiftSyntax0B15ClassificationsV8IteratorV", "classifyIter"]
+- !private ["11SwiftSyntax0B15ClassificationsV8IteratorV", "curOffset"]
+- !private ["11SwiftSyntax0B15ClassificationsV8IteratorV", "curTokenEndOffset"]
+- ["11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV", "cursor"]
+- ["11SwiftSyntax0B15ClassificationsV8IteratorV", "deinit"]
+- ["11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV", "deinit"]
+- ["11SwiftSyntax0B15ClassificationsV8IteratorV", "init"]
+- ["11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV", "init"]
+- ["11SwiftSyntax0B15ClassificationsV8IteratorV", "next"]
+- ["11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV", "next"]
+- !private ["11SwiftSyntax0B15ClassificationsV8IteratorV", "nextActiveClassification"]
+- !private ["11SwiftSyntax0B15ClassificationsV8IteratorV", "nextClassification"]
+- !private ["11SwiftSyntax0B15ClassificationsV8IteratorV", "pendingClassifiedRange"]
+- !private ["11SwiftSyntax0B15ClassificationsV8IteratorV", "tokenIterator"]
+- !private ["St", "ByteSourceRange"]
+- ["St", "Element"]
+- !private ["St", "Int"]
+- !private ["St", "SyntaxClassifiedRange"]
+- !private ["St", "SyntaxCursor"]
+- !private ["St", "TokenClassificationIterator"]
+- ["St", ""]
+- ["St", "_Default_Element"]
+- !private ["St", "absRange"]
+- !private ["St", "assert"]
+- !private ["St", "classifyIter"]
+- !private ["St", "curOffset"]
+- !private ["St", "curTokenEndOffset"]
+- !private ["St", "cursor"]
+- !private ["St", "init"]
+- ["St", "next"]
+- !private ["St", "nextActiveClassification"]
+- !private ["St", "nextClassification"]
+- !private ["St", "offset"]
+- !private ["St", "pendingClassifiedRange"]
+- !private ["St", "relativeOffset"]
+- !private ["St", "state"]
+- !private ["St", "token"]
+- !private ["St", "tokenIterator"]
+- !private ["s25LosslessStringConvertibleP", "asciiDoubleQuote"]
+- !private ["s25LosslessStringConvertibleP", "asciiLeftAngleBracket"]
+- !private ["s25LosslessStringConvertibleP", "asciiPound"]
+- !private ["s25LosslessStringConvertibleP", "asciiRightAngleBracket"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s13ManagedBufferC", "child"]
+- !private ["s13ManagedBufferC", "isPresent"]
+- !private ["s13ManagedBufferC", "isToken"]
+- !private ["s13ManagedBufferC", "kind"]
+- !private ["s13ManagedBufferC", "numberOfChildren"]
+- !private ["s13ManagedBufferC", "tokenLeadingTriviaLength"]
+- !private ["s13ManagedBufferC", "totalLength"]
+- !private ["s13ManagedBufferC", "withUnsafeLeadingTriviaPiece"]
+- !private ["s13ManagedBufferC", "withUnsafeTokenText"]
+- !private ["s13ManagedBufferC", "withUnsafeTrailingTriviaPiece"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "last"]
+- !private ["SM", "removeLast"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "last"]
+- !private ["10Foundation19MutableDataProtocolP", "removeLast"]
+- !private ["Sj", "asciiDoubleQuote"]
+- !private ["Sj", "asciiLeftAngleBracket"]
+- !private ["Sj", "asciiPound"]
+- !private ["Sj", "asciiRightAngleBracket"]
+- !private ["Sj", "init"]
+- !private ["Sk", "append"]
+- !private ["Sk", "hasPrefix"]
+- !private ["Sk", "hasSuffix"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "last"]
+- !private ["Sk", "removeLast"]
+- !private ["Sm", "append"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "last"]
+- !private ["Sm", "removeLast"]
+- ["SY", "blockComment"]
+- !private ["SY", "classification"]
+- ["SY", "docBlockComment"]
+- ["SY", "docLineComment"]
+- ["SY", "identifier"]
+- ["SY", "lineComment"]
+- ["SY", "unknown"]
+- !private ["11SwiftSyntax03RawB0C", "child"]
+- !private ["11SwiftSyntax03RawB0C", "isPresent"]
+- !private ["11SwiftSyntax03RawB0C", "isToken"]
+- !private ["11SwiftSyntax03RawB0C", "kind"]
+- !private ["11SwiftSyntax03RawB0C", "numberOfChildren"]
+- !private ["11SwiftSyntax03RawB0C", "tokenLeadingTriviaLength"]
+- !private ["11SwiftSyntax03RawB0C", "totalLength"]
+- !private ["11SwiftSyntax03RawB0C", "withUnsafeLeadingTriviaPiece"]
+- !private ["11SwiftSyntax03RawB0C", "withUnsafeTokenText"]
+- !private ["11SwiftSyntax03RawB0C", "withUnsafeTrailingTriviaPiece"]
+- !private ["11SwiftSyntax12RawTokenKindO", "classification"]
+- !private ["11SwiftSyntax12RawTokenKindO", "deinit"]
+- ["11SwiftSyntax12RawTokenKindO", "identifier"]
+- ["11SwiftSyntax12RawTokenKindO", "unknown"]
+- !private ["s10SIMDScalarP", "asciiDoubleQuote"]
+- !private ["s10SIMDScalarP", "asciiLeftAngleBracket"]
+- !private ["s10SIMDScalarP", "asciiPound"]
+- !private ["s10SIMDScalarP", "asciiRightAngleBracket"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "ByteSourceRange"]
+- ["ST", "Element"]
+- !private ["ST", "Int"]
+- ["ST", "Iterator"]
+- ["ST", "IteratorProtocol"]
+- !private ["ST", "SyntaxClassifiedRange"]
+- !private ["ST", "SyntaxCursor"]
+- !private ["ST", "TokenClassificationIterator"]
+- ["ST", ""]
+- ["ST", "_Default_Element"]
+- ["ST", "_copyContents"]
+- ["ST", "_copyToContiguousArray"]
+- ["ST", "_customContainsEquatableElement"]
+- !private ["ST", "absRange"]
+- !private ["ST", "append"]
+- !private ["ST", "contextualClassification"]
+- !private ["ST", "hasPrefix"]
+- !private ["ST", "hasSuffix"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "last"]
+- ["ST", "makeIterator"]
+- !private ["ST", "node"]
+- !private ["ST", "offset"]
+- !private ["ST", "relRange"]
+- !private ["ST", "removeLast"]
+- !private ["ST", "root"]
+- ["ST", "underestimatedCount"]
+- ["ST", "withContiguousStorageIfAvailable"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["11SwiftSyntax12SourceLengthV", "utf8Length"]
+- ["11SwiftSyntax27TokenClassificationIterator33_FBD6122E65CD7F9C2F0D6322FD27C394LLV5StateO", "Int"]
+- ["11SwiftSyntax27TokenClassificationIterator33_FBD6122E65CD7F9C2F0D6322FD27C394LLV5StateO", "atLeadingTrivia"]
+- ["11SwiftSyntax27TokenClassificationIterator33_FBD6122E65CD7F9C2F0D6322FD27C394LLV5StateO", "atTokenText"]
+- ["11SwiftSyntax27TokenClassificationIterator33_FBD6122E65CD7F9C2F0D6322FD27C394LLV5StateO", "atTrailingTrivia"]
+- !private ["Sx", "asciiDoubleQuote"]
+- !private ["Sx", "asciiLeftAngleBracket"]
+- !private ["Sx", "asciiPound"]
+- !private ["Sx", "asciiRightAngleBracket"]
+- !private ["Sx", "init"]
+- !private ["11SwiftSyntax0B0V", "data"]
+- !private ["11SwiftSyntax0B0V", "deinit"]
+- !private ["11SwiftSyntax0B0V", "position"]
+- !private ["11SwiftSyntax0B0V", "raw"]
+- !private ["11SwiftSyntax0B14ClassificationO", "blockComment"]
+- !private ["11SwiftSyntax0B14ClassificationO", "classify"]
+- ["11SwiftSyntax0B14ClassificationO", "deinit"]
+- !private ["11SwiftSyntax0B14ClassificationO", "docBlockComment"]
+- !private ["11SwiftSyntax0B14ClassificationO", "docLineComment"]
+- !private ["11SwiftSyntax0B14ClassificationO", "editorPlaceholder"]
+- !private ["11SwiftSyntax0B14ClassificationO", "lineComment"]
+- !private ["11SwiftSyntax0B14ClassificationO", "none"]
+- !private ["11SwiftSyntax0B14ClassificationO", "stringLiteral"]
+- ["11SwiftSyntax0B15ClassificationsV", "Bool"]
+- ["11SwiftSyntax0B15ClassificationsV", "ByteSourceRange"]
+- ["11SwiftSyntax0B15ClassificationsV", "Element"]
+- ["11SwiftSyntax0B15ClassificationsV", "FastTokenSequence"]
+- ["11SwiftSyntax0B15ClassificationsV", "Int"]
+- ["11SwiftSyntax0B15ClassificationsV", "Iterator"]
+- ["11SwiftSyntax0B15ClassificationsV", "IteratorProtocol"]
+- ["11SwiftSyntax0B15ClassificationsV", "RawSyntax"]
+- ["11SwiftSyntax0B15ClassificationsV", "Syntax"]
+- ["11SwiftSyntax0B15ClassificationsV", "SyntaxClassification"]
+- ["11SwiftSyntax0B15ClassificationsV", "SyntaxClassifiedRange"]
+- ["11SwiftSyntax0B15ClassificationsV", "TokenClassificationIterator"]
+- ["11SwiftSyntax0B15ClassificationsV", "_Default_Element"]
+- ["11SwiftSyntax0B15ClassificationsV", "_copyContents"]
+- ["11SwiftSyntax0B15ClassificationsV", "_copyToContiguousArray"]
+- ["11SwiftSyntax0B15ClassificationsV", "_customContainsEquatableElement"]
+- ["11SwiftSyntax0B15ClassificationsV", "deinit"]
+- ["11SwiftSyntax0B15ClassificationsV", "init"]
+- ["11SwiftSyntax0B15ClassificationsV", "makeIterator"]
+- ["11SwiftSyntax0B15ClassificationsV", "node"]
+- ["11SwiftSyntax0B15ClassificationsV", "relRange"]
+- ["11SwiftSyntax0B15ClassificationsV", "underestimatedCount"]
+- ["11SwiftSyntax0B15ClassificationsV", "withContiguousStorageIfAvailable"]
+- ["11SwiftSyntax0B15ClassifiedRangeV", "=="]
+- ["11SwiftSyntax0B15ClassifiedRangeV", "ByteSourceRange"]
+- ["11SwiftSyntax0B15ClassifiedRangeV", "Int"]
+- ["11SwiftSyntax0B15ClassifiedRangeV", "SyntaxClassification"]
+- ["11SwiftSyntax0B15ClassifiedRangeV", "__derived_struct_equals"]
+- ["11SwiftSyntax0B15ClassifiedRangeV", "deinit"]
+- ["11SwiftSyntax0B15ClassifiedRangeV", "endOffset"]
+- ["11SwiftSyntax0B15ClassifiedRangeV", "init"]
+- ["11SwiftSyntax0B15ClassifiedRangeV", "kind"]
+- ["11SwiftSyntax0B15ClassifiedRangeV", "length"]
+- ["11SwiftSyntax0B15ClassifiedRangeV", "offset"]
+- ["11SwiftSyntax0B15ClassifiedRangeV", "range"]
+- ["11SwiftSyntax0B4DataV", "Bool"]
+- ["11SwiftSyntax0B4DataV", "SyntaxClassification"]
+- ["11SwiftSyntax0B4DataV", "contextualClassification"]
+- !private ["11SwiftSyntax0B4DataV", "indexInParent"]
+- !private ["11SwiftSyntax0B4DataV", "parent"]
+- !private ["11SwiftSyntax0B4DataV", "raw"]
+- !private ["11SwiftSyntax0B8HashableP", "data"]
+- !private ["11SwiftSyntax0B8HashableP", "position"]
+- !private ["11SwiftSyntax0B8HashableP", "raw"]
+- !private ["11SwiftSyntax0B8ProtocolP", "data"]
+- !private ["11SwiftSyntax0B8ProtocolP", "position"]
+- !private ["11SwiftSyntax0B8ProtocolP", "raw"]
+- !private ["s20TextOutputStreamableP", "child"]
+- !private ["s20TextOutputStreamableP", "data"]
+- !private ["s20TextOutputStreamableP", "isPresent"]
+- !private ["s20TextOutputStreamableP", "isToken"]
+- !private ["s20TextOutputStreamableP", "kind"]
+- !private ["s20TextOutputStreamableP", "numberOfChildren"]
+- !private ["s20TextOutputStreamableP", "position"]
+- !private ["s20TextOutputStreamableP", "raw"]
+- !private ["s20TextOutputStreamableP", "tokenLeadingTriviaLength"]
+- !private ["s20TextOutputStreamableP", "totalLength"]
+- !private ["s20TextOutputStreamableP", "withUnsafeLeadingTriviaPiece"]
+- !private ["s20TextOutputStreamableP", "withUnsafeTokenText"]
+- !private ["s20TextOutputStreamableP", "withUnsafeTrailingTriviaPiece"]
+- ["11SwiftSyntax05TokenB0V", "SyntaxClassifiedRange"]
+- !private ["11SwiftSyntax05TokenB0V", "UnsafeTokenText"]
+- !private ["11SwiftSyntax05TokenB0V", "data"]
+- !private ["11SwiftSyntax05TokenB0V", "deinit"]
+- !private ["11SwiftSyntax05TokenB0V", "position"]
+- !private ["11SwiftSyntax05TokenB0V", "raw"]
+- ["11SwiftSyntax05TokenB0V", "tokenClassification"]
+- ["11SwiftSyntax15TriviaPieceKindO", "blockComment"]
+- ["11SwiftSyntax15TriviaPieceKindO", "docBlockComment"]
+- ["11SwiftSyntax15TriviaPieceKindO", "docLineComment"]
+- ["11SwiftSyntax15TriviaPieceKindO", "lineComment"]
+- !private ["s6UInt32V", "init"]
+- !private ["s5UInt8V", "asciiDoubleQuote"]
+- !private ["s5UInt8V", "asciiLeftAngleBracket"]
+- !private ["s5UInt8V", "asciiPound"]
+- !private ["s5UInt8V", "asciiRightAngleBracket"]
+- !private ["SR", "hasPrefix"]
+- !private ["SR", "hasSuffix"]
+- ["11SwiftSyntax15UnsafeTokenTextV", "Bool"]
+- !private ["11SwiftSyntax15UnsafeTokenTextV", "ByteSourceRange"]
+- ["11SwiftSyntax15UnsafeTokenTextV", "Int"]
+- ["11SwiftSyntax15UnsafeTokenTextV", "SyntaxClassification"]
+- ["11SwiftSyntax15UnsafeTokenTextV", "SyntaxClassifiedRange"]
+- ["11SwiftSyntax15UnsafeTokenTextV", "classify"]
+- !private ["11SwiftSyntax15UnsafeTokenTextV", "contextFreeClassification"]
+- !private ["11SwiftSyntax15UnsafeTokenTextV", "customText"]
+- !private ["11SwiftSyntax15UnsafeTokenTextV", "kind"]
+- !private ["11SwiftSyntax15UnsafeTokenTextV", "length"]
+- !private ["11SwiftSyntax17UnsafeTriviaPieceV", "ByteSourceRange"]
+- ["11SwiftSyntax17UnsafeTriviaPieceV", "Int"]
+- ["11SwiftSyntax17UnsafeTriviaPieceV", "SyntaxClassifiedRange"]
+- ["11SwiftSyntax17UnsafeTriviaPieceV", "classify"]
+- !private ["11SwiftSyntax17UnsafeTriviaPieceV", "kind"]
+- !private ["11SwiftSyntax17UnsafeTriviaPieceV", "length"]
+- !private ["SU", "asciiDoubleQuote"]
+- !private ["SU", "asciiLeftAngleBracket"]
+- !private ["SU", "asciiPound"]
+- !private ["SU", "asciiRightAngleBracket"]
+- !private ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s14_ArrayProtocolP", "removeLast"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "asciiDoubleQuote"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "asciiLeftAngleBracket"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "asciiPound"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "asciiRightAngleBracket"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s24_DestructorSafeContainerP", "removeLast"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "asciiDoubleQuote"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "asciiLeftAngleBracket"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "asciiPound"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "asciiRightAngleBracket"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "hasPrefix"]
+- !private ["s19_HasContiguousBytesP", "hasSuffix"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "last"]
+- !private ["s19_HasContiguousBytesP", "removeLast"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "asciiDoubleQuote"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "asciiLeftAngleBracket"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "asciiPound"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "asciiRightAngleBracket"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeLast"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "asciiDoubleQuote"]
+- !private ["s21_ObjectiveCBridgeableP", "asciiLeftAngleBracket"]
+- !private ["s21_ObjectiveCBridgeableP", "asciiPound"]
+- !private ["s21_ObjectiveCBridgeableP", "asciiRightAngleBracket"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "removeLast"]
+- !private ["s14_StringElementP", "asciiDoubleQuote"]
+- !private ["s14_StringElementP", "asciiLeftAngleBracket"]
+- !private ["s14_StringElementP", "asciiPound"]
+- !private ["s14_StringElementP", "asciiRightAngleBracket"]
+depends-nominal:
+- !private "11SwiftSyntax16AbsolutePositionV"
+- !private "11SwiftSyntax08AbsoluteB8PositionV"
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- "11SwiftSyntax15ByteSourceRangeV"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "Si"
+- "11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV"
+- "11SwiftSyntax0B15ClassificationsV8IteratorV"
+- "11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV"
+- "11SwiftSyntax0B15ClassificationsV8IteratorV"
+- "11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV"
+- "11SwiftSyntax0B15ClassificationsV8IteratorV"
+- "11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV"
+- "11SwiftSyntax0B15ClassificationsV8IteratorV"
+- "11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV"
+- "11SwiftSyntax0B15ClassificationsV8IteratorV"
+- "11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV"
+- "11SwiftSyntax0B15ClassificationsV8IteratorV"
+- "11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV"
+- "11SwiftSyntax0B15ClassificationsV8IteratorV"
+- "11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV"
+- "11SwiftSyntax0B15ClassificationsV8IteratorV"
+- "11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV"
+- !private "11SwiftSyntax0B15ClassificationsV8IteratorV"
+- "11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV"
+- "11SwiftSyntax0B15ClassificationsV8IteratorV"
+- "11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV"
+- "11SwiftSyntax0B15ClassificationsV8IteratorV"
+- "11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV"
+- "11SwiftSyntax0B15ClassificationsV8IteratorV"
+- "11SwiftSyntax17FastTokenSequence33_FBD6122E65CD7F9C2F0D6322FD27C394LLV8IteratorV"
+- !private "11SwiftSyntax0B15ClassificationsV8IteratorV"
+- "St"
+- !private "s25LosslessStringConvertibleP"
+- !private "s13ManagedBufferC"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "11SwiftSyntax03RawB0C"
+- "11SwiftSyntax12RawTokenKindO"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "11SwiftSyntax12SourceLengthV"
+- "11SwiftSyntax27TokenClassificationIterator33_FBD6122E65CD7F9C2F0D6322FD27C394LLV5StateO"
+- !private "Sx"
+- !private "11SwiftSyntax0B0V"
+- "11SwiftSyntax0B14ClassificationO"
+- "11SwiftSyntax0B15ClassificationsV"
+- "11SwiftSyntax0B15ClassifiedRangeV"
+- "11SwiftSyntax0B4DataV"
+- !private "11SwiftSyntax0B8HashableP"
+- !private "11SwiftSyntax0B8ProtocolP"
+- !private "s20TextOutputStreamableP"
+- "11SwiftSyntax05TokenB0V"
+- "11SwiftSyntax15TriviaPieceKindO"
+- !private "s6UInt32V"
+- !private "s5UInt8V"
+- !private "SR"
+- "11SwiftSyntax15UnsafeTokenTextV"
+- "11SwiftSyntax17UnsafeTriviaPieceV"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s14_StringElementP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/checkouts/swift-syntax/Sources/_CSwiftSyntax/include/atomic-counter.h"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatConfiguration.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntaxBuilder.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatWhitespaceLinter.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatRules.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormat.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatPrettyPrint.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatTestSupport.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/_CSwiftSyntax.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "19f80b670aaa9dc4d5d068cdad932803"

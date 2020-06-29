@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "04bfd93410daebf7223fbc7fbaaba007"
+build_time: [1593424160, 197654000]
+inputs:
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormat/DebugOptions.swift": [1587743452, 8973524]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormat/FormatPipeline.swift": [1587743452, 9106592]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormat/LintPipeline.swift": [1587743452, 9260815]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormat/Pipelines+Generated.swift": [1587743452, 9439822]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormat/SwiftFormatError.swift": [1587743452, 9616169]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormat/SwiftFormatter.swift": [1587743452, 9765156]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormat/SwiftLinter.swift": [1587743452, 9934399]
+  "/Users/rorybain/projects/swift-format/Sources/SwiftFormat/SyntaxValidatingVisitor.swift": [1587743452, 10076228]

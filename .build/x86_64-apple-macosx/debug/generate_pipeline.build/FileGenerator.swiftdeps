@@ -1,0 +1,289 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FileGenerator"
+provides-nominal:
+- "17generate_pipeline13FileGeneratorP"
+- "So12NSFileHandleC"
+provides-member:
+- ["17generate_pipeline13FileGeneratorP", ""]
+- ["So12NSFileHandleC", ""]
+- ["17generate_pipeline13FileGeneratorP", "generateFile"]
+provides-dynamic-lookup:
+- "write"
+depends-top-level:
+- "FileGenerator"
+- "FileHandle"
+- !private "FileManager"
+- "String"
+- "TextOutputStream"
+- "URL"
+depends-member:
+- !private ["SK", "data"]
+- ["s7CVarArgP", "_lock"]
+- ["s7CVarArgP", "_unlock"]
+- ["s7CVarArgP", "_writeASCII"]
+- !private ["s7CVarArgP", "closeFile"]
+- !private ["s7CVarArgP", "createFile"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "fileExists"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "removeItem"]
+- ["s7CVarArgP", "write"]
+- !private ["Sl", "data"]
+- !private ["SL", "data"]
+- ["s28CustomDebugStringConvertibleP", "_lock"]
+- ["s28CustomDebugStringConvertibleP", "_unlock"]
+- ["s28CustomDebugStringConvertibleP", "_writeASCII"]
+- !private ["s28CustomDebugStringConvertibleP", "closeFile"]
+- !private ["s28CustomDebugStringConvertibleP", "createFile"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "fileExists"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "removeItem"]
+- ["s28CustomDebugStringConvertibleP", "write"]
+- !private ["s17CustomReflectableP", "data"]
+- ["s23CustomStringConvertibleP", "_lock"]
+- ["s23CustomStringConvertibleP", "_unlock"]
+- ["s23CustomStringConvertibleP", "_writeASCII"]
+- !private ["s23CustomStringConvertibleP", "closeFile"]
+- !private ["s23CustomStringConvertibleP", "createFile"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "fileExists"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "removeItem"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- ["s23CustomStringConvertibleP", "write"]
+- !private ["Se", "data"]
+- !private ["Se", "path"]
+- !private ["SE", "data"]
+- !private ["SE", "path"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- ["SQ", "_lock"]
+- ["SQ", "_unlock"]
+- ["SQ", "_writeASCII"]
+- !private ["SQ", "closeFile"]
+- !private ["SQ", "createFile"]
+- !private ["SQ", "data"]
+- !private ["SQ", "default"]
+- !private ["SQ", "fileExists"]
+- !private ["SQ", "init"]
+- !private ["SQ", "path"]
+- !private ["SQ", "removeItem"]
+- !private ["SQ", "utf8"]
+- ["SQ", "write"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s32ExpressibleByStringInterpolationP", "data"]
+- !private ["s26ExpressibleByStringLiteralP", "data"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
+- ["17generate_pipeline13FileGeneratorP", "FileHandle"]
+- !private ["17generate_pipeline13FileGeneratorP", "FileManager"]
+- ["17generate_pipeline13FileGeneratorP", "URL"]
+- ["17generate_pipeline13FileGeneratorP", "generateFile"]
+- ["17generate_pipeline13FileGeneratorP", "write"]
+- ["So12NSFileHandleC", "String"]
+- ["So12NSFileHandleC", "_lock"]
+- ["So12NSFileHandleC", "_unlock"]
+- ["So12NSFileHandleC", "_writeASCII"]
+- !private ["So12NSFileHandleC", "closeFile"]
+- ["So12NSFileHandleC", "deinit"]
+- !private ["So12NSFileHandleC", "init"]
+- ["So12NSFileHandleC", "write"]
+- !private ["So13NSFileManagerC", "createFile"]
+- !private ["So13NSFileManagerC", "default"]
+- !private ["So13NSFileManagerC", "fileExists"]
+- !private ["So13NSFileManagerC", "removeItem"]
+- ["SH", "_lock"]
+- ["SH", "_unlock"]
+- ["SH", "_writeASCII"]
+- !private ["SH", "closeFile"]
+- !private ["SH", "createFile"]
+- !private ["SH", "data"]
+- !private ["SH", "default"]
+- !private ["SH", "fileExists"]
+- !private ["SH", "init"]
+- !private ["SH", "path"]
+- !private ["SH", "removeItem"]
+- !private ["SH", "utf8"]
+- ["SH", "write"]
+- !private ["s25LosslessStringConvertibleP", "data"]
+- !private ["s10MirrorPathP", "data"]
+- ["So8NSCodingP", "_lock"]
+- ["So8NSCodingP", "_unlock"]
+- ["So8NSCodingP", "_writeASCII"]
+- !private ["So8NSCodingP", "closeFile"]
+- !private ["So8NSCodingP", "data"]
+- !private ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "write"]
+- !private ["So9NSCopyingP", "data"]
+- !private ["So21NSItemProviderReadingP", "data"]
+- !private ["So21NSItemProviderWritingP", "data"]
+- !private ["So16NSMutableCopyingP", "data"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "_lock"]
+- ["So8NSObjectC", "_unlock"]
+- ["So8NSObjectC", "_writeASCII"]
+- !private ["So8NSObjectC", "closeFile"]
+- !private ["So8NSObjectC", "createFile"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "fileExists"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "removeItem"]
+- ["So8NSObjectC", "write"]
+- ["So8NSObjectP", "_lock"]
+- ["So8NSObjectP", "_unlock"]
+- ["So8NSObjectP", "_writeASCII"]
+- !private ["So8NSObjectP", "closeFile"]
+- !private ["So8NSObjectP", "createFile"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "fileExists"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "removeItem"]
+- ["So8NSObjectP", "write"]
+- ["So14NSSecureCodingP", "_lock"]
+- ["So14NSSecureCodingP", "_unlock"]
+- ["So14NSSecureCodingP", "_writeASCII"]
+- !private ["So14NSSecureCodingP", "closeFile"]
+- !private ["So14NSSecureCodingP", "data"]
+- !private ["So14NSSecureCodingP", "init"]
+- ["So14NSSecureCodingP", "write"]
+- !private ["So8NSStringC", "data"]
+- !private ["Sm", "data"]
+- !private ["SY", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["ST", "data"]
+- !private ["SS", "data"]
+- !private ["Sy", "data"]
+- ["s16TextOutputStreamP", ""]
+- ["s16TextOutputStreamP", "_lock"]
+- ["s16TextOutputStreamP", "_unlock"]
+- ["s16TextOutputStreamP", "_writeASCII"]
+- !private ["s16TextOutputStreamP", "closeFile"]
+- !private ["s16TextOutputStreamP", "data"]
+- !private ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "write"]
+- !private ["s20TextOutputStreamableP", "data"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "data"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "path"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "data"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "data"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- !private ["s19_HasContiguousBytesP", "data"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "_lock"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "_unlock"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "_writeASCII"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "closeFile"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createFile"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileExists"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeItem"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "write"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "_lock"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "_unlock"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "_writeASCII"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "closeFile"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "createFile"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fileExists"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeItem"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "write"]
+- !private ["s21_ObjectiveCBridgeableP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+depends-nominal:
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "17generate_pipeline13FileGeneratorP"
+- "So12NSFileHandleC"
+- !private "So13NSFileManagerC"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatConfiguration.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntaxBuilder.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatWhitespaceLinter.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatRules.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormat.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatPrettyPrint.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatTestSupport.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/_CSwiftSyntax.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6f7953846eb16246a9dd729e6d258d30"

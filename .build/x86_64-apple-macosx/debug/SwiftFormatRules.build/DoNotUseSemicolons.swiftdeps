@@ -1,0 +1,318 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DoNotUseSemicolons"
+provides-nominal:
+- "16SwiftFormatRules18DoNotUseSemicolonsC"
+provides-member:
+- ["16SwiftFormatRules18DoNotUseSemicolonsC", ""]
+- ["11SwiftSyntax10DiagnosticV7MessageV", ""]
+- ["11SwiftSyntax10DiagnosticV7MessageV", "removeSemicolon"]
+- ["11SwiftSyntax10DiagnosticV7MessageV", "removeSemicolonAndMove"]
+provides-dynamic-lookup:
+- "nodeByRemovingSemicolons"
+- "visit"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "+"
+- !private "-"
+- !private "<"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CodeBlockItemListSyntax"
+- "Diagnostic"
+- "DoNotUseSemicolons"
+- "Equatable"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "MemberDeclListSyntax"
+- "SemicolonSyntaxProtocol"
+- "StringLiteralType"
+- "Syntax"
+- "SyntaxCollection"
+- !private "SyntaxFactory"
+- "SyntaxFormatRule"
+- "SyntaxProtocol"
+- !private "replaceTrivia"
+- !private "||"
+depends-member:
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["11SwiftSyntax013CodeBlockItemB0V", "deinit"]
+- !private ["Sl", "containsNewlines"]
+- !private ["Sl", "init"]
+- !private ["Sl", "newlines"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "Diagnostic"]
+- ["s28CustomDebugStringConvertibleP", "Message"]
+- !private ["s28CustomDebugStringConvertibleP", "as"]
+- !private ["s28CustomDebugStringConvertibleP", "containsNewlines"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "firstToken"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "leadingTrivia"]
+- !private ["s28CustomDebugStringConvertibleP", "removeSemicolon"]
+- !private ["s28CustomDebugStringConvertibleP", "removeSemicolonAndMove"]
+- !private ["s28CustomDebugStringConvertibleP", "semicolon"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "withSemicolon"]
+- !private ["s17CustomReflectableP", "as"]
+- !private ["s17CustomReflectableP", "containsNewlines"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "leadingTrivia"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "as"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "firstToken"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "leadingTrivia"]
+- !private ["s23CustomStringConvertibleP", "semicolon"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "withSemicolon"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- ["Se", "Diagnostic"]
+- ["Se", "Message"]
+- !private ["Se", "containsNewlines"]
+- ["Se", "init"]
+- !private ["Se", "removeSemicolon"]
+- !private ["Se", "removeSemicolonAndMove"]
+- !private ["Se", "subscript"]
+- ["Se", "warning"]
+- ["11SwiftSyntax10DiagnosticV", "Message"]
+- !private ["16SwiftFormatRules18DoNotUseSemicolonsC", "Array"]
+- ["16SwiftFormatRules18DoNotUseSemicolonsC", "CodeBlockItemListSyntax"]
+- ["16SwiftFormatRules18DoNotUseSemicolonsC", "Equatable"]
+- ["16SwiftFormatRules18DoNotUseSemicolonsC", "MemberDeclListSyntax"]
+- ["16SwiftFormatRules18DoNotUseSemicolonsC", "SemicolonSyntaxProtocol"]
+- ["16SwiftFormatRules18DoNotUseSemicolonsC", "Syntax"]
+- ["16SwiftFormatRules18DoNotUseSemicolonsC", "SyntaxCollection"]
+- !private ["16SwiftFormatRules18DoNotUseSemicolonsC", "SyntaxFactory"]
+- ["16SwiftFormatRules18DoNotUseSemicolonsC", "SyntaxProtocol"]
+- ["16SwiftFormatRules18DoNotUseSemicolonsC", "deinit"]
+- !private ["16SwiftFormatRules18DoNotUseSemicolonsC", "diagnose"]
+- ["16SwiftFormatRules18DoNotUseSemicolonsC", "init"]
+- !private ["16SwiftFormatRules18DoNotUseSemicolonsC", "nodeByRemovingSemicolons"]
+- !private ["16SwiftFormatRules18DoNotUseSemicolonsC", "replaceTrivia"]
+- ["16SwiftFormatRules18DoNotUseSemicolonsC", "visit"]
+- ["SE", "Diagnostic"]
+- ["SE", "Message"]
+- !private ["SE", "containsNewlines"]
+- ["SE", "init"]
+- !private ["SE", "removeSemicolon"]
+- !private ["SE", "removeSemicolonAndMove"]
+- !private ["SE", "subscript"]
+- ["SE", "warning"]
+- !private ["SQ", "as"]
+- !private ["SQ", "containsNewlines"]
+- !private ["SQ", "firstToken"]
+- !private ["SQ", "init"]
+- !private ["SQ", "leadingTrivia"]
+- !private ["SQ", "newlines"]
+- !private ["SQ", "semicolon"]
+- !private ["SQ", "subscript"]
+- ["SQ", "warning"]
+- !private ["SQ", "withSemicolon"]
+- !private ["s25ExpressibleByArrayLiteralP", "containsNewlines"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "newlines"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "containsNewlines"]
+- !private ["SH", "as"]
+- !private ["SH", "containsNewlines"]
+- !private ["SH", "init"]
+- !private ["SH", "leadingTrivia"]
+- !private ["SH", "subscript"]
+- ["SH", "warning"]
+- !private ["11SwiftSyntax018MemberDeclListItemB0V", "deinit"]
+- ["11SwiftSyntax10DiagnosticV7MessageV", "Diagnostic"]
+- ["11SwiftSyntax10DiagnosticV7MessageV", "init"]
+- ["11SwiftSyntax10DiagnosticV7MessageV", "removeSemicolon"]
+- ["11SwiftSyntax10DiagnosticV7MessageV", "removeSemicolonAndMove"]
+- !private ["SM", "init"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["Sq", "containsNewlines"]
+- !private ["Sk", "init"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- ["SY", "warning"]
+- !private ["15SwiftFormatCore4RuleP", "Array"]
+- !private ["15SwiftFormatCore4RuleP", "Syntax"]
+- !private ["15SwiftFormatCore4RuleP", "SyntaxFactory"]
+- ["15SwiftFormatCore4RuleP", ""]
+- !private ["15SwiftFormatCore4RuleP", "diagnose"]
+- !private ["15SwiftFormatCore4RuleP", "nodeByRemovingSemicolons"]
+- !private ["15SwiftFormatCore4RuleP", "replaceTrivia"]
+- !private ["15SwiftFormatCore4RuleP", "visit"]
+- !private ["16SwiftFormatRules23SemicolonSyntaxProtocolP", "firstToken"]
+- !private ["16SwiftFormatRules23SemicolonSyntaxProtocolP", "semicolon"]
+- !private ["16SwiftFormatRules23SemicolonSyntaxProtocolP", "withSemicolon"]
+- !private ["ST", "containsNewlines"]
+- !private ["ST", "count"]
+- !private ["ST", "enumerated"]
+- !private ["ST", "init"]
+- !private ["ST", "newlines"]
+- !private ["ST", "subscript"]
+- ["11SwiftSyntax10DiagnosticV8SeverityO", "warning"]
+- !private ["11SwiftSyntax0B0V", "as"]
+- !private ["11SwiftSyntax0B0V", "init"]
+- !private ["11SwiftSyntax0B10CollectionP", "count"]
+- !private ["11SwiftSyntax0B10CollectionP", "enumerated"]
+- !private ["11SwiftSyntax0B7FactoryO", "makeCodeBlockItemList"]
+- !private ["11SwiftSyntax0B7FactoryO", "makeMemberDeclList"]
+- !private ["15SwiftFormatCore06SyntaxB4RuleC", "Array"]
+- ["15SwiftFormatCore06SyntaxB4RuleC", "CodeBlockItemListSyntax"]
+- ["15SwiftFormatCore06SyntaxB4RuleC", "Equatable"]
+- ["15SwiftFormatCore06SyntaxB4RuleC", "MemberDeclListSyntax"]
+- ["15SwiftFormatCore06SyntaxB4RuleC", "SemicolonSyntaxProtocol"]
+- ["15SwiftFormatCore06SyntaxB4RuleC", "Syntax"]
+- ["15SwiftFormatCore06SyntaxB4RuleC", "SyntaxCollection"]
+- !private ["15SwiftFormatCore06SyntaxB4RuleC", "SyntaxFactory"]
+- ["15SwiftFormatCore06SyntaxB4RuleC", "SyntaxProtocol"]
+- ["15SwiftFormatCore06SyntaxB4RuleC", ""]
+- !private ["15SwiftFormatCore06SyntaxB4RuleC", "diagnose"]
+- ["15SwiftFormatCore06SyntaxB4RuleC", "init"]
+- ["15SwiftFormatCore06SyntaxB4RuleC", "nodeByRemovingSemicolons"]
+- !private ["15SwiftFormatCore06SyntaxB4RuleC", "replaceTrivia"]
+- ["15SwiftFormatCore06SyntaxB4RuleC", "visit"]
+- !private ["11SwiftSyntax0B8HashableP", "as"]
+- !private ["11SwiftSyntax0B8HashableP", "init"]
+- !private ["11SwiftSyntax0B8HashableP", "leadingTrivia"]
+- !private ["11SwiftSyntax0B8ProtocolP", "as"]
+- !private ["11SwiftSyntax0B8ProtocolP", "count"]
+- !private ["11SwiftSyntax0B8ProtocolP", "enumerated"]
+- !private ["11SwiftSyntax0B8ProtocolP", "firstToken"]
+- !private ["11SwiftSyntax0B8ProtocolP", "init"]
+- !private ["11SwiftSyntax0B8ProtocolP", "leadingTrivia"]
+- !private ["11SwiftSyntax0B8ProtocolP", "semicolon"]
+- !private ["11SwiftSyntax0B8ProtocolP", "withSemicolon"]
+- !private ["11SwiftSyntax0B8RewriterC", "Array"]
+- ["11SwiftSyntax0B8RewriterC", "CodeBlockItemListSyntax"]
+- ["11SwiftSyntax0B8RewriterC", "Equatable"]
+- ["11SwiftSyntax0B8RewriterC", "MemberDeclListSyntax"]
+- ["11SwiftSyntax0B8RewriterC", "SemicolonSyntaxProtocol"]
+- ["11SwiftSyntax0B8RewriterC", "Syntax"]
+- ["11SwiftSyntax0B8RewriterC", "SyntaxCollection"]
+- !private ["11SwiftSyntax0B8RewriterC", "SyntaxFactory"]
+- ["11SwiftSyntax0B8RewriterC", "SyntaxProtocol"]
+- !private ["11SwiftSyntax0B8RewriterC", "diagnose"]
+- ["11SwiftSyntax0B8RewriterC", "nodeByRemovingSemicolons"]
+- !private ["11SwiftSyntax0B8RewriterC", "replaceTrivia"]
+- ["11SwiftSyntax0B8RewriterC", "visit"]
+- !private ["s20TextOutputStreamableP", "as"]
+- !private ["s20TextOutputStreamableP", "count"]
+- !private ["s20TextOutputStreamableP", "enumerated"]
+- !private ["s20TextOutputStreamableP", "firstToken"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "leadingTrivia"]
+- !private ["s20TextOutputStreamableP", "semicolon"]
+- !private ["s20TextOutputStreamableP", "withSemicolon"]
+- !private ["11SwiftSyntax05TokenB0V", "leadingTrivia"]
+- !private ["11SwiftSyntax6TriviaV", "containsNewlines"]
+- !private ["11SwiftSyntax6TriviaV", "newlines"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "containsNewlines"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "11SwiftSyntax013CodeBlockItemB0V"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- "11SwiftSyntax10DiagnosticV"
+- "16SwiftFormatRules18DoNotUseSemicolonsC"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "11SwiftSyntax018MemberDeclListItemB0V"
+- "11SwiftSyntax10DiagnosticV7MessageV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- "15SwiftFormatCore4RuleP"
+- !private "16SwiftFormatRules23SemicolonSyntaxProtocolP"
+- !private "ST"
+- "11SwiftSyntax10DiagnosticV8SeverityO"
+- !private "11SwiftSyntax0B0V"
+- !private "11SwiftSyntax0B10CollectionP"
+- !private "11SwiftSyntax0B7FactoryO"
+- "15SwiftFormatCore06SyntaxB4RuleC"
+- !private "11SwiftSyntax0B8HashableP"
+- !private "11SwiftSyntax0B8ProtocolP"
+- "11SwiftSyntax0B8RewriterC"
+- !private "s20TextOutputStreamableP"
+- !private "11SwiftSyntax05TokenB0V"
+- !private "11SwiftSyntax6TriviaV"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatConfiguration.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatConfiguration.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntaxBuilder.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatWhitespaceLinter.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatRules.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormat.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatPrettyPrint.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatTestSupport.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/_CSwiftSyntax.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d21747ecd4039b92ddb3e26b38eff39b"

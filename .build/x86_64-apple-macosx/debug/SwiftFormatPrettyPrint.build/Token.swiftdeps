@@ -1,0 +1,172 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GroupBreakStyle"
+- "OpenBreakKind"
+- "BreakKind"
+- "NewlineBehavior"
+- "PrinterControlKind"
+- "Token"
+provides-nominal:
+- "22SwiftFormatPrettyPrint15GroupBreakStyleO"
+- "22SwiftFormatPrettyPrint13OpenBreakKindO"
+- "22SwiftFormatPrettyPrint9BreakKindO"
+- "22SwiftFormatPrettyPrint15NewlineBehaviorO"
+- "22SwiftFormatPrettyPrint18PrinterControlKindO"
+- "22SwiftFormatPrettyPrint5TokenO"
+provides-member:
+- ["22SwiftFormatPrettyPrint15GroupBreakStyleO", ""]
+- ["22SwiftFormatPrettyPrint13OpenBreakKindO", ""]
+- ["22SwiftFormatPrettyPrint9BreakKindO", ""]
+- ["22SwiftFormatPrettyPrint15NewlineBehaviorO", ""]
+- ["22SwiftFormatPrettyPrint18PrinterControlKindO", ""]
+- ["22SwiftFormatPrettyPrint5TokenO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Bool"
+- "BooleanLiteralType"
+- "BreakKind"
+- "Comment"
+- "Equatable"
+- "FloatLiteralType"
+- "GroupBreakStyle"
+- "Int"
+- "IntegerLiteralType"
+- "NewlineBehavior"
+- "OpenBreakKind"
+- "PrinterControlKind"
+- "String"
+- "Token"
+- "Verbatim"
+depends-member:
+- ["22SwiftFormatPrettyPrint9BreakKindO", "=="]
+- ["22SwiftFormatPrettyPrint9BreakKindO", "Bool"]
+- ["22SwiftFormatPrettyPrint9BreakKindO", "BreakKind"]
+- ["22SwiftFormatPrettyPrint9BreakKindO", "OpenBreakKind"]
+- ["22SwiftFormatPrettyPrint9BreakKindO", "__derived_enum_equals"]
+- ["22SwiftFormatPrettyPrint9BreakKindO", "close"]
+- ["22SwiftFormatPrettyPrint9BreakKindO", "contextual"]
+- ["22SwiftFormatPrettyPrint9BreakKindO", "continue"]
+- ["22SwiftFormatPrettyPrint9BreakKindO", "deinit"]
+- ["22SwiftFormatPrettyPrint9BreakKindO", "open"]
+- ["22SwiftFormatPrettyPrint9BreakKindO", "reset"]
+- ["22SwiftFormatPrettyPrint9BreakKindO", "same"]
+- ["SQ", "=="]
+- ["SQ", "BreakKind"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "block"]
+- ["SQ", "close"]
+- ["SQ", "continue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "inconsistent"]
+- ["SQ", "open"]
+- ["22SwiftFormatPrettyPrint15GroupBreakStyleO", "=="]
+- ["22SwiftFormatPrettyPrint15GroupBreakStyleO", "__derived_enum_equals"]
+- ["22SwiftFormatPrettyPrint15GroupBreakStyleO", "_rawHashValue"]
+- ["22SwiftFormatPrettyPrint15GroupBreakStyleO", "consistent"]
+- ["22SwiftFormatPrettyPrint15GroupBreakStyleO", "deinit"]
+- ["22SwiftFormatPrettyPrint15GroupBreakStyleO", "hash"]
+- ["22SwiftFormatPrettyPrint15GroupBreakStyleO", "hashValue"]
+- ["22SwiftFormatPrettyPrint15GroupBreakStyleO", "inconsistent"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "block"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "inconsistent"]
+- !private ["s6HasherV", "combine"]
+- ["22SwiftFormatPrettyPrint15NewlineBehaviorO", "Bool"]
+- ["22SwiftFormatPrettyPrint15NewlineBehaviorO", "Int"]
+- ["22SwiftFormatPrettyPrint15NewlineBehaviorO", "NewlineBehavior"]
+- ["22SwiftFormatPrettyPrint15NewlineBehaviorO", "elective"]
+- ["22SwiftFormatPrettyPrint15NewlineBehaviorO", "hard"]
+- ["22SwiftFormatPrettyPrint15NewlineBehaviorO", "soft"]
+- ["22SwiftFormatPrettyPrint13OpenBreakKindO", "=="]
+- ["22SwiftFormatPrettyPrint13OpenBreakKindO", "__derived_enum_equals"]
+- ["22SwiftFormatPrettyPrint13OpenBreakKindO", "_rawHashValue"]
+- ["22SwiftFormatPrettyPrint13OpenBreakKindO", "block"]
+- ["22SwiftFormatPrettyPrint13OpenBreakKindO", "continuation"]
+- ["22SwiftFormatPrettyPrint13OpenBreakKindO", "deinit"]
+- ["22SwiftFormatPrettyPrint13OpenBreakKindO", "hash"]
+- ["22SwiftFormatPrettyPrint13OpenBreakKindO", "hashValue"]
+- ["22SwiftFormatPrettyPrint18PrinterControlKindO", "=="]
+- ["22SwiftFormatPrettyPrint18PrinterControlKindO", "__derived_enum_equals"]
+- ["22SwiftFormatPrettyPrint18PrinterControlKindO", "_rawHashValue"]
+- ["22SwiftFormatPrettyPrint18PrinterControlKindO", "deinit"]
+- ["22SwiftFormatPrettyPrint18PrinterControlKindO", "disableBreaking"]
+- ["22SwiftFormatPrettyPrint18PrinterControlKindO", "enableBreaking"]
+- ["22SwiftFormatPrettyPrint18PrinterControlKindO", "hash"]
+- ["22SwiftFormatPrettyPrint18PrinterControlKindO", "hashValue"]
+- ["22SwiftFormatPrettyPrint5TokenO", "Bool"]
+- ["22SwiftFormatPrettyPrint5TokenO", "BreakKind"]
+- ["22SwiftFormatPrettyPrint5TokenO", "Comment"]
+- ["22SwiftFormatPrettyPrint5TokenO", "GroupBreakStyle"]
+- ["22SwiftFormatPrettyPrint5TokenO", "Int"]
+- ["22SwiftFormatPrettyPrint5TokenO", "NewlineBehavior"]
+- ["22SwiftFormatPrettyPrint5TokenO", "PrinterControlKind"]
+- ["22SwiftFormatPrettyPrint5TokenO", "String"]
+- ["22SwiftFormatPrettyPrint5TokenO", "Token"]
+- ["22SwiftFormatPrettyPrint5TokenO", "Verbatim"]
+- ["22SwiftFormatPrettyPrint5TokenO", "break"]
+- !private ["22SwiftFormatPrettyPrint5TokenO", "callAsFunction"]
+- ["22SwiftFormatPrettyPrint5TokenO", "close"]
+- ["22SwiftFormatPrettyPrint5TokenO", "commaDelimitedRegionEnd"]
+- ["22SwiftFormatPrettyPrint5TokenO", "commaDelimitedRegionStart"]
+- ["22SwiftFormatPrettyPrint5TokenO", "comment"]
+- ["22SwiftFormatPrettyPrint5TokenO", "contextualBreakingEnd"]
+- ["22SwiftFormatPrettyPrint5TokenO", "contextualBreakingStart"]
+- ["22SwiftFormatPrettyPrint5TokenO", "open"]
+- ["22SwiftFormatPrettyPrint5TokenO", "printerControl"]
+- ["22SwiftFormatPrettyPrint5TokenO", "space"]
+- ["22SwiftFormatPrettyPrint5TokenO", "syntax"]
+- ["22SwiftFormatPrettyPrint5TokenO", "verbatim"]
+depends-nominal:
+- "22SwiftFormatPrettyPrint9BreakKindO"
+- "SQ"
+- "22SwiftFormatPrettyPrint15GroupBreakStyleO"
+- "SH"
+- !private "s6HasherV"
+- "22SwiftFormatPrettyPrint15NewlineBehaviorO"
+- "22SwiftFormatPrettyPrint13OpenBreakKindO"
+- "22SwiftFormatPrettyPrint18PrinterControlKindO"
+- "22SwiftFormatPrettyPrint5TokenO"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatConfiguration.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatConfiguration.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntaxBuilder.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatWhitespaceLinter.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatRules.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormat.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatPrettyPrint.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatTestSupport.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/_CSwiftSyntax.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bab6cdae915e6e7827014471ef4a15e5"

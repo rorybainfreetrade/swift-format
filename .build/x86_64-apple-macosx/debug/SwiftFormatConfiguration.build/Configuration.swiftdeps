@@ -1,0 +1,604 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Configuration"
+- "NoPlaygroundLiteralsConfiguration"
+- "FileScopedDeclarationPrivacyConfiguration"
+provides-nominal:
+- "24SwiftFormatConfiguration0C0V"
+- "24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V"
+- "24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V15ResolveBehaviorO"
+- "24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V"
+- "24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V11AccessLevelO"
+provides-member:
+- ["24SwiftFormatConfiguration0C0V", ""]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V", ""]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V15ResolveBehaviorO", ""]
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V", ""]
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V11AccessLevelO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "<="
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Codable"
+- "CodingKey"
+- "Configuration"
+- !private "Data"
+- "Decoder"
+- !private "DecodingError"
+- "Encoder"
+- "Equatable"
+- !private "FileManager"
+- "FileScopedDeclarationPrivacyConfiguration"
+- "FloatLiteralType"
+- "Indent"
+- "Int"
+- "IntegerLiteralType"
+- !private "JSONDecoder"
+- "NoPlaygroundLiteralsConfiguration"
+- !private "ObjCBool"
+- "RuleRegistry"
+- "String"
+- "StringLiteralType"
+- "URL"
+- !private "UnicodeScalarType"
+- !private "_findStringSwitchCase"
+- !private "highestSupportedConfigurationVersion"
+- !private "~="
+depends-member:
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V11AccessLevelO", "=="]
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V11AccessLevelO", "RawValue"]
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V11AccessLevelO", "_Default_RawValue"]
+- !private ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V11AccessLevelO", "_findStringSwitchCase"]
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V11AccessLevelO", "_rawHashValue"]
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V11AccessLevelO", "deinit"]
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V11AccessLevelO", "encode"]
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V11AccessLevelO", "fileprivate"]
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V11AccessLevelO", "hash"]
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V11AccessLevelO", "hashValue"]
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V11AccessLevelO", "init"]
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V11AccessLevelO", "private"]
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V11AccessLevelO", "rawValue"]
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "fileExists"]
+- !private ["s7CVarArgP", "isReadableFile"]
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- !private ["s9CodingKeyP", "fileScopedDeclarationPrivacy"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- !private ["s9CodingKeyP", "indentConditionalCompilationBlocks"]
+- !private ["s9CodingKeyP", "indentation"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "lineBreakAroundMultilineExpressionChainComponents"]
+- !private ["s9CodingKeyP", "lineBreakBeforeControlFlowKeywords"]
+- !private ["s9CodingKeyP", "lineBreakBeforeEachArgument"]
+- !private ["s9CodingKeyP", "lineBreakBeforeEachGenericRequirement"]
+- !private ["s9CodingKeyP", "lineLength"]
+- !private ["s9CodingKeyP", "maximumBlankLines"]
+- !private ["s9CodingKeyP", "prioritizeKeepingFunctionOutputTogether"]
+- !private ["s9CodingKeyP", "respectsExistingLineBreaks"]
+- !private ["s9CodingKeyP", "rules"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", "tabWidth"]
+- !private ["s9CodingKeyP", "version"]
+- !private ["Sl", "init"]
+- ["24SwiftFormatConfiguration0C0V", "=="]
+- ["24SwiftFormatConfiguration0C0V", "Bool"]
+- ["24SwiftFormatConfiguration0C0V", "CodingKey"]
+- !private ["24SwiftFormatConfiguration0C0V", "CodingKeys"]
+- !private ["24SwiftFormatConfiguration0C0V", "Configuration"]
+- !private ["24SwiftFormatConfiguration0C0V", "Data"]
+- ["24SwiftFormatConfiguration0C0V", "Decoder"]
+- !private ["24SwiftFormatConfiguration0C0V", "DecodingError"]
+- ["24SwiftFormatConfiguration0C0V", "Encoder"]
+- !private ["24SwiftFormatConfiguration0C0V", "FileManager"]
+- ["24SwiftFormatConfiguration0C0V", "FileScopedDeclarationPrivacyConfiguration"]
+- ["24SwiftFormatConfiguration0C0V", "Indent"]
+- ["24SwiftFormatConfiguration0C0V", "Int"]
+- !private ["24SwiftFormatConfiguration0C0V", "JSONDecoder"]
+- !private ["24SwiftFormatConfiguration0C0V", "ObjCBool"]
+- ["24SwiftFormatConfiguration0C0V", "RuleRegistry"]
+- ["24SwiftFormatConfiguration0C0V", "String"]
+- ["24SwiftFormatConfiguration0C0V", "URL"]
+- ["24SwiftFormatConfiguration0C0V", "__derived_struct_equals"]
+- ["24SwiftFormatConfiguration0C0V", "deinit"]
+- ["24SwiftFormatConfiguration0C0V", "encode"]
+- ["24SwiftFormatConfiguration0C0V", "fileScopedDeclarationPrivacy"]
+- !private ["24SwiftFormatConfiguration0C0V", "highestSupportedConfigurationVersion"]
+- ["24SwiftFormatConfiguration0C0V", "indentConditionalCompilationBlocks"]
+- ["24SwiftFormatConfiguration0C0V", "indentation"]
+- ["24SwiftFormatConfiguration0C0V", "init"]
+- ["24SwiftFormatConfiguration0C0V", "lineBreakAroundMultilineExpressionChainComponents"]
+- ["24SwiftFormatConfiguration0C0V", "lineBreakBeforeControlFlowKeywords"]
+- ["24SwiftFormatConfiguration0C0V", "lineBreakBeforeEachArgument"]
+- ["24SwiftFormatConfiguration0C0V", "lineBreakBeforeEachGenericRequirement"]
+- ["24SwiftFormatConfiguration0C0V", "lineLength"]
+- ["24SwiftFormatConfiguration0C0V", "maximumBlankLines"]
+- ["24SwiftFormatConfiguration0C0V", "prioritizeKeepingFunctionOutputTogether"]
+- ["24SwiftFormatConfiguration0C0V", "respectsExistingLineBreaks"]
+- ["24SwiftFormatConfiguration0C0V", "rules"]
+- ["24SwiftFormatConfiguration0C0V", "tabWidth"]
+- ["24SwiftFormatConfiguration0C0V", "url"]
+- !private ["24SwiftFormatConfiguration0C0V", "version"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "absoluteURL"]
+- !private ["s28CustomDebugStringConvertibleP", "appendPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "deleteLastPathComponent"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "fileExists"]
+- !private ["s28CustomDebugStringConvertibleP", "fileScopedDeclarationPrivacy"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "indentConditionalCompilationBlocks"]
+- !private ["s28CustomDebugStringConvertibleP", "indentation"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "isReadableFile"]
+- !private ["s28CustomDebugStringConvertibleP", "lineBreakAroundMultilineExpressionChainComponents"]
+- !private ["s28CustomDebugStringConvertibleP", "lineBreakBeforeControlFlowKeywords"]
+- !private ["s28CustomDebugStringConvertibleP", "lineBreakBeforeEachArgument"]
+- !private ["s28CustomDebugStringConvertibleP", "lineBreakBeforeEachGenericRequirement"]
+- !private ["s28CustomDebugStringConvertibleP", "lineLength"]
+- !private ["s28CustomDebugStringConvertibleP", "maximumBlankLines"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "prioritizeKeepingFunctionOutputTogether"]
+- !private ["s28CustomDebugStringConvertibleP", "respectsExistingLineBreaks"]
+- !private ["s28CustomDebugStringConvertibleP", "rules"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "tabWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "version"]
+- !private ["s17CustomReflectableP", "boolValue"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "=="]
+- !private ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "absoluteURL"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "appendPathComponent"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "boolValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "deleteLastPathComponent"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "fileExists"]
+- !private ["s23CustomStringConvertibleP", "fileScopedDeclarationPrivacy"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "indentConditionalCompilationBlocks"]
+- !private ["s23CustomStringConvertibleP", "indentation"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "isReadableFile"]
+- !private ["s23CustomStringConvertibleP", "lineBreakAroundMultilineExpressionChainComponents"]
+- !private ["s23CustomStringConvertibleP", "lineBreakBeforeControlFlowKeywords"]
+- !private ["s23CustomStringConvertibleP", "lineBreakBeforeEachArgument"]
+- !private ["s23CustomStringConvertibleP", "lineBreakBeforeEachGenericRequirement"]
+- !private ["s23CustomStringConvertibleP", "lineLength"]
+- !private ["s23CustomStringConvertibleP", "maximumBlankLines"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "prioritizeKeepingFunctionOutputTogether"]
+- !private ["s23CustomStringConvertibleP", "respectsExistingLineBreaks"]
+- !private ["s23CustomStringConvertibleP", "rules"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "tabWidth"]
+- !private ["s23CustomStringConvertibleP", "version"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- ["Se", "=="]
+- !private ["Se", "Bool"]
+- ["Se", "Codable"]
+- !private ["Se", "CodingKeys"]
+- !private ["Se", "Configuration"]
+- !private ["Se", "Data"]
+- !private ["Se", "DecodingError"]
+- !private ["Se", "FileManager"]
+- ["Se", "FileScopedDeclarationPrivacyConfiguration"]
+- !private ["Se", "Indent"]
+- !private ["Se", "Int"]
+- !private ["Se", "JSONDecoder"]
+- ["Se", "RawValue"]
+- ["Se", "RuleRegistry"]
+- !private ["Se", "String"]
+- ["Se", ""]
+- ["Se", "_Default_RawValue"]
+- !private ["Se", "_findStringSwitchCase"]
+- ["Se", "_rawHashValue"]
+- !private ["Se", "absoluteURL"]
+- !private ["Se", "accessLevel"]
+- !private ["Se", "appendPathComponent"]
+- !private ["Se", "appendingPathComponent"]
+- !private ["Se", "deleteLastPathComponent"]
+- ["Se", "encode"]
+- !private ["Se", "fileScopedDeclarationPrivacy"]
+- ["Se", "hash"]
+- ["Se", "hashValue"]
+- !private ["Se", "highestSupportedConfigurationVersion"]
+- !private ["Se", "indentConditionalCompilationBlocks"]
+- !private ["Se", "indentation"]
+- ["Se", "init"]
+- !private ["Se", "lineBreakAroundMultilineExpressionChainComponents"]
+- !private ["Se", "lineBreakBeforeControlFlowKeywords"]
+- !private ["Se", "lineBreakBeforeEachArgument"]
+- !private ["Se", "lineBreakBeforeEachGenericRequirement"]
+- !private ["Se", "lineLength"]
+- !private ["Se", "maximumBlankLines"]
+- !private ["Se", "path"]
+- !private ["Se", "prioritizeKeepingFunctionOutputTogether"]
+- ["Se", "private"]
+- ["Se", "rawValue"]
+- !private ["Se", "respectsExistingLineBreaks"]
+- !private ["Se", "rules"]
+- ["Se", "spaces"]
+- !private ["Se", "tabWidth"]
+- ["Se", "useUIColor"]
+- !private ["Se", "version"]
+- !private ["s7DecoderP", "container"]
+- !private ["s13DecodingErrorO", "dataCorruptedError"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SE", "=="]
+- !private ["SE", "Bool"]
+- ["SE", "Codable"]
+- !private ["SE", "CodingKeys"]
+- !private ["SE", "Configuration"]
+- !private ["SE", "Data"]
+- !private ["SE", "DecodingError"]
+- !private ["SE", "FileManager"]
+- ["SE", "FileScopedDeclarationPrivacyConfiguration"]
+- !private ["SE", "Indent"]
+- !private ["SE", "Int"]
+- !private ["SE", "JSONDecoder"]
+- ["SE", "RawValue"]
+- ["SE", "RuleRegistry"]
+- !private ["SE", "String"]
+- ["SE", ""]
+- ["SE", "_Default_RawValue"]
+- !private ["SE", "_findStringSwitchCase"]
+- ["SE", "_rawHashValue"]
+- !private ["SE", "absoluteURL"]
+- !private ["SE", "accessLevel"]
+- !private ["SE", "appendPathComponent"]
+- !private ["SE", "appendingPathComponent"]
+- !private ["SE", "deleteLastPathComponent"]
+- ["SE", "encode"]
+- !private ["SE", "fileScopedDeclarationPrivacy"]
+- ["SE", "hash"]
+- ["SE", "hashValue"]
+- !private ["SE", "highestSupportedConfigurationVersion"]
+- !private ["SE", "indentConditionalCompilationBlocks"]
+- !private ["SE", "indentation"]
+- ["SE", "init"]
+- !private ["SE", "lineBreakAroundMultilineExpressionChainComponents"]
+- !private ["SE", "lineBreakBeforeControlFlowKeywords"]
+- !private ["SE", "lineBreakBeforeEachArgument"]
+- !private ["SE", "lineBreakBeforeEachGenericRequirement"]
+- !private ["SE", "lineLength"]
+- !private ["SE", "maximumBlankLines"]
+- !private ["SE", "path"]
+- !private ["SE", "prioritizeKeepingFunctionOutputTogether"]
+- ["SE", "private"]
+- ["SE", "rawValue"]
+- !private ["SE", "respectsExistingLineBreaks"]
+- !private ["SE", "rules"]
+- ["SE", "spaces"]
+- !private ["SE", "tabWidth"]
+- ["SE", "useUIColor"]
+- !private ["SE", "version"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- !private ["SQ", "Bool"]
+- ["SQ", "Codable"]
+- !private ["SQ", "CodingKeys"]
+- !private ["SQ", "Configuration"]
+- !private ["SQ", "Data"]
+- !private ["SQ", "DecodingError"]
+- !private ["SQ", "FileManager"]
+- ["SQ", "FileScopedDeclarationPrivacyConfiguration"]
+- !private ["SQ", "Indent"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "JSONDecoder"]
+- ["SQ", "RawValue"]
+- ["SQ", "RuleRegistry"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "absoluteURL"]
+- !private ["SQ", "accessLevel"]
+- !private ["SQ", "appendPathComponent"]
+- !private ["SQ", "appendingPathComponent"]
+- ["SQ", "debugDescription"]
+- !private ["SQ", "default"]
+- !private ["SQ", "deleteLastPathComponent"]
+- ["SQ", "description"]
+- ["SQ", "encode"]
+- !private ["SQ", "fileExists"]
+- !private ["SQ", "fileScopedDeclarationPrivacy"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "highestSupportedConfigurationVersion"]
+- !private ["SQ", "indentConditionalCompilationBlocks"]
+- !private ["SQ", "indentation"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "isReadableFile"]
+- !private ["SQ", "lineBreakAroundMultilineExpressionChainComponents"]
+- !private ["SQ", "lineBreakBeforeControlFlowKeywords"]
+- !private ["SQ", "lineBreakBeforeEachArgument"]
+- !private ["SQ", "lineBreakBeforeEachGenericRequirement"]
+- !private ["SQ", "lineLength"]
+- !private ["SQ", "maximumBlankLines"]
+- !private ["SQ", "path"]
+- !private ["SQ", "prioritizeKeepingFunctionOutputTogether"]
+- ["SQ", "private"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "respectsExistingLineBreaks"]
+- !private ["SQ", "rules"]
+- ["SQ", "spaces"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "tabWidth"]
+- ["SQ", "useUIColor"]
+- !private ["SQ", "version"]
+- !private ["s5ErrorP", "dataCorruptedError"]
+- !private ["s27ExpressibleByBooleanLiteralP", "boolValue"]
+- !private ["So13NSFileManagerC", "default"]
+- !private ["So13NSFileManagerC", "fileExists"]
+- !private ["So13NSFileManagerC", "isReadableFile"]
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V", "=="]
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V", "AccessLevel"]
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V", "Codable"]
+- !private ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V", "CodingKeys"]
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V", "String"]
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V", "__derived_struct_equals"]
+- !private ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V", "_findStringSwitchCase"]
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V", "accessLevel"]
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V", "deinit"]
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V", "encode"]
+- ["24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V", "init"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "absoluteURL"]
+- !private ["SH", "appendPathComponent"]
+- !private ["SH", "appendingPathComponent"]
+- ["SH", "debugDescription"]
+- !private ["SH", "default"]
+- !private ["SH", "deleteLastPathComponent"]
+- ["SH", "description"]
+- ["SH", "encode"]
+- !private ["SH", "fileExists"]
+- !private ["SH", "fileScopedDeclarationPrivacy"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "indentConditionalCompilationBlocks"]
+- !private ["SH", "indentation"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "isReadableFile"]
+- !private ["SH", "lineBreakAroundMultilineExpressionChainComponents"]
+- !private ["SH", "lineBreakBeforeControlFlowKeywords"]
+- !private ["SH", "lineBreakBeforeEachArgument"]
+- !private ["SH", "lineBreakBeforeEachGenericRequirement"]
+- !private ["SH", "lineLength"]
+- !private ["SH", "maximumBlankLines"]
+- !private ["SH", "path"]
+- !private ["SH", "prioritizeKeepingFunctionOutputTogether"]
+- ["SH", "private"]
+- ["SH", "rawValue"]
+- !private ["SH", "respectsExistingLineBreaks"]
+- !private ["SH", "rules"]
+- ["SH", "spaces"]
+- ["SH", "stringValue"]
+- !private ["SH", "tabWidth"]
+- ["SH", "useUIColor"]
+- !private ["SH", "version"]
+- !private ["s6HasherV", "combine"]
+- ["24SwiftFormatConfiguration6IndentO", "deinit"]
+- ["24SwiftFormatConfiguration6IndentO", "spaces"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["10Foundation14LocalizedErrorP", "dataCorruptedError"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "fileExists"]
+- !private ["So8NSObjectC", "isReadableFile"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "fileExists"]
+- !private ["So8NSObjectP", "isReadableFile"]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V", "=="]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V", "Codable"]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V", "ResolveBehavior"]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V", "String"]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V", "__derived_struct_equals"]
+- !private ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V", "_findStringSwitchCase"]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V", "deinit"]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V", "encode"]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V", "init"]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V", "resolveAmbiguousColor"]
+- !private ["10ObjectiveC8ObjCBoolV", "boolValue"]
+- !private ["Sk", "init"]
+- !private ["Sm", "init"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "encode"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "private"]
+- ["SY", "rawValue"]
+- ["SY", "useUIColor"]
+- !private ["10Foundation20ReferenceConvertibleP", "absoluteURL"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "deleteLastPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V15ResolveBehaviorO", "=="]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V15ResolveBehaviorO", "RawValue"]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V15ResolveBehaviorO", "_Default_RawValue"]
+- !private ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V15ResolveBehaviorO", "_findStringSwitchCase"]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V15ResolveBehaviorO", "_rawHashValue"]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V15ResolveBehaviorO", "deinit"]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V15ResolveBehaviorO", "encode"]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V15ResolveBehaviorO", "error"]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V15ResolveBehaviorO", "hash"]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V15ResolveBehaviorO", "hashValue"]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V15ResolveBehaviorO", "init"]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V15ResolveBehaviorO", "rawValue"]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V15ResolveBehaviorO", "useNSColor"]
+- ["24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V15ResolveBehaviorO", "useUIColor"]
+- ["24SwiftFormatConfiguration12RuleRegistryO", "rules"]
+- !private ["ST", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- !private ["10Foundation3URLV", "absoluteURL"]
+- !private ["10Foundation3URLV", "appendPathComponent"]
+- !private ["10Foundation3URLV", "appendingPathComponent"]
+- !private ["10Foundation3URLV", "deleteLastPathComponent"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "absoluteURL"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "appendPathComponent"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "deleteLastPathComponent"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "path"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "absoluteURL"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "deleteLastPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileExists"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isReadableFile"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fileExists"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isReadableFile"]
+- !private ["s21_ObjectiveCBridgeableP", "absoluteURL"]
+- !private ["s21_ObjectiveCBridgeableP", "appendPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "deleteLastPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+depends-nominal:
+- "24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V11AccessLevelO"
+- !private "SK"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- !private "Sl"
+- "24SwiftFormatConfiguration0C0V"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s7DecoderP"
+- !private "s13DecodingErrorO"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "So13NSFileManagerC"
+- "24SwiftFormatConfiguration028FileScopedDeclarationPrivacyC0V"
+- "SH"
+- !private "s6HasherV"
+- "24SwiftFormatConfiguration6IndentO"
+- !private "10Foundation11JSONDecoderC"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "10Foundation14LocalizedErrorP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- "24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V"
+- !private "10ObjectiveC8ObjCBoolV"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- "24SwiftFormatConfiguration020NoPlaygroundLiteralsC0V15ResolveBehaviorO"
+- "24SwiftFormatConfiguration12RuleRegistryO"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "7Combine15TopLevelDecoderP"
+- !private "10Foundation3URLV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatCore.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatConfiguration.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntaxBuilder.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/ArgumentParser.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatWhitespaceLinter.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatRules.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormat.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatPrettyPrint.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftFormatTestSupport.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/SwiftSyntax.build/module.modulemap"
+- "/Users/rorybain/projects/swift-format/.build/x86_64-apple-macosx/debug/_CSwiftSyntax.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "952e806cb44f7ba36af4128622542e4b"
